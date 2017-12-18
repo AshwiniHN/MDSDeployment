@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema xmlns:ns1="http://www.example.org"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        attributeFormDefault="unqualified"
+        targetNamespace="http://SalesforceIntegration/OptyIds"
+        elementFormDefault="qualified">
+   <element name="ids">
+      <complexType>
+         <sequence>
+            <element name="SFIdInSBL" type="string"/>
+            <element name="OptyIdInSBL" type="string"/>
+            <element name="AccountIdInSBL" type="string"/>
+            <element name="ContactIdInSBL" type="string"/>
+            <element name="OwnerIdInSBL" type="string"/>
+            <element name="SalesStageId" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+</schema>

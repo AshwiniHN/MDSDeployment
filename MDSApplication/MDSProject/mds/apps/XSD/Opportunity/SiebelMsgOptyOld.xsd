@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.siebel.com/xml/OP-OD%20Opportunity" xmlns:xsdLocal="http://www.siebel.com/xml/OP-OD%20Opportunity" attributeFormDefault="unqualified" elementFormDefault="qualified">
+   <xsd:annotation>
+      <xsd:documentation>Copyright (C) 2001-2004 Siebel Systems, Inc. All rights
+                     reserved. Siebel XSD Generation</xsd:documentation>
+   </xsd:annotation>
+   <xsd:element name="SiebelMessage" type="xsdLocal:SiebelMessage"/>
+   <xsd:complexType name="SiebelMessage">
+      <xsd:sequence>
+         <xsd:element name="ListOfOdOpOpportunity" type="xsdLocal:ListOfOdOpOpportunity" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="MessageId" type="xsd:string"/>
+      <xsd:attribute name="MessageType" type="xsd:string"/>
+      <xsd:attribute name="IntObjectName" type="xsd:string"/>
+      <xsd:attribute name="IntObjectFormat" type="xsd:string"/>
+      <xsd:attribute name="Operation" type="xsd:string"/>
+      <xsd:attribute name="ObjectType" type="xsd:string"/>
+   </xsd:complexType>
+   <xsd:complexType name="ListOfOdOpOpportunity">
+      <xsd:sequence>
+         <xsd:element name="Opportunity" type="xsdLocal:Opportunity" minOccurs="1" maxOccurs="1"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="Opportunity">
+      <xsd:sequence>
+         <xsd:element name="PrimaryEmployeePositionType" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="OpportunityId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Created" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Updated" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Account" type="xsdLocal:string100" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="AccountId" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="SolutionDefinedFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Channel" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="CreatedByName" type="xsdLocal:string50" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="CurrencyCode" type="xsdLocal:string15" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="Description" type="xsdLocal:string255" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="TeamingPlanFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="IntegrationId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="LastUpdatedByAtOnDemand" type="xsdLocal:string101" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Name" type="xsdLocal:string100" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="PrimaryCity" type="xsdLocal:string50" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PrimaryCountry" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PrimaryEmployeeId" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PrimaryOrganizationId" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PrimaryPostalCode" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PrimaryRevenueCloseDate" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="PrimaryRevenueCommittedFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Upside" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PrimaryState" type="xsdLocal:string10" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PrimaryStreetAddress" type="xsdLocal:string200" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ClosePlanFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ReasonWonLost" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="SalesMethod" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="SalesStage" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Status" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="SyncToOnDemandFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="UpdatedByLogin" type="xsdLocal:string50" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="AccountStatus" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="AccountType" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ForecastedOpportunityLocal" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ResellerId" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ResellerName" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="DistributorId" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="DistributorName" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="DiscountPercent" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="MFEAccountSegment-FinalValue" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ChannelStatus" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="DealRegExpirationDate" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="OverrideComments" type="xsdLocal:string255" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ForecastedOpportunityUSD" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="OrderTotal" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PartnerAcceptanceDate" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="SalesStatus" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PartnerContactEmail" type="xsdLocal:string100" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="DealRegistrationFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="DealStatus" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="OpportunityQuantity" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="OpportunityType" type="xsdLocal:string20" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Competitor" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PartnerForecastAmount" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProductType" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="SrcEmpId" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Usage" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="AccountSyncToOnDemandFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="AuthorizedSignature" type="xsdLocal:string40" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="BudgetOwner" type="xsdLocal:string40" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="BudgetedAmount" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ChannelMarginPercent" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ODCreated" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ODCreatedBy" type="xsdLocal:string125" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ODLastUpdated" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="OpportunitySource" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="OpportunityTotal" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="RevenueRealizationComments" type="xsdLocal:string255" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="SupportLevel" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="SyncDescription" type="xsdLocal:string2000" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="SyncStatus" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="UpfrontRevenueHigh" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="UpfrontRevenueLow" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PrimaryStreetAddress2" type="xsdLocal:string100" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PrimaryStreetAddress3" type="xsdLocal:string100" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="AddlOrderNumbers" type="xsdLocal:string250" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="UpsideAmountLocal" maxOccurs="1" minOccurs="0" type="xsd:decimal"/>
+         <xsd:element name="MFETeamSyncStatus" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="MFETeamSyncDescription" type="xsdLocal:string2000" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProgramBenefitRequest" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProgramBenefitStatus" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProgramBenefitStatusComments" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="MFEDealDriver" maxOccurs="1" minOccurs="0" type="xsd:string"/>
+         <xsd:element name="MFESparkApprStatus" maxOccurs="1" minOccurs="0" type="xsd:string"/>
+         <xsd:element name="MFESparkRejectComment" maxOccurs="1" minOccurs="0" type="xsd:string"/>
+         <xsd:element name="MFEProductInterest" maxOccurs="1" minOccurs="0" type="xsd:string"/>
+         <xsd:element name="MFELDROwner" maxOccurs="1" minOccurs="0" type="xsd:string"/>
+         <xsd:element name="MFEDealRegProductsStr" maxOccurs="1" minOccurs="0" type="xsd:string"/>
+         <xsd:element name="ListOfContact" type="xsdLocal:ListOfContact" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ListOfRevenue" type="xsdLocal:ListOfRevenue" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ListOfInternalDivision" type="xsdLocal:ListOfInternalDivision" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ListOfOpportunityNote" type="xsdLocal:ListOfOpportunityNote" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ListOfOpportunity_Reseller" type="xsdLocal:ListOfOpportunity_Reseller" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ListOfOpportunity_Distributor" type="xsdLocal:ListOfOpportunity_Distributor" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ListOfResponse" type="xsdLocal:ListOfResponse" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="Operation" type="xsd:string"/>
+      <xsd:attribute name="Searchspec" type="xsd:string"/>
+   </xsd:complexType>
+   <xsd:complexType name="ListOfContact">
+      <xsd:sequence>
+         <xsd:element name="Contact" type="xsdLocal:Contact" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="Contact">
+      <xsd:sequence>
+         <xsd:element name="ContactId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="FirstName" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="LastName" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="PartnershipContactFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PartyTypeCode" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="PartyUId" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="PersonUId" type="xsdLocal:string100" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="Role" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="SyncToOnDemandFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="LeadContactType" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="NAILanguageName" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="NAIProductType" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="PrivacyCode" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="Operation" type="xsd:string"/>
+      <xsd:attribute name="Searchspec" type="xsd:string"/>
+   </xsd:complexType>
+   <xsd:complexType name="ListOfRevenue">
+      <xsd:sequence>
+         <xsd:element name="Revenue" type="xsdLocal:Revenue" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="Revenue">
+      <xsd:sequence>
+         <xsd:element name="RevenueId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Comments" type="xsdLocal:string250" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Date" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="OpportunityId" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Revenue" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Product" type="xsdLocal:string50" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProductId" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProjectManager" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="Quantity" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Price" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="RevenueType" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="SalesRep" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="Summary" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="RecurringFlag" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="GrantNumber" type="xsdLocal:string250" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProductCategory" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProductCategoryCalc" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProductType" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProductTypeCalc" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProductActiveFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProductOrderableFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="MFEProdLinesNotAllwd" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="SKUEndOfLife" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ProgramAcceptanceFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="MFEOpportunityType" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ListOfNaiRevenueItemAsset-Entitlement" type="xsdLocal:ListOfNaiRevenueItemAsset-Entitlement" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="Operation" type="xsd:string"/>
+      <xsd:attribute name="Searchspec" type="xsd:string"/>
+   </xsd:complexType>
+   <xsd:complexType name="ListOfInternalDivision">
+      <xsd:sequence>
+         <xsd:element name="InternalDivision" type="xsdLocal:InternalDivision" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="InternalDivision">
+      <xsd:sequence>
+         <xsd:element name="PartnerId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="CurrencyCode" type="xsdLocal:string15" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="GroupTypeCode" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="InternalOrgFlag" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="PartnerType" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Name" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="Organization" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="OrganizationId" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="PartnerFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="PartyHierarchyRootFlag" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="PartyTypeCode" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="PartyUId2" type="xsdLocal:string30" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="MFESyncToOnDemandFlag" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="Operation" type="xsd:string"/>
+      <xsd:attribute name="Searchspec" type="xsd:string"/>
+   </xsd:complexType>
+   <xsd:complexType name="ListOfOpportunityNote">
+      <xsd:sequence>
+         <xsd:element name="OpportunityNote" type="xsdLocal:OpportunityNote" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="OpportunityNote">
+      <xsd:sequence>
+         <xsd:element name="NoteId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Note" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="NoteType" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="OpportunityId" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+         <xsd:element name="Private" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ODCreated" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ODCreatedBy" type="xsdLocal:string125" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ODLastUpdated" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="ODLastUpdatedBy" type="xsdLocal:string125" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="Operation" type="xsd:string"/>
+      <xsd:attribute name="Searchspec" type="xsd:string"/>
+   </xsd:complexType>
+   <xsd:complexType name="ListOfOpportunity_Reseller">
+      <xsd:sequence>
+         <xsd:element name="Opportunity_Reseller" type="xsdLocal:Opportunity_Reseller" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="Opportunity_Reseller">
+      <xsd:sequence>
+         <xsd:element name="ResellerId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Name" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="Operation" type="xsd:string"/>
+      <xsd:attribute name="Searchspec" type="xsd:string"/>
+   </xsd:complexType>
+   <xsd:complexType name="ListOfOpportunity_Distributor">
+      <xsd:sequence>
+         <xsd:element name="Opportunity_Distributor" type="xsdLocal:Opportunity_Distributor" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="Opportunity_Distributor">
+      <xsd:sequence>
+         <xsd:element name="DistributorId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="Name" type="xsdLocal:string50" minOccurs="1" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="Operation" type="xsd:string"/>
+      <xsd:attribute name="Searchspec" type="xsd:string"/>
+   </xsd:complexType>
+   <xsd:complexType name="ListOfResponse">
+      <xsd:sequence>
+         <xsd:element name="Response" type="xsdLocal:Response" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="Response">
+      <xsd:sequence>
+         <xsd:element name="ResponseId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="Operation" type="xsd:string"/>
+      <xsd:attribute name="Searchspec" type="xsd:string"/>
+   </xsd:complexType>
+   <xsd:complexType name="ListOfNaiRevenueItemAsset-Entitlement">
+      <xsd:sequence>
+         <xsd:element name="NaiRevenueItemAsset-Entitlement" type="xsdLocal:NaiRevenueItemAsset-Entitlement" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="NaiRevenueItemAsset-Entitlement">
+      <xsd:sequence>
+         <xsd:element name="RevenueAssetId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+         <xsd:element name="RevenueEntitlementId" type="xsdLocal:string30" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="Operation" type="xsd:string"/>
+      <xsd:attribute name="Searchspec" type="xsd:string"/>
+   </xsd:complexType>
+   <xsd:simpleType name="string125">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="125"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string250">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="250"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string2000">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="2000"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string101">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="101"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string50">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="50"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string255">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="255"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string10">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="10"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string15">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="15"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string40">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="40"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string30">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="30"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string200">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="200"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string100">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="100"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="string20">
+      <xsd:restriction base="xsd:string">
+         <xsd:maxLength value="20"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+</xsd:schema>

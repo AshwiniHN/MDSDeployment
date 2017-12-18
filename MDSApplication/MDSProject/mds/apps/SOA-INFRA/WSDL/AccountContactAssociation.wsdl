@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="AccountContactAssociation" targetNamespace="http://xmlns.oracle.com/Application1/AccountContactAssociationProvider/AccountContactAssociation" xmlns:ns2="http://schemas.oracle.com/bpel/extension" xmlns:ns1="http://www.intel.org/AccountContactAssociationProvider/v1.0" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/Application1/AccountContactAssociationProvider/AccountContactAssociation" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+   <plnk:partnerLinkType name="AccountContactAssociation">
+      <plnk:role name="AccountContactAssociationProvider">
+         <plnk:portType name="client:AccountContactAssociation"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+   <wsdl:import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://www.intel.org/AccountContactAssociationProvider/v1.0" schemaLocation="oramds:/apps/SOA-INFRA/XSD/AccountContactAssociation.xsd"/>
+      </schema>
+   </wsdl:types>
+   <wsdl:message name="AccountContactAssociationRequestMessage">
+      <wsdl:part name="payload" element="ns1:AccountContactAssociationRequest"/>
+   </wsdl:message>
+   <wsdl:message name="AccountContactAssociationResponseMessage">
+      <wsdl:part name="payload" element="ns1:AccountContactAssociationResponse"/>
+   </wsdl:message>
+   <wsdl:portType name="AccountContactAssociation">
+      <wsdl:operation name="process">
+         <wsdl:input message="client:AccountContactAssociationRequestMessage"/>
+         <wsdl:output message="client:AccountContactAssociationResponseMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+</wsdl:definitions>

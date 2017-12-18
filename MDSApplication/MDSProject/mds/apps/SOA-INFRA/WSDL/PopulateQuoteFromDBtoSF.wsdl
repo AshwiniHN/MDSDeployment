@@ -1,0 +1,27 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<wsdl:definitions
+     name="PopulateQuoteFromDBtoSF"
+     targetNamespace="http://xmlns.oracle.com/QuoteIntegration/QuoteIntegrationFromDBtoSF/PopulateQuoteFromDBtoSF"
+     xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype"
+     xmlns:client="http://xmlns.oracle.com/QuoteIntegration/QuoteIntegrationFromDBtoSF/PopulateQuoteFromDBtoSF"
+     xmlns:cor="http://xmlns.oracle.com/QuoteIntegration/QuoteIntegrationFromDBtoSF/PopulateQuoteFromDBtoSF/correlationset"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    >
+    <plnk:partnerLinkType name="PopulateQuoteFromDBtoSF">
+        <plnk:role name="PopulateQuoteFromDBtoSFProvider" portType="client:PopulateQuoteFromDBtoSF"/>
+    </plnk:partnerLinkType>
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema">
+            <import namespace="http://xmlns.oracle.com/QuoteIntegration/QuoteIntegrationFromDBtoSF/PopulateQuoteFromDBtoSF"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/PopulateQuoteFromDBtoSF.xsd"/>
+        </schema>
+    </wsdl:types>
+    <wsdl:message name="PopulateQuoteFromDBtoSFRequestMessage">
+        <wsdl:part name="payload" element="client:process"/>
+    </wsdl:message>
+    <wsdl:portType name="PopulateQuoteFromDBtoSF">
+        <wsdl:operation name="process">
+            <wsdl:input message="client:PopulateQuoteFromDBtoSFRequestMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>

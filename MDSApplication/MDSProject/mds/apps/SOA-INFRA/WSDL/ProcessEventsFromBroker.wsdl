@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions name="ProcessEventsFromBroker" targetNamespace="http://xmlns.oracle.com/ProcessEventsFromBroker" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:ns2="http://schemas.oracle.com/bpel/extension" xmlns:ns1="http://www.siebel.com/xml/EventsToProcessFromBroker" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns3="urn:enterprise.soap.sforce.com" xmlns:client="http://xmlns.oracle.com/ProcessEventsFromBroker" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<plnk:partnerLinkType name="ProcessEventsFromBroker">
+<plnk:role name="ProcessEventsFromBrokerProvider">
+<plnk:portType name="client:ProcessEventsFromBroker"/>
+</plnk:role>
+</plnk:partnerLinkType>
+<import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+<import namespace="urn:enterprise.soap.sforce.com" location="oramds:/apps/WSDL/generateEnterprise.wsdl"/>
+<types>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+<import namespace="http://xmlns.oracle.com/ProcessEventsFromBroker" schemaLocation="oramds:/apps/SOA-INFRA/XSD/ProcessEventsFromBroker.xsd"/>
+</schema>
+</types>
+<message name="ProcessEventsFromBrokerRequestMessage">
+<part name="BrokerEventsRequest" element="client:ProcessEventsFromBrokerRequest"/>
+</message>
+<message name="ProcessEventsFromBrokerResponseMessage">
+<part name="BrokerEventsResponse" element="client:ProcessEventsFromBrokerResponse"/>
+</message>
+<portType name="ProcessEventsFromBroker">
+<operation name="process">
+<input message="client:ProcessEventsFromBrokerRequestMessage"/>
+<output message="client:ProcessEventsFromBrokerResponseMessage"/>
+<fault name="FaultMsg" message="client:ProcessEventsFromBrokerResponseMessage"/>
+</operation>
+</portType>
+</definitions>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions targetNamespace="http://siebel.com/CustomUI" xmlns:ns1="http://siebel.com/CustomUI" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:bpws="http://schemas.xmlsoap.org/ws/2003/03/business-process/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <plnk:partnerLinkType name="SFContactSync_PL">
+      <plnk:role name="SFContactSync_Role">
+         <plnk:portType name="ns1:SFContactSync"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+   <wsdl:import namespace="http://siebel.com/CustomUI" location="ISG_SF_Contact_Service.wsdl"/>
+</wsdl:definitions>

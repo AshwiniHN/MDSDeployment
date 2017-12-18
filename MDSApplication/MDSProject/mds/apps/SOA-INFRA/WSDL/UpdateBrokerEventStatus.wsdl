@@ -1,0 +1,35 @@
+<definitions
+     name="UpdateBrokerEventStatus"
+     targetNamespace="http://xmlns.oracle.com/UpdateBrokerEventStatus"
+     xmlns="http://schemas.xmlsoap.org/wsdl/"
+     xmlns:ns2="http://schemas.oracle.com/bpel/extension"
+     xmlns:ns1="http://www.siebel.com/xml/UpdateProcessedEventsInEAIBroker"
+     xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+     xmlns:client="http://xmlns.oracle.com/UpdateBrokerEventStatus"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    > 
+    <import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+    <types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema">
+            <import namespace="http://xmlns.oracle.com/UpdateBrokerEventStatus" schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpdateBrokerEventStatus.xsd"/>
+        </schema>
+    </types>
+    <message name="UpdateBrokerEventStatusRequestMessage">
+        <part name="payload" element="client:UpdateBrokerEventStatusProcessRequest"/>
+    </message>
+    <message name="UpdateBrokerEventStatusResponseMessage">
+        <part name="payload" element="client:UpdateBrokerEventStatusProcessResponse"/>
+    </message>    
+    <portType name="UpdateBrokerEventStatus">
+        <operation name="process">
+            <input message="client:UpdateBrokerEventStatusRequestMessage"/>
+            <output message="client:UpdateBrokerEventStatusResponseMessage"/>
+            <fault name="FaultMsg" message="client:UpdateBrokerEventStatusResponseMessage"/>
+        </operation>
+    </portType>
+    <plnk:partnerLinkType name="UpdateBrokerEventStatus">
+        <plnk:role name="UpdateBrokerEventStatusProvider">
+            <plnk:portType name="client:UpdateBrokerEventStatus"/>
+        </plnk:role>
+    </plnk:partnerLinkType>    
+</definitions>

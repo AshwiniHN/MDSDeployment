@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://SalesforceProject/SFEndpointProcess" xmlns:client="http://SalesforceProject/SFEndpointProcess" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="process">
+      <complexType>
+         <sequence>
+            <element name="Operation" type="string"/>
+            <element name="CallerID" type="string"/>
+            <element name="queryString" type="string"/>
+            <element name="allOrNoneFlg" type="string"/>
+            <element name="upsertFieldName" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+   <element name="sessURLPlaceholder">
+      <complexType>
+         <sequence>
+            <element name="sessionKey" type="string"/>
+            <element name="URLKey" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+   <element name="processResponse">
+      <complexType>
+         <sequence>
+            <element name="status" type="string"/>
+            <element name="errorMessage" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+   
+   <element name="DeleteRequest">
+      <complexType>
+         <sequence>
+            <element name="sfdelete" type="client:sfdelete"/>
+          
+         </sequence>
+      </complexType>
+   </element>
+   
+    <complexType name="sfdelete">
+         <sequence>
+            <element name="Id" type="string"/>
+            <element name="objectName" type="string"/>
+         </sequence>
+      </complexType>
+   
+   
+</schema>

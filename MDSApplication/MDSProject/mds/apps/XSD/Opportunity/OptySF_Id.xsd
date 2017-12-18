@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema xmlns:ns1="http://www.example.org"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        attributeFormDefault="unqualified"
+        targetNamespace="http://SalesforceIntegration/Opty_SFIds"
+        xmlns:tns="http://SalesforceIntegration/Opty_SFIds"
+        elementFormDefault="qualified">
+  <element name="ids" type="tns:ids"/>
+  <complexType name="ids">
+    <sequence>
+      <element name="EventId" type="string"/>
+      <element name="SFOptyId" type="string"/>
+      <element name="SiebelOptyId" type="string"/>
+      <element name="SFOwnerId" type="string"/>
+      <element name="SFPartnerID" type="string"/>
+      <element name="SBLPartnerID" type="string"/>
+      <element name="SiebelOwnerId" type="string"/>
+      <element name="SFAccountId" type="string"/>
+      <element name="SiebelAccId" type="string"/>
+      <element name="SFContactId" type="string"/>
+      <element name="SiebelContactId" type="string"/>
+      <element name="SFRevenueId" type="string"/>
+      <element name="SiebelRevenueId" type="string"/>
+      <element name="SFProductId" type="string"/>
+      <element name="SFPriceBookId" type="string"/>
+      <element name="SiebelProductId" type="string"/>
+      <element name="SiebelPriceBookId" type="string"/>
+    </sequence>
+  </complexType>
+  <element name="MultiIds">
+    <complexType>
+      <sequence>
+        <element name="ids" type="tns:ids" maxOccurs="unbounded"/>
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OptyLineItem_ids">
+    <complexType>
+      <sequence>
+        <element name="Lineitem_ids" maxOccurs="unbounded">
+          <complexType>
+            <sequence>
+              <element name="EventId" type="string"/>
+              <element name="SFOptyId" type="string"/>
+              <element name="SiebelOptyId" type="string"/>
+              <element name="SFRevenueId" type="string"/>
+              <element name="SiebelRevenueId" type="string"/>
+              <element name="SFProductId" type="string"/>
+              <element name="SFPriceBookId" type="string"/>
+              <element name="SiebelProductId" type="string"/>
+              <element name="SiebelPriceBookId" type="string"/>
+              <element name="status" type="string"/>
+              <element name="ErrorMessage" type="string"/>
+            </sequence>
+          </complexType>
+        </element>
+      </sequence>
+    </complexType>
+  </element>
+</schema>

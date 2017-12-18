@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="DeleteOptyLineSiebelProvider" targetNamespace="http://xmlns.oracle.com/Salesforce/OpportunityFromSFtoSiebel/DeleteOptyLineSiebelProvider" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="urn:enterprise.soap.sforce.com" xmlns:client="http://xmlns.oracle.com/Salesforce/OpportunityFromSFtoSiebel/DeleteOptyLineSiebelProvider" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype">
+<wsdl:import namespace="urn:enterprise.soap.sforce.com" location="oramds:/apps/WSDL/generateEnterprise.wsdl"/>
+<wsdl:types>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+<import namespace="http://xmlns.oracle.com/Salesforce/OpportunityFromSFtoSiebel/DeleteOptyLineSiebelProvider" schemaLocation="oramds:/apps/SOA-INFRA/XSD/DeleteOptyLineSiebelProvider.xsd"/>
+</schema>
+</wsdl:types>
+<wsdl:message name="DeleteOptyLineSiebelProviderRequestMessage">
+<wsdl:part name="payload" element="client:process"/>
+<wsdl:part name="SFPayload" element="ns1:create"/>
+</wsdl:message>
+<wsdl:message name="DeleteOptyLineSiebelProviderResponseMessage">
+<wsdl:part name="payload" element="client:processResponse"/>
+</wsdl:message>
+<wsdl:portType name="DeleteOptyLineSiebelProvider">
+<wsdl:operation name="process">
+<wsdl:input message="client:DeleteOptyLineSiebelProviderRequestMessage"/>
+<wsdl:output message="client:DeleteOptyLineSiebelProviderResponseMessage"/>
+</wsdl:operation>
+</wsdl:portType>
+<plnk:partnerLinkType name="DeleteOptyLineSiebelProvider">
+<plnk:role name="DeleteOptyLineSiebelProviderProvider" portType="client:DeleteOptyLineSiebelProvider"/>
+</plnk:partnerLinkType>
+</wsdl:definitions>

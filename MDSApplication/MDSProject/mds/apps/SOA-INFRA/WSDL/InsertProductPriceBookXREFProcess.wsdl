@@ -1,0 +1,37 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<wsdl:definitions
+     name="InsertProductPriceBookXREFProcess"
+     targetNamespace="http://IsecG-SFProject/InsertProductPriceBookXREFProcess"
+     xmlns:ns1="http://insecg-salesforce/sflogeventsobjects"
+     xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype"
+     xmlns:client="http://IsecG-SFProject/InsertProductPriceBookXREFProcess"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    >
+    <plnk:partnerLinkType name="InsertProductPriceBookXREFProcess">
+        <plnk:role name="InsertProductPriceBookXREFProcessProvider" portType="client:InsertProductPriceBookXREFProcess"/>
+    </plnk:partnerLinkType>
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://insecg-salesforce/sflogeventsobjects"
+             xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:client="http://IsecG-SFProject/InsertProductPriceBookXREFProcess"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+            <import namespace="http://IsecG-SFProject/InsertProductPriceBookXREFProcess" schemaLocation="oramds:/apps/SOA-INFRA/XSD/InsertProductPriceBookXREFProcess.xsd"/>
+        </schema>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://insecg-salesforce/sflogeventsobjects"
+             xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:client="http://IsecG-SFProject/InsertProductPriceBookXREFProcess"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+            <xsd:import namespace="http://insecg-salesforce/sflogeventsobjects" schemaLocation="oramds:/apps/XSD/common/sflogeventsobjects.xsd"/>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="InsertProductPriceBookXREFProcessRequestMessage">
+        <wsdl:part name="payload" element="ns1:SFLogObjectEvents"/>
+    </wsdl:message>
+    <wsdl:message name="InsertProductPriceBookXREFProcessResponseMessage">
+        <wsdl:part name="payload" element="client:processResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="InsertProductPriceBookXREFProcess">
+        <wsdl:operation name="process">
+            <wsdl:input message="client:InsertProductPriceBookXREFProcessRequestMessage"/>
+            <wsdl:output message="client:InsertProductPriceBookXREFProcessResponseMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>

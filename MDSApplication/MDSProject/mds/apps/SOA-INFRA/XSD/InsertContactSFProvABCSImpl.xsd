@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+ targetNamespace="http://xmlns.oracle.com/OP_SF_Contact/InsertContactSFProvABCSImpl/InsertContactSFProvABCSImpl" 
+ xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="process">
+      <complexType>
+         <sequence>
+            <element name="OPOrgId" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+   <element name="processResponse">
+      <complexType>
+         <sequence>
+            <element name="ErrMsg" type="string"/>
+            <element name="SFAccountId" type="string"/>
+            <element name="OPAccountSyncStatus" type="string"/>
+            <element name="Status" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+</schema>

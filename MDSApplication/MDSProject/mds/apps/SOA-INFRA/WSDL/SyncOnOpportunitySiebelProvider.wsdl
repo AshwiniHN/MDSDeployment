@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="SyncOnOpportunitySiebelProvider" targetNamespace="http://IsecGSalesforce/OpportunityFromSFtoSiebel/SyncOnOpportunitySiebelProvider" xmlns:ns2="urn:enterprise.soap.sforce.com" xmlns:ns1="http://www.siebel.com/xml/OptyEventsToProcessFromBroker" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:client="http://IsecGSalesforce/OpportunityFromSFtoSiebel/SyncOnOpportunitySiebelProvider" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns11="http://www.siebel.com/xml/OptyEventsToProcessFromBroker">
+<plnk:partnerLinkType name="SyncOnOpportunitySiebelProvider">
+<plnk:role name="SyncOnOpportunitySiebelProviderProvider" portType="client:SyncOnOpportunitySiebelProvider"/>
+<plnk:role name="SyncOnOpportunitySiebelProviderRequester" portType="client:SyncOnOpportunitySiebelProviderCallback"/>
+</plnk:partnerLinkType>
+<wsdl:import namespace="urn:enterprise.soap.sforce.com" location="oramds:/apps/WSDL/generateEnterprise.wsdl"/>
+<wsdl:types>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.siebel.com/xml/OptyEventsToProcessFromBroker" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:client="http://IsecGSalesforce/OpportunityFromSFtoSiebel/SyncOnOpportunitySiebelProvider" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns11="http://www.siebel.com/xml/OptyEventsToProcessFromBroker">
+<import namespace="http://IsecGSalesforce/OpportunityFromSFtoSiebel/SyncOnOpportunitySiebelProvider" schemaLocation="oramds:/apps/SOA-INFRA/XSD/SyncOnOpportunitySiebelProvider.xsd"/>
+</schema>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:import namespace="http://www.siebel.com/xml/OptyEventsToProcessFromBroker" schemaLocation="oramds:/apps/SOA-INFRA/XSD/OptyEventsFromEAIBrokerToProcess.xsd"/>
+</xsd:schema>
+</wsdl:types>
+<wsdl:message name="SyncOnOpportunitySiebelProviderRequestMessage">
+<wsdl:part name="payload" element="ns1:EventsToProcess"/>
+</wsdl:message>
+<wsdl:message name="SyncOnOpportunitySiebelProviderResponseMessage">
+<wsdl:part name="payload" element="client:processResponse"/>
+</wsdl:message>
+<wsdl:portType name="SyncOnOpportunitySiebelProvider">
+<wsdl:operation name="process">
+<wsdl:input message="client:SyncOnOpportunitySiebelProviderRequestMessage"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:portType name="SyncOnOpportunitySiebelProviderCallback">
+<wsdl:operation name="processResponse">
+<wsdl:input message="client:SyncOnOpportunitySiebelProviderResponseMessage"/>
+</wsdl:operation>
+</wsdl:portType>
+</wsdl:definitions>

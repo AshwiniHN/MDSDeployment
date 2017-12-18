@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="OpportunitySourceSBLToSF" xmlns="http://xmlns.oracle.com/dvm">
+<description/>
+<columns>
+<column name="Salesforce"/>
+<column name="Siebel"/>
+</columns>
+<rows>
+<row>
+<cell>Sales</cell>
+<cell>Sales</cell>
+</row>
+<row>
+<cell>LDR</cell>
+<cell>LDR Lead</cell>
+</row>
+<row>
+<cell>Pending</cell>
+<cell>In Process</cell>
+</row>
+<row>
+<cell>Extended</cell>
+<cell>Extension Approved</cell>
+</row>
+<row>
+<cell>Sales</cell>
+<cell>Renewal</cell>
+</row>
+<row>
+<cell>Sales</cell>
+<cell>Customer Service</cell>
+</row>
+<row>
+<cell>Marketing</cell>
+<cell>Partner</cell>
+</row>
+<row>
+<cell>Marketing</cell>
+<cell>Marketing</cell>
+</row>
+<row>
+<cell>Sales</cell>
+<cell>EDG</cell>
+</row>
+<row>
+<cell>Sales</cell>
+<cell>SE</cell>
+</row>
+<row>
+<cell>Sales</cell>
+<cell>CAM</cell>
+</row>
+<row>
+<cell>Sales</cell>
+<cell>PSR</cell>
+</row>
+<row>
+<cell>Sales</cell>
+<cell>Support</cell>
+</row>
+<row>
+<cell>Sales</cell>
+<cell>Channel</cell>
+</row>
+</rows>
+</dvm>

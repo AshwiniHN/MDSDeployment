@@ -1,0 +1,53 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<wsdl:definitions name="UpsertProductSFProvABCSImpl"
+                  targetNamespace="http://SalesforceProject/UpsertProductSFProvABCSImpl"
+                  xmlns:ns2="http://schemas.oracle.com/bpel/extension"
+                  xmlns:ns1="http://SalesforceProject/ProductDBXML"
+                  xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype"
+                  xmlns:client="http://SalesforceProject/UpsertProductSFProvABCSImpl"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <plnk:partnerLinkType name="UpsertProductSFProvABCSImpl">
+        <plnk:role name="UpsertProductSFProvABCSImplProvider"
+                   portType="client:UpsertProductSFProvABCSImpl"/>
+        <plnk:role name="UpsertProductSFProvABCSImplRequester"
+                   portType="client:UpsertProductSFProvABCSImplCallback"/>
+    </plnk:partnerLinkType>
+    <wsdl:import namespace="http://schemas.oracle.com/bpel/extension"
+                 location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema"
+                xmlns:ns1="http://SalesforceProject/ProductDBXML"
+                xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype"
+                xmlns:client="http://SalesforceProject/UpsertProductSFProvABCSImpl"
+                xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                xmlns:ns2="http://schemas.oracle.com/bpel/extension">
+            <import namespace="http://SalesforceProject/UpsertProductSFProvABCSImpl"
+                    schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpsertProductSFProvABCSImpl.xsd"/>
+        </schema>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                    xmlns:ns1="http://SalesforceProject/ProductDBXML"
+                    xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype"
+                    xmlns:client="http://SalesforceProject/UpsertProductSFProvABCSImpl"
+                    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                    xmlns:ns2="http://schemas.oracle.com/bpel/extension">
+            <xsd:import namespace="http://SalesforceProject/ProductDBXML"
+                        schemaLocation="oramds:/apps/XSD/product/ProductDBStructure.xsd"/>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="UpsertProductSFProvABCSImplResponseMessage">
+        <wsdl:part name="payload" element="ns1:ProductStruture"/>
+    </wsdl:message>
+    <wsdl:message name="UpsertProductSFProvABCSImplRequestMessage">
+        <wsdl:part name="payload" element="client:process"/>
+    </wsdl:message>
+    <wsdl:portType name="UpsertProductSFProvABCSImplCallback">
+        <wsdl:operation name="processResponse">
+            <wsdl:input message="client:UpsertProductSFProvABCSImplResponseMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:portType name="UpsertProductSFProvABCSImpl">
+        <wsdl:operation name="process">
+            <wsdl:input message="client:UpsertProductSFProvABCSImplRequestMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>

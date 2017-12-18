@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/ProcessEventsFromBroker" xmlns:ns1="http://www.siebel.com/xml/EventsToProcessFromBroker" xmlns="http://www.w3.org/2001/XMLSchema">
+<import namespace="http://www.siebel.com/xml/EventsToProcessFromBroker" schemaLocation="oramds:/apps/SOA-INFRA/XSD/EventsFromEAIBrokerToProcess.xsd"/>
+<element name="ProcessEventsFromBrokerRequest">
+<complexType>
+<sequence>
+<element name="CallerId" type="string"/>
+<element name="ObjectType" type="string"/>
+<element name="SourceType" type="string"/>
+<element name="RecordCountKey" type="string"/>
+<element name="ClientFMWInstanceId" type="string"/>
+</sequence>
+</complexType>
+</element>
+<element name="ProcessEventsFromBrokerResponse">
+<complexType>
+<sequence>
+<element name="EventsFromEAIBrokerToProcess" type="ns1:EventsToProcess"/>
+<element name="ErrMsg" type="string"/>
+</sequence>
+</complexType>
+</element>
+</schema>

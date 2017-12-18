@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="AccountMergeLookupService" targetNamespace="http://xmlns.oracle.com/AccountMergeLookupService/AccountMergeLookupService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:client="http://xmlns.oracle.com/AccountMergeLookupService/AccountMergeLookupService" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/">
+<wsdl:types>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+<import namespace="http://xmlns.oracle.com/AccountMergeLookupService/AccountMergeLookupService" schemaLocation="oramds:/apps/SOA-INFRA/XSD/AccountMergeLookupService.xsd"/>
+</schema>
+</wsdl:types>
+<wsdl:message name="AccountMergeLookupServiceRequestMessage">
+<wsdl:part name="payload" element="client:process"/>
+</wsdl:message>
+<wsdl:message name="AccountMergeLookupServiceResponseMessage">
+<wsdl:part name="payload" element="client:processResponse"/>
+</wsdl:message>
+<wsdl:portType name="AccountMergeLookupService">
+<wsdl:operation name="process">
+<wsdl:input message="client:AccountMergeLookupServiceRequestMessage"/>
+<wsdl:output message="client:AccountMergeLookupServiceResponseMessage"/>
+</wsdl:operation>
+</wsdl:portType>
+<plnk:partnerLinkType name="AccountMergeLookupService">
+<plnk:role name="AccountMergeLookupServiceProvider">
+<plnk:portType name="client:AccountMergeLookupService"/>
+</plnk:role>
+</plnk:partnerLinkType>
+</wsdl:definitions>

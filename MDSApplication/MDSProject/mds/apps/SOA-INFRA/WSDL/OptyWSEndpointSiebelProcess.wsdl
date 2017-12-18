@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns2:definitions name="OptyWSEndpointSiebelProcess"
+                 targetNamespace="http://xmlns.oracle.com/opty/OptyWSEndPointSiebelProcess/OptyWSEndpointSiebelProcess"
+                 xmlns:ns2="http://schemas.xmlsoap.org/wsdl/"
+                 xmlns:ns1="http://siebel.com/CustomUI"
+                 xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+                 xmlns:client="http://xmlns.oracle.com/opty/OptyWSEndPointSiebelProcess/OptyWSEndpointSiebelProcess"
+                 xmlns:xsdLocal2="http://www.siebel.com/xml/ISG_SF_Opportunity_IO/Id"
+                 xmlns:xsdLocal3="http://www.siebel.com/xml/ISG_SF_Opportunity_IO/Query"
+                 xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                 xmlns:xsdLocal1="http://www.siebel.com/xml/ISG_SF_Opportunity_IO/Data">
+   <plnk:partnerLinkType name="OptyWSEndpointSiebelProcess">
+      <plnk:role name="OptyWSEndpointSiebelProcessProvider">
+         <plnk:portType name="client:OptyWSEndpointSiebelProcess"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+   <ns2:import namespace="http://schemas.oracle.com/bpel/extension"
+               location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <ns2:import namespace="http://siebel.com/CustomUI"
+               location="oramds:/apps/WSDL/OptyWSEndpointSiebelProcess/ISG_SF_Opportunity_WS.wsdl"/>
+   <ns2:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/opty/OptyWSEndPointSiebelProcess/OptyWSEndpointSiebelProcess"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/OptyWSEndpointSiebelProcess.xsd"/>
+      </schema>
+   </ns2:types>
+   <ns2:message name="OptyWSEndpointSiebelProcessRequestMessage">
+      <ns2:part name="payload" element="client:Headerrequest"/>
+      <ns2:part name="OPListOfOpty"
+                element="xsdLocal1:ListOfIsg_Sf_Opportunity_Io"/>
+      <ns2:part name="OPListOfOptyId"
+                element="xsdLocal2:ListOfIsg_Sf_Opportunity_Io"/>
+      <ns2:part name="OPListOfOptyQuery"
+                element="xsdLocal3:ListOfIsg_Sf_Opportunity_Io"/>
+   </ns2:message>
+   <ns2:message name="OptyWSEndpointSiebelProcessResponseMessage">
+      <ns2:part name="payload" element="client:Headerresponse"/>
+      <ns2:part name="OPListOfOpty"
+                element="xsdLocal1:ListOfIsg_Sf_Opportunity_Io"/>
+      <ns2:part name="OPListOfOptyOutput"
+                element="xsdLocal2:ListOfIsg_Sf_Opportunity_Io"/>
+      <ns2:part name="OPListOfOptyQueryOutput"
+                element="xsdLocal3:ListOfIsg_Sf_Opportunity_Io"/>
+   </ns2:message>
+   <ns2:portType name="OptyWSEndpointSiebelProcess">
+      <ns2:operation name="process">
+         <ns2:input message="client:OptyWSEndpointSiebelProcessRequestMessage"/>
+         <ns2:output message="client:OptyWSEndpointSiebelProcessResponseMessage"/>
+      </ns2:operation>
+   </ns2:portType>
+</ns2:definitions>

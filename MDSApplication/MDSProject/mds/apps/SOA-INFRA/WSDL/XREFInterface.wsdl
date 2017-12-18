@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions name="XREFInterface"
+             targetNamespace="http://xmlns.oracle.com/XREFInterface"
+             xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns:ns2="http://xmlns.oracle.com/XREFInterface"
+             xmlns:client="http://xmlns.oracle.com/XREFInterface">
+   <types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/XREFInterface"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/OPSF_XREF.xsd"/>
+      </schema>
+   </types>
+   <message name="XREFInterfaceRequestMessage">
+      <part name="XREFInput" element="ns2:xrefinput"/>
+   </message>
+   <message name="XREFInterfaceResponseMessage">
+      <part name="XREFOutput" element="ns2:xrefinput"/>
+   </message>
+   <portType name="XREFInterface">
+      <operation name="process">
+         <input message="client:XREFInterfaceRequestMessage"/>
+         <output message="client:XREFInterfaceResponseMessage"/>
+      </operation>
+   </portType>
+   <plnk:partnerLinkType name="XREFInterface">
+      <plnk:role name="XREFInterfaceProvider">
+         <plnk:portType name="client:XREFInterface"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+</definitions>

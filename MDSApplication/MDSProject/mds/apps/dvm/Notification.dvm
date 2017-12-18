@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="accountsegment" xmlns="http://xmlns.oracle.com/dvm">
+  <description/>
+  <columns>
+    <column name="Service"/>
+    <column name="EmailAddress"/>
+  </columns>
+  <rows>
+    <row>
+      <cell>FusionPS</cell>
+      <cell>_e29a5@McAfee.com</cell>
+    </row>
+    <row>
+      <cell>BAP Form</cell>
+      <cell>_f1ad5@McAfee.com;_e29a5@McAfee.com</cell>
+    </row>
+    <row>
+      <cell>RAF Form</cell>
+      <cell>_f1ad5@McAfee.com;_e29a5@McAfee.com</cell>
+    </row>
+    <row>
+      <cell>SumTotalCertifications</cell>
+      <cell>_e29a5@McAfee.com,Dan_Luu@McAfee.com</cell>
+    </row>
+    <row>
+      <cell>XREFInterface</cell>
+      <cell>_e29a5@McAfee.com</cell>
+    </row>
+    <row>
+      <cell>UpsertProductSFProvABCSImpl</cell>
+      <cell>_e29a5@McAfee.com</cell>
+    </row>
+  </rows>
+</dvm>

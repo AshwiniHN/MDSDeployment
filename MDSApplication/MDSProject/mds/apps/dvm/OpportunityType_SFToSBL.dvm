@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="OpportunityType" xmlns="http://xmlns.oracle.com/dvm">
+<description/>
+<columns>
+<column name="Salesforce"/>
+<column name="Siebel"/>
+</columns>
+<rows>
+<row>
+<cell>Lead</cell>
+<cell>Lead</cell>
+</row>
+<row>
+<cell>New Business</cell>
+<cell>New Sale</cell>
+</row>
+<row>
+<cell>Renewal / New</cell>
+<cell>Renewal / New</cell>
+</row>
+<row>
+<cell>Renewal</cell>
+<cell>Renewal</cell>
+</row>
+</rows>
+</dvm>

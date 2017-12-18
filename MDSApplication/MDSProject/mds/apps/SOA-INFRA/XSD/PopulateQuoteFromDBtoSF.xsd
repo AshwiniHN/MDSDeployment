@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+        targetNamespace="http://xmlns.oracle.com/QuoteIntegration/QuoteIntegrationFromDBtoSF/PopulateQuoteFromDBtoSF"
+        xmlns="http://www.w3.org/2001/XMLSchema">
+ <element name="process">
+  <complexType>
+   <sequence>
+    <element name="CallerID" type="string"/>
+    <element name="BatchSize" type="string"/>
+    <element name="ProcessStartDate" type="dateTime"/>
+    <element name="ProcessEndDate" type="dateTime"/>
+    <element name="SourceType" type="string"/>
+    <element name="ObjectType" type="string"/>
+   </sequence>
+  </complexType>
+ </element>
+</schema>

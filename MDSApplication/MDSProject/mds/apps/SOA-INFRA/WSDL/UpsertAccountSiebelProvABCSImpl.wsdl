@@ -1,0 +1,30 @@
+<wsdl:definitions name="UpsertAccountSiebelProvABCSImpl" targetNamespace="http://xmlns.oracle.com/SF_OP_Account/UpsertAccountSiebelProvABCSImpl/UpsertAccountSiebelProvABCSImpl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="urn:enterprise.soap.sforce.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:client="http://xmlns.oracle.com/SF_OP_Account/UpsertAccountSiebelProvABCSImpl/UpsertAccountSiebelProvABCSImpl" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype">
+   <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/SF_OP_Account/UpsertAccountSiebelProvABCSImpl/UpsertAccountSiebelProvABCSImpl" schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpsertAccountSiebelProvABCSImpl.xsd"/>
+      </schema>
+   </wsdl:types>
+   <wsdl:import namespace="urn:enterprise.soap.sforce.com" location="oramds:/apps/WSDL/generateEnterprise.wsdl"/>
+   <wsdl:import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <wsdl:message name="UpsertAccountSiebelProvABCSImplRequestMessage">
+      <wsdl:part name="eventId" element="client:process"/>
+      <wsdl:part name="SFPayload" element="ns1:create"/>
+   </wsdl:message>
+   <wsdl:message name="UpsertAccountSiebelProvABCSImplResponseMessage">
+      <wsdl:part name="payload" element="client:processResponse"/>
+   </wsdl:message>
+   <wsdl:portType name="UpsertAccountSiebelProvABCSImpl">
+      <wsdl:operation name="process">
+         <wsdl:input message="client:UpsertAccountSiebelProvABCSImplRequestMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:portType name="UpsertAccountSiebelProvABCSImplCallback">
+      <wsdl:operation name="processResponse">
+         <wsdl:input message="client:UpsertAccountSiebelProvABCSImplResponseMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <plnk:partnerLinkType name="UpsertAccountSiebelProvABCSImpl">
+      <plnk:role name="UpsertAccountSiebelProvABCSImplProvider" portType="client:UpsertAccountSiebelProvABCSImpl"/>
+      <plnk:role name="UpsertAccountSiebelProvABCSImplRequester" portType="client:UpsertAccountSiebelProvABCSImplCallback"/>
+   </plnk:partnerLinkType>
+</wsdl:definitions>

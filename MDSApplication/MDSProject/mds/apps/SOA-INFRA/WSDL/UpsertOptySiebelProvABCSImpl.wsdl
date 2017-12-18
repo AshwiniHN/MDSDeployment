@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="UpsertOptySiebelProvABCSImpl" targetNamespace="http://IsecGIntegration/SFDC/OpportunityFromSFtoSiebel/UpsertOptySiebelProvABCSImpl" xmlns:ns2="http://SalesforceIntegration/Opty_SFIds" xmlns:ns1="urn:enterprise.soap.sforce.com" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:client="http://IsecGIntegration/SFDC/OpportunityFromSFtoSiebel/UpsertOptySiebelProvABCSImpl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<plnk:partnerLinkType name="UpsertOptySiebelProvABCSImpl">
+<plnk:role name="UpsertOptySiebelProvABCSImplProvider" portType="client:UpsertOptySiebelProvABCSImpl"/>
+</plnk:partnerLinkType>
+<wsdl:import namespace="urn:enterprise.soap.sforce.com" location="oramds:/apps/WSDL/generateEnterprise.wsdl"/>
+<wsdl:types>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://SalesforceIntegration/Opty_SFIds" xmlns:ns1="urn:enterprise.soap.sforce.com" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:client="http://IsecGIntegration/SFDC/OpportunityFromSFtoSiebel/UpsertOptySiebelProvABCSImpl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<import namespace="http://IsecGIntegration/SFDC/OpportunityFromSFtoSiebel/UpsertOptySiebelProvABCSImpl" schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpsertOptySiebelProvABCSImpl.xsd"/>
+</schema>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://SalesforceIntegration/Opty_SFIds" xmlns:ns1="urn:enterprise.soap.sforce.com" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:client="http://IsecGIntegration/SFDC/OpportunityFromSFtoSiebel/UpsertOptySiebelProvABCSImpl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<xsd:import namespace="http://SalesforceIntegration/Opty_SFIds" schemaLocation="oramds:/apps/XSD/Opportunity/OptySF_Id.xsd"/>
+</xsd:schema>
+</wsdl:types>
+<wsdl:message name="UpsertOptySiebelProvABCSImplRequestMessage">
+<wsdl:part name="payload" element="client:process"/>
+<wsdl:part name="SFPayload" element="ns1:create"/>
+</wsdl:message>
+<wsdl:message name="UpsertOptySiebelProvABCSImplResponseMessage">
+<wsdl:part name="payload" element="client:processResponse"/>
+</wsdl:message>
+<wsdl:portType name="UpsertOptySiebelProvABCSImpl">
+<wsdl:operation name="process">
+<wsdl:input message="client:UpsertOptySiebelProvABCSImplRequestMessage"/>
+<wsdl:output message="client:UpsertOptySiebelProvABCSImplResponseMessage"/>
+</wsdl:operation>
+</wsdl:portType>
+</wsdl:definitions>

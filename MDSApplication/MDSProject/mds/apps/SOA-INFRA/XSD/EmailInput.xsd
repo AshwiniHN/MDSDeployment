@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://xmlns.mcafee.com/GoodsMvmt/EmailInput" targetNamespace="http://xmlns.mcafee.com/GoodsMvmt/EmailInput" elementFormDefault="qualified">
+   <xsd:element name="EmailInputParameters">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="TO" type="xsd:string"/>
+            <xsd:element name="SUBJECT" type="xsd:string"/>
+            <xsd:element name="REFERENCE_ID" type="xsd:integer"/>
+            <xsd:element name="PROCESS_NAME" type="xsd:string"/>
+            <xsd:element name="FAULT_TYPE" type="xsd:string"/>
+            <xsd:element name="FAULT_DESCRIPTION" type="xsd:string"/>
+            <xsd:element name="INSTANCE_ID" type="xsd:integer"/>
+            <xsd:element name="ACTION_NEEDED" type="xsd:string"/>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+</xsd:schema>

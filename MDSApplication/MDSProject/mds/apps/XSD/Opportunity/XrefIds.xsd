@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema xmlns:ns1="http://www.example.org"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        attributeFormDefault="unqualified"
+        targetNamespace="http://SalesforceIntegration/XREFIds"
+        elementFormDefault="qualified">
+   <element name="xrefids">
+      <complexType>
+         <sequence>
+            <element name="XrefSFId" type="string"/>
+            <element name="XrefOPtyId" type="string"/>
+            <element name="XrefAccountId" type="string"/>
+            <element name="XrefContactId" type="string"/>
+            <element name="XrefOwnerId" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+</schema>

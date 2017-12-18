@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="accountstatus" xmlns="http://xmlns.oracle.com/dvm">
+<description/>
+<columns>
+<column name="Siebel"/>
+<column name="Salesforce"/>
+</columns>
+<rows>
+<row>
+<cell>Active</cell>
+<cell>Active</cell>
+</row>
+<row>
+<cell>Active - Update Account Info</cell>
+<cell>Active - Update Account Info</cell>
+</row>
+<row>
+<cell>Inactive - Duplicate</cell>
+<cell>Inactive - Duplicate</cell>
+</row>
+<row>
+<cell>Inactive - Out of Business</cell>
+<cell>Inactive - Out of Business</cell>
+</row>
+<row>
+<cell>Inactive - SAP</cell>
+<cell>Inactive - SAP</cell>
+</row>
+</rows>
+</dvm>

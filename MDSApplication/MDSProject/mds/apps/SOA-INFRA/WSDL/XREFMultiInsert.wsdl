@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="XREFMultiInsert"
+                  targetNamespace="http://xmlns.oracle.com/LatestCode/XREFInterface/XREFMultiInsert"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:ns2="http://xmlns.oracle.com/XREFInterface"
+                  xmlns:client="http://xmlns.oracle.com/LatestCode/XREFInterface/XREFMultiInsert"
+                  xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype">
+   <wsdl:import namespace="http://schemas.oracle.com/bpel/extension"
+                location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/XREFInterface"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/OPSF_XREF.xsd"/>
+      </schema>
+   </wsdl:types>
+   <wsdl:message name="XREFMultiInsertRequestMessage">
+      <wsdl:part name="payload" element="ns2:xrefinput"/>
+   </wsdl:message>
+   <wsdl:message name="XREFMultiInsertResponseMessage">
+      <wsdl:part name="payload" element="ns2:xrefinput"/>
+   </wsdl:message>
+   <wsdl:portType name="XREFMultiInsert">
+      <wsdl:operation name="process">
+         <wsdl:input message="client:XREFMultiInsertRequestMessage"/>
+         <wsdl:output message="client:XREFMultiInsertResponseMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <plnk:partnerLinkType name="XREFMultiInsert">
+      <plnk:role name="XREFMultiInsertProvider"
+                 portType="client:XREFMultiInsert"/>
+   </plnk:partnerLinkType>
+</wsdl:definitions>

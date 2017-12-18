@@ -1,0 +1,58 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<wsdl:definitions
+     name="SUMTotalServiceProcessor"
+     targetNamespace="http://xmlns.oracle.com/SUMTotalServiceProcessor_jws/SUMTotalServiceProcessor/SUMTotalServiceProcessor"
+     xmlns:ns2="http://www.sumtotalsystems.com/sumtotal7/sumtotalws/"
+     xmlns:ns1="http://schemas.xmlsoap.org/ws/2003/03/addressing"
+     xmlns:ns4="http://schemas.oracle.com/bpel/extension"
+     xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+     xmlns:ns3="http://www.sumtotalsystems.com/sumtotal7/sumtotalws/RosterManagement/"
+     xmlns:client="http://xmlns.oracle.com/SUMTotalServiceProcessor_jws/SUMTotalServiceProcessor/SUMTotalServiceProcessor"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    >
+    <plnk:partnerLinkType name="SUMTotalServiceProcessor">
+        <plnk:role name="SUMTotalServiceProcessorProvider">
+            <plnk:portType name="client:SUMTotalServiceProcessor"/>
+        </plnk:role>
+        <plnk:role name="SUMTotalServiceProcessorRequester">
+            <plnk:portType name="client:SUMTotalServiceProcessorCallback"/>
+        </plnk:role>
+    </plnk:partnerLinkType>
+    <wsdl:import namespace="http://www.sumtotalsystems.com/sumtotal7/sumtotalws/RosterManagement/"
+         location="oramds:/apps/WSDL/SumTotalWebServices.wsdl"/>
+    <wsdl:import namespace="http://www.sumtotalsystems.com/sumtotal7/sumtotalws/" location="oramds:/apps/WSDL/SumTotalWebServices.wsdl"/>
+    <wsdl:import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://www.sumtotalsystems.com/sumtotal7/sumtotalws/"
+             xmlns:ns1="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:ns4="http://schemas.oracle.com/bpel/extension"
+             xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns3="http://www.sumtotalsystems.com/sumtotal7/sumtotalws/RosterManagement/"
+             xmlns:client="http://xmlns.oracle.com/SUMTotalServiceProcessor_jws/SUMTotalServiceProcessor/SUMTotalServiceProcessor"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+            <import namespace="http://xmlns.oracle.com/SUMTotalServiceProcessor_jws/SUMTotalServiceProcessor/SUMTotalServiceProcessor"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/SUMTotalServiceProcessor.xsd"/>
+        </schema>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://www.sumtotalsystems.com/sumtotal7/sumtotalws/"
+             xmlns:ns1="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:ns4="http://schemas.oracle.com/bpel/extension"
+             xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns3="http://www.sumtotalsystems.com/sumtotal7/sumtotalws/RosterManagement/"
+             xmlns:client="http://xmlns.oracle.com/SUMTotalServiceProcessor_jws/SUMTotalServiceProcessor/SUMTotalServiceProcessor"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+            <xsd:import namespace="http://schemas.xmlsoap.org/ws/2003/03/addressing" schemaLocation="oramds:/apps/XSD/common/addressing.xsd"/>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="SUMTotalServiceProcessorRequestMessage">
+        <wsdl:part name="payload" element="client:process"/>
+    </wsdl:message>
+    <wsdl:message name="SUMTotalServiceProcessorResponseMessage">
+        <wsdl:part name="payload" element="client:processResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="SUMTotalServiceProcessor">
+        <wsdl:operation name="process">
+            <wsdl:input message="client:SUMTotalServiceProcessorRequestMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:portType name="SUMTotalServiceProcessorCallback">
+        <wsdl:operation name="processResponse">
+            <wsdl:input message="client:SUMTotalServiceProcessorResponseMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>

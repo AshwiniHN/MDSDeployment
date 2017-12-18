@@ -1,0 +1,14 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           attributeFormDefault="unqualified" elementFormDefault="qualified">
+ <xs:element name="Params" type="Params"/>
+ <xs:complexType name="Params">
+  <xs:sequence>
+     <xs:element type="xs:string" name="InstanceId"/>  
+      <xs:element type="xs:int" name="Min"/> 
+        <xs:element type="xs:int" name="Max"/> 
+     <!--xs:element name="varXml" type="xs:anyType"/-->
+  </xs:sequence>
+ </xs:complexType>
+</xs:schema>
+
+

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="accountsegment" xmlns="http://xmlns.oracle.com/dvm">
+<description/>
+<columns>
+<column name="Siebel"/>
+<column name="Salesforce"/>
+</columns>
+<rows>
+<row>
+<cell>Enterprise</cell>
+<cell>Enterprise</cell>
+</row>
+<row>
+<cell>GHE Named</cell>
+<cell>GHE Named</cell>
+</row>
+<row>
+<cell>FEDGOV</cell>
+<cell>FEDGOV</cell>
+</row>
+<row>
+<cell>GHE</cell>
+<cell>GHE</cell>
+</row>
+<row>
+<cell>OEM</cell>
+<cell>OEM</cell>
+</row>
+<row>
+<cell>Commercial</cell>
+<cell>Commercial</cell>
+</row>
+<row>
+<cell>Commercial Named</cell>
+<cell>Commercial Named</cell>
+</row>
+<row>
+<cell>SMB</cell>
+<cell>SMB</cell>
+</row>
+<row>
+<cell>Greenfield</cell>
+<cell>Greenfield</cell>
+</row>
+</rows>
+</dvm>

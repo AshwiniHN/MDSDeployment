@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions name="EAIBrokerProcessor" targetNamespace="http://xmlns.oracle.com/EAIBrokerProcessor" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:ns2="http://schemas.oracle.com/bpel/extension" xmlns:ns1="http://www.siebel.com/xml/EAIBrokerTxnMessage" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/EAIBrokerProcessor" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <plnk:partnerLinkType name="EAIBrokerProcessor">
+      <plnk:role name="EAIBrokerProcessorProvider">
+         <plnk:portType name="client:EAIBrokerProcessor"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+   <import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/EAIBrokerProcessor" schemaLocation="oramds:/apps/SOA-INFRA/XSD/EAIBrokerProcessor.xsd"/>
+      </schema>
+   </types>
+   <message name="EAIBrokerProcessorRequestMessage">
+      <part name="payload" element="client:EAIBrokerProcessorProcessRequest"/>
+   </message>
+   <message name="EAIBrokerProcessorResponseMessage">
+      <part name="payload" element="client:EAIBrokerProcessorProcessResponse"/>
+   </message>
+   <portType name="EAIBrokerProcessor">
+      <operation name="process">
+         <input message="client:EAIBrokerProcessorRequestMessage"/>
+         <output message="client:EAIBrokerProcessorResponseMessage"/>
+         <fault message="client:EAIBrokerProcessorResponseMessage" name="faultMsg"/>
+      </operation>
+   </portType>
+</definitions>

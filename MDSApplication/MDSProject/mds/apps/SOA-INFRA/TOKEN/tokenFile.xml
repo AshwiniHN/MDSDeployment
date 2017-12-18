@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<properties version="1.0">
+   <entry key="80"/>
+   <entry key="localhost">sfintegration-qa.corpzone.internalzone.com</entry>
+   <entry key="brokerhost">opodbrokerfmw-qa.corp.nai.org</entry>
+</properties>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="PartnerType_SFToSBL" xmlns="http://xmlns.oracle.com/dvm">
+<description/>
+<columns>
+<column name="SALESFORCE"/>
+<column name="SBL"/>
+</columns>
+<rows>
+<row>
+<cell>Distributor</cell>
+<cell>Distributor</cell>
+</row>
+<row>
+<cell>Reseller</cell>
+<cell>Reseller</cell>
+</row>
+<row>
+<cell>SIA</cell>
+<cell>SIA</cell>
+</row>
+<row>
+<cell>OEM</cell>
+<cell>OEM</cell>
+</row>
+<row>
+<cell>Tier 1</cell>
+<cell>Tier 1</cell>
+</row>
+<row>
+<cell>System Integrator</cell>
+<cell>System Integrator</cell>
+</row>
+<row>
+<cell>Technology</cell>
+<cell>Technology</cell>
+</row>
+</rows>
+</dvm>

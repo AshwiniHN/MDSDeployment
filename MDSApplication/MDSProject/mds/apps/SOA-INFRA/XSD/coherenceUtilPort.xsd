@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Oracle JAX-WS 2.1.5. --><xs:schema xmlns:tns="http://genericcoherenceutility/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://genericcoherenceutility/">
+
+<xs:element name="getValueFromCache" type="tns:getValueFromCache"/>
+
+<xs:element name="getValueFromCacheResponse" type="tns:getValueFromCacheResponse"/>
+
+<xs:element name="putValueToCache" type="tns:putValueToCache"/>
+
+<xs:element name="putValueToCacheResponse" type="tns:putValueToCacheResponse"/>
+
+<xs:complexType name="getValueFromCache">
+<xs:sequence>
+<xs:element name="arg0" type="tns:getInputParameters" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getInputParameters">
+<xs:sequence>
+<xs:element name="getInput" type="tns:getInput" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getInput">
+<xs:sequence>
+<xs:element name="key" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getValueFromCacheResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:getOutputParameters" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getOutputParameters">
+<xs:sequence>
+<xs:element name="out" type="tns:getOutput" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getOutput">
+<xs:sequence>
+<xs:element name="key" type="xs:string" minOccurs="0"/>
+<xs:element name="value" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="putValueToCache">
+<xs:sequence>
+<xs:element name="arg0" type="tns:putInputParameters" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="putInputParameters">
+<xs:sequence>
+<xs:element name="input" type="tns:putInput" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="putInput">
+<xs:sequence>
+<xs:element name="key" type="xs:string" minOccurs="0"/>
+<xs:element name="value" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="putValueToCacheResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:putOutputParameters" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="putOutputParameters">
+<xs:sequence>
+<xs:element name="output" type="tns:putOutput" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="putOutput">
+<xs:sequence>
+<xs:element name="key" type="xs:string" minOccurs="0"/>
+<xs:element name="status" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

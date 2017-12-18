@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="UpsertAccountContactSiebelAssociationProcess"
+                  targetNamespace="http://xmlns.oracle.com/SFToSiebel_AccountContactAssociation/SFToSiebel_AccountContactAssociation/UpsertAccountContactSiebelAssociationProcess"
+                  xmlns:ns2="http://SalesforceIntegration/AccountContactAssociation_SFIds"
+                  xmlns:ns1="urn:enterprise.soap.sforce.com"
+                  xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype"
+                  xmlns:client="http://xmlns.oracle.com/SFToSiebel_AccountContactAssociation/SFToSiebel_AccountContactAssociation/UpsertAccountContactSiebelAssociationProcess"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+   <plnk:partnerLinkType name="UpsertAccountContactSiebelAssociationProcess">
+      <plnk:role name="UpsertAccountContactSiebelAssociationProcessProvider"
+                 portType="client:UpsertAccountContactSiebelAssociationProcess"/>
+      <!--plnk:role name="UpsertAccountContactSiebelAssociationProcessRequester"
+                 portType="client:UpsertAccountContactSiebelAssociationProcessCallback"/-->
+   </plnk:partnerLinkType>
+   <wsdl:import namespace="urn:enterprise.soap.sforce.com"
+                location="oramds:/apps/WSDL/generateEnterprise.wsdl"/>
+   <wsdl:import namespace="http://schemas.oracle.com/bpel/extension"
+                location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/SFToSiebel_AccountContactAssociation/SFToSiebel_AccountContactAssociation/UpsertAccountContactSiebelAssociationProcess"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpsertAccountContactSiebelAssociationProcess.xsd"/>
+      </schema>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/SFToSiebel_AccountContactAssociation/SFToSiebel_AccountContactAssociation/UpsertAccountContactSiebelAssociationProcess"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpsertAccountContactSiebelAssociationProcess.xsd"/>
+      </schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+         <xsd:import namespace="http://SalesforceIntegration/AccountContactAssociation_SFIds"
+                     schemaLocation="oramds:/apps/XSD/AccountContactAssociation/AccountContactAssociation_SFIds.xsd"/>
+      </xsd:schema>
+   </wsdl:types>
+   <wsdl:message name="UpsertAccountContactSiebelAssociationProcessResponseMessage">
+      <wsdl:part name="payload" element="client:processResponse"/>
+   </wsdl:message>
+   <wsdl:message name="UpsertAccountContactSiebelAssociationProcessRequestMessage">
+      <wsdl:part name="payload" element="client:process"/>
+      <wsdl:part name="SFPayload" element="ns1:retrieveResponse"/>
+   </wsdl:message>
+   <wsdl:portType name="UpsertAccountContactSiebelAssociationProcessResponseMessage">
+      <wsdl:operation name="processResponse">
+         <wsdl:input message="client:UpsertAccountContactSiebelAssociationProcessResponseMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:portType name="UpsertAccountContactSiebelAssociationProcess">
+      <wsdl:operation name="process">
+         <wsdl:input message="client:UpsertAccountContactSiebelAssociationProcessRequestMessage"/>
+         <wsdl:output message="client:UpsertAccountContactSiebelAssociationProcessResponseMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+</wsdl:definitions>

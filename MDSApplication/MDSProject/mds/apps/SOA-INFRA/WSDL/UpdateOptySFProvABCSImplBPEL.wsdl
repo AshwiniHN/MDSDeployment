@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="UpdateOptySFProvABCSImplBPEL"
+                  targetNamespace="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/UpdateOpportunitySFProvABCSImpl/UpdateOptySFProvABCSImplBPEL"
+                  xmlns:ns2="http://schemas.oracle.com/bpel/extension"
+                  xmlns:ns1="http://www.siebel.com/xml/ISG_SF_Opportunity_IO"
+                  xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+                  xmlns:ns3="http://SalesforceIntegration/OptyIds"
+                  xmlns:client="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/UpdateOpportunitySFProvABCSImpl/UpdateOptySFProvABCSImplBPEL"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <plnk:partnerLinkType name="UpdateOptySFProvABCSImplBPEL">
+      <plnk:role name="UpdateOptySFProvABCSImplBPELProvider">
+         <plnk:portType name="client:UpdateOptySFProvABCSImplBPEL"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+   <wsdl:import namespace="http://schemas.oracle.com/bpel/extension"
+                location="oramds:/apps/SOA-INFRA/COMMON/RuntimeFault.wsdl"/>
+   <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/UpdateOpportunitySFProvABCSImpl/UpdateOptySFProvABCSImplBPEL"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpdateOptySFProvABCSImplBPEL.xsd"/>
+      </schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ns1="http://www.siebel.com/xml/ISG_SF_Opportunity_IO"
+                  xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+                  xmlns:client="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/UpdateOpportunitySFProvABCSImpl/UpdateOptySFProvABCSImplBPEL"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+         <xsd:import namespace="http://www.siebel.com/xml/ISG_SF_Opportunity_IO"
+                     schemaLocation="oramds:/apps/XSD/Opportunity/SiebelMessage.xsd"/>
+      </xsd:schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+         <xsd:import namespace="http://SalesforceIntegration/OptyIds"
+                     schemaLocation="oramds:/apps/XSD/Opportunity/OptyIds.xsd"/>
+      </xsd:schema>
+   </wsdl:types>
+   <wsdl:message name="UpdateOptySFProvABCSImplBPELRequestMessage">
+      <wsdl:part name="OPListOfOpty" element="ns1:SiebelMessage"/>
+      <wsdl:part name="SFOptyIds" element="ns3:ids"/>
+      <wsdl:part name="params" element="client:process"/>
+   </wsdl:message>
+   <wsdl:message name="UpdateOptySFProvABCSImplBPELResponseMessage">
+      <wsdl:part name="payload" element="client:processResponse"/>
+   </wsdl:message>
+   <wsdl:portType name="UpdateOptySFProvABCSImplBPEL">
+      <wsdl:operation name="process">
+         <wsdl:input message="client:UpdateOptySFProvABCSImplBPELRequestMessage"/>
+         <wsdl:output message="client:UpdateOptySFProvABCSImplBPELResponseMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+</wsdl:definitions>

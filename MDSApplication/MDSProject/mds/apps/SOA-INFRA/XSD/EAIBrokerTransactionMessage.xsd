@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema targetNamespace="http://www.siebel.com/xml/EAIBrokerTxnMessage" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xsdLocal="http://www.siebel.com/xml/EAIBrokerTxnMessage" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="TxnMessage" type="xsdLocal:TxnMessage"/>
+   <complexType name="TxnMessage">
+      <sequence>
+         <element name="SourceType" type="string"/>
+         <element name="ListOfDocument" type="xsdLocal:ListOfDocument"/>
+         <element name="ListOfBlock" type="xsdLocal:ListOfBlock"/>
+         <element name="ListOfDependency" type="xsdLocal:ListOfDependency"/>
+      </sequence>
+      <attribute name="ObjectType" type="string"/>
+      <attribute name="Operation" type="string"/>
+   </complexType>
+   <complexType name="ListOfBlock">
+      <sequence>
+         <element name="Block" type="xsdLocal:Block" maxOccurs="unbounded"/>
+      </sequence>
+   </complexType>
+   <complexType name="Block">
+      <sequence>
+         <element name="BlockType" type="string"/>
+         <element name="BlockKey" type="string"/>
+      </sequence>
+   </complexType>
+   <complexType name="ListOfDependency">
+      <sequence>
+         <element name="Dependency" type="xsdLocal:Dependency" maxOccurs="unbounded"/>
+      </sequence>
+   </complexType>
+   <complexType name="Dependency">
+      <sequence>
+         <element name="DependencyType" type="string"/>
+         <element name="DependencyKey" type="string"/>
+         <element name="Operation" type="string"/>
+      </sequence>
+   </complexType>
+   <complexType name="ListOfDocument">
+      <sequence>
+         <element name="Document" type="xsdLocal:Document" maxOccurs="unbounded"/>
+      </sequence>
+   </complexType>
+   <complexType name="Document">
+      <sequence>
+         <element name="DocumentMessage" type="xsdLocal:TransactionDocument"/>
+      </sequence>
+   </complexType>
+   <complexType name="TransactionDocument">
+      <sequence>
+         <any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+   </complexType>
+</schema>

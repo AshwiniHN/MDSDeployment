@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://xmlns.oracle.com/XREFInterface" targetNamespace="http://xmlns.oracle.com/XREFInterface" elementFormDefault="qualified" attributeFormDefault="qualified">
+   <xs:element name="xrefinput">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="operation" maxOccurs="unbounded">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="name" type="xs:string"/>
+                     <xs:element name="recType" type="xs:string"/>
+                     <xs:element name="refHostName" type="xs:string" minOccurs="0"/>
+                     <xs:element name="refHostRowId" type="xs:string" minOccurs="0"/>
+                     <xs:element name="hostName" type="xs:string" minOccurs="0"/>
+                     <xs:element name="hostRowId" type="xs:string" minOccurs="0"/>
+                     <xs:element name="SFHostId" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

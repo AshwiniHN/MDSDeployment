@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions name="ContactWSEndPointSiebel" targetNamespace="http://xmlns.oracle.com/ContactWSEndPointSiebel" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:ns5="http://schemas.oracle.com/bpel/extension" xmlns:client="http://xmlns.oracle.com/ContactWSEndPointSiebel" xmlns:xsdLocal1="http://www.siebel.com/xml/ISGSFContactIO/Data" xmlns:xsdLocal2="http://www.siebel.com/xml/ISGSFContactIO/Id" xmlns:xsdLocal3="http://www.siebel.com/xml/ISGSFContactIO/Query">
+   <import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <import namespace="http://siebel.com/CustomUI" location="oramds:/apps/WSDL/ISG_SF_Contact_Service.wsdl"/>
+   <types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/ContactWSEndPointSiebel" schemaLocation="oramds:/apps/SOA-INFRA/XSD/ContactWSEndPointSiebel.xsd"/>
+      </schema>
+   </types>
+   <message name="ContactWSEndPointSiebelRequestMessage">
+      <!--part name="Operation" type="xsd:string"/-->
+      <part name="Headerrequest" element="client:ContactWSEndPointSiebelProcessRequest"/>
+      <!--part name="OPOrganizationId" type="xsd:string"/-->
+      <part name="OPListOfContact" element="xsdLocal1:ListOfIsgsfcontactio"/>
+      <part name="OPListOfContactQuery" element="xsdLocal3:ListOfIsgsfcontactio"/>
+      <!--part name="CallerId" type="xsd:string"/-->
+   </message>
+   <message name="ContactWSEndPointSiebelResponseMessage">
+   <part name="Headerresponse"
+            element="client:ContactWSEndPointSiebelProcessResponse"/>
+      <!--part name="Status" type="xsd:string"/-->
+      <part name="OPListContact" element="xsdLocal2:ListOfIsgsfcontactio"/>
+      <!--part name="StatusDescription" type="xsd:string"/-->
+      <part name="OPListOfContactQuery" element="xsdLocal1:ListOfIsgsfcontactio"/>
+      <!--part name="ContactExternalHostIntegrationId" type="xsd:string"/-->
+      <!--part name="ErrMsg" type="xsd:string"/-->
+   </message>
+   <portType name="ContactWSEndPointSiebel">
+      <operation name="process">
+         <input message="client:ContactWSEndPointSiebelRequestMessage"/>
+         <output message="client:ContactWSEndPointSiebelResponseMessage"/>
+      </operation>
+   </portType>
+   <plnk:partnerLinkType name="ContactWSEndPointSiebel">
+      <plnk:role name="ContactWSEndPointSiebelProvider">
+         <plnk:portType name="client:ContactWSEndPointSiebel"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+</definitions>

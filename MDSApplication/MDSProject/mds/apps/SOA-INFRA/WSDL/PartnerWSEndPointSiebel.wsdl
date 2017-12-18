@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions name="PartnerWSEndPointSiebel"
+             targetNamespace="http://xmlns.oracle.com/PartnerWSEndPointSiebel"
+             xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:ns5="http://siebel.com/CustomUI"
+             xmlns:ns4="http://www.siebel.com/xml/ISG_SF_Channel_Partner_IO/Id"
+             xmlns:ns1="http://www.siebel.com/xml/ISG_SF_Channel_Partner_IO/Data"
+             xmlns:ns2="http://www.siebel.com/xml/ISG_SF_Channel_Partner_IO/Query"
+             xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+             xmlns:ns3="http://schemas.xmlsoap.org/ws/2003/03/addressing"
+             xmlns:client="http://xmlns.oracle.com/PartnerWSEndPointSiebel"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <plnk:partnerLinkType name="PartnerWSEndPointSiebel">
+      <plnk:role name="PartnerWSEndPointSiebelProvider">
+         <plnk:portType name="client:PartnerWSEndPointSiebel"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+   <import namespace="http://schemas.oracle.com/bpel/extension"
+           location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <import namespace="http://siebel.com/CustomUI"
+           location="oramds:/apps/WSDL/ISG_SF_Channel_Partner_WS.wsdl"/>
+   <types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/PartnerWSEndPointSiebel"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/PartnerWSEndPointSiebel.xsd"/>
+      </schema>
+   </types>
+   <message name="PartnerWSEndPointSiebelRequestMessage">
+      <part name="Headerrequest"
+            element="client:PartnerWSEndPointSiebelProcessRequest"/>
+      <part name="OPListOfPartner"
+            element="ns1:ListOfIsg_Sf_Channel_Partner_Io"/>
+      <part name="OPListOfPartnerQuery"
+            element="ns2:ListOfIsg_Sf_Channel_Partner_Io"/>
+   </message>
+   <message name="PartnerWSEndPointSiebelResponseMessage">
+      <part name="Headerresponse"
+            element="client:PartnerWSEndPointSiebelProcessResponse"/>
+      <part name="OPListOfPartnerOutput"
+            element="ns4:ListOfIsg_Sf_Channel_Partner_Io"/>
+      <part name="OPListOfPartnerQueryOutput"
+            element="ns1:ListOfIsg_Sf_Channel_Partner_Io"/>
+   </message>
+   <portType name="PartnerWSEndPointSiebel">
+      <operation name="process">
+         <input message="client:PartnerWSEndPointSiebelRequestMessage"/>
+         <output message="client:PartnerWSEndPointSiebelResponseMessage"/>
+      </operation>
+   </portType>
+</definitions>

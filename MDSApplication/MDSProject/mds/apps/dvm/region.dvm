@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="region" xmlns="http://xmlns.oracle.com/dvm">
+<description/>
+<columns>
+<column name="Siebel"/>
+<column name="Salesforce"/>
+</columns>
+<rows>
+<row>
+<cell>APAC</cell>
+<cell>APAC</cell>
+</row>
+<row>
+<cell>EMEA</cell>
+<cell>EMEA</cell>
+</row>
+<row>
+<cell>JAPAN</cell>
+<cell>JPN</cell>
+</row>
+<row>
+<cell>LTAM</cell>
+<cell>LTAM</cell>
+</row>
+<row>
+<cell>NA</cell>
+<cell>NA</cell>
+</row>
+</rows>
+</dvm>

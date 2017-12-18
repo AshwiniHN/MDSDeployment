@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="SyncOnOpportunitySFProvABCSBPELProcess" targetNamespace="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/SyncOnOpportunitySFProvABCSImpl/SyncOnOpportunitySFProvABCSBPELProcess" xmlns:ns2="http://SalesforceIntegration/OptyIds" xmlns:ns1="http://www.siebel.com/xml/ISG_SF_Opportunity_IO" xmlns:ns4="http://SalesforceIntegration/XREFIds" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns3="http://schemas.oracle.com/bpel/extension" xmlns:client="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/SyncOnOpportunitySFProvABCSImpl/SyncOnOpportunitySFProvABCSBPELProcess" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <plnk:partnerLinkType name="SyncOnOpportunitySFProvABCSBPELProcess">
+      <plnk:role name="SyncOnOpportunitySFProvABCSBPELProcessProvider">
+         <plnk:portType name="client:SyncOnOpportunitySFProvABCSBPELProcess"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+   <wsdl:import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/SOA-INFRA/COMMON/RuntimeFault.wsdl"/>
+   <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://SalesforceIntegration/OptyIds" xmlns:ns1="http://www.siebel.com/xml/ISG_SF_Opportunity_IO1" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns4="http://SalesforceIntegration/XREFIds" xmlns:ns3="http://schemas.oracle.com/bpel/extension" xmlns:client="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/SyncOnOpportunitySFProvABCSImpl/SyncOnOpportunitySFProvABCSBPELProcess" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/SyncOnOpportunitySFProvABCSImpl/SyncOnOpportunitySFProvABCSBPELProcess" schemaLocation="oramds:/apps/SOA-INFRA/XSD/SyncOnOpportunitySFProvABCSBPELProcess.xsd"/>
+      </schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://SalesforceIntegration/OptyIds" xmlns:ns1="http://www.siebel.com/xml/ISG_SF_Opportunity_IO1" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns4="http://SalesforceIntegration/XREFIds" xmlns:ns3="http://schemas.oracle.com/bpel/extension" xmlns:client="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/SyncOnOpportunitySFProvABCSImpl/SyncOnOpportunitySFProvABCSBPELProcess" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+         <xsd:import namespace="http://www.siebel.com/xml/ISG_SF_Opportunity_IO" schemaLocation="oramds:/apps/XSD/Opportunity/SiebelMessage.xsd"/>
+      </xsd:schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://SalesforceIntegration/OptyIds" xmlns:ns1="http://www.siebel.com/xml/ISG_SF_Opportunity_IO1" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns4="http://SalesforceIntegration/XREFIds" xmlns:ns3="http://schemas.oracle.com/bpel/extension" xmlns:client="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/SyncOnOpportunitySFProvABCSImpl/SyncOnOpportunitySFProvABCSBPELProcess" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+         <xsd:import namespace="http://SalesforceIntegration/OptyIds" schemaLocation="oramds:/apps/XSD/Opportunity/OptyIds.xsd"/>
+      </xsd:schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://SalesforceIntegration/OptyIds" xmlns:ns1="http://www.siebel.com/xml/ISG_SF_Opportunity_IO1" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns4="http://SalesforceIntegration/XREFIds" xmlns:ns3="http://schemas.oracle.com/bpel/extension" xmlns:client="http://xmlns.oracle.com/NewDevelopmentSiebelToSalesforce/SyncOnOpportunitySFProvABCSImpl/SyncOnOpportunitySFProvABCSBPELProcess" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+         <xsd:import namespace="http://SalesforceIntegration/XREFIds" schemaLocation="oramds:/apps/XSD/Opportunity/XrefIds.xsd"/>
+      </xsd:schema>
+   </wsdl:types>
+   <wsdl:message name="SyncOnOpportunitySFProvABCSBPELProcessRequestMessage">
+      <wsdl:part name="HeaderMessage" element="client:process"/>
+      <wsdl:part name="OPListOfOpty" element="ns1:SiebelMessage"/>
+   </wsdl:message>
+  <!-- <wsdl:message name="SyncOnOpportunitySFProvABCSBPELProcessResponseMessage">
+      <wsdl:part name="HeaderResp" element="client:processResponse"/>
+   </wsdl:message> -->
+   <wsdl:portType name="SyncOnOpportunitySFProvABCSBPELProcess">
+      <wsdl:operation name="process">
+         <wsdl:input message="client:SyncOnOpportunitySFProvABCSBPELProcessRequestMessage"/>
+        
+      </wsdl:operation>
+   </wsdl:portType>
+</wsdl:definitions>

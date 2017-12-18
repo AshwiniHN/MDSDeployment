@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://xmlns.oracle.com/QuoteIntegration/SFtoSiebelOptyrealTimeSync/SFtoSiebelOpportunitySync"
+	xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="process">
+		<complexType>
+			<sequence>
+				<element name="OpportunityId" type="string"/>
+                                <element name="LegacyId" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="processResponse">
+		<complexType>
+			<sequence>
+				<element name="Status" type="string"/>
+                                <element name="SiebelOppportunityId" type="string"/>
+                                <element name="ErrorMessage" type="string"/>
+                                 <element name="BrokerEventId" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

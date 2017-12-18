@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="CommonErrorEmailService"
+                  targetNamespace="http://xmlns.mcafee.com/GoodsMvmt/CommonErrorEmailService"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:client="http://xmlns.mcafee.com/GoodsMvmt/CommonErrorEmailService"
+                  xmlns:ns1="http://xmlns.mcafee.com/GoodsMvmt/EmailInput"
+                  xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/">
+   <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.mcafee.com/GoodsMvmt/CommonErrorEmailService"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/CommonErrorEmailService.xsd"/>
+      </schema>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.mcafee.com/GoodsMvmt/EmailInput"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/EmailInput.xsd"/>
+      </schema>
+   </wsdl:types>
+   <wsdl:message name="CommonErrorEmailServiceRequestMessage">
+      <wsdl:part name="payload" element="ns1:EmailInputParameters"/>
+   </wsdl:message>
+   <wsdl:message name="CommonErrorEmailServiceResponseMessage">
+      <wsdl:part name="payload" element="client:processResponse"/>
+   </wsdl:message>
+   <wsdl:portType name="CommonErrorEmailService">
+      <wsdl:operation name="SendEmail">
+         <wsdl:input message="client:CommonErrorEmailServiceRequestMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:portType name="CommonErrorEmailServiceCallback">
+      <wsdl:operation name="processResponse">
+         <wsdl:input message="client:CommonErrorEmailServiceResponseMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <plnk:partnerLinkType name="CommonErrorEmailService">
+      <plnk:role name="CommonErrorEmailServiceProvider">
+         <plnk:portType name="client:CommonErrorEmailService"/>
+      </plnk:role>
+      <plnk:role name="CommonErrorEmailServiceRequester">
+         <plnk:portType name="client:CommonErrorEmailServiceCallback"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+</wsdl:definitions>

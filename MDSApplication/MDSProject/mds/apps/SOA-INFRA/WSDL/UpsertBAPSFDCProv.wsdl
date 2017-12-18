@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions name="UpsertBAPSFDCProvider" targetNamespace="http://xmlns.oracle.com/PPR_BAP_SFDCIntegration/PollBrokerBAPToSFProcessor/UpsertBAPSFDCProvider" xmlns:ns2="http://IsecG-SFDCIntegration/BAPForm" xmlns:ns1="http://xmlns.oracle.com/PPR_BAP_SFDCIntegration/PollBrokerBAPToSFProcessor/UpsertBAPSFDCProvider" xmlns:client="http://xmlns.oracle.com/PPR_BAP_SFDCIntegration/PollBrokerBAPToSFProcessor/UpsertBAPSFDCProvider" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns3="http://schemas.oracle.com/bpel/extension" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/">
+   <import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <types>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://IsecG-SFDCIntegration/BAPForm" xmlns:ns1="http://xmlns.oracle.com/PPR_BAP_SFDCIntegration/PollBrokerBAPToSFProcessor/UpsertBAPSFDCProvider" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/PPR_BAP_SFDCIntegration/PollBrokerBAPToSFProcessor/UpsertBAPSFDCProvider" xmlns:ns3="http://schemas.oracle.com/bpel/extension">
+         <xsd:import namespace="http://xmlns.oracle.com/PPR_BAP_SFDCIntegration/PollBrokerBAPToSFProcessor/UpsertBAPSFDCProvider" schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpsertBAPSFDCProvider.xsd"/>
+      </xsd:schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://IsecG-SFDCIntegration/BAPForm" xmlns:ns1="http://xmlns.oracle.com/PPR_BAP_SFDCIntegration/PollBrokerBAPToSFProcessor/UpsertBAPSFDCProvider" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/PPR_BAP_SFDCIntegration/PollBrokerBAPToSFProcessor/UpsertBAPSFDCProvider" xmlns:ns3="http://schemas.oracle.com/bpel/extension">
+         <xsd:import namespace="http://IsecG-SFDCIntegration/BAPForm" schemaLocation="oramds:/apps/SOA-INFRA/XSD/BAPForm.xsd"/>
+      </xsd:schema>
+   </types>
+   <message name="UpsertBAPSFDCProviderRequestMessage">
+      <part name="HeaderRequest" element="ns1:process"/>
+      <part name="BAPFormList" element="ns2:BAPForm"/>
+   </message>
+   <message name="UpsertBAPSFDCProviderResponseMessage">
+      <part name="payload" element="ns1:processResponse"/>
+   </message>
+   <portType name="UpsertBAPSFDCProvider">
+      <operation name="process">
+         <input message="client:UpsertBAPSFDCProviderRequestMessage"/>
+      </operation>
+   </portType>
+   <portType name="CallbackProcess">
+      <operation name="CallbackResult">
+         <input message="client:UpsertBAPSFDCProviderResponseMessage"/>
+      </operation>
+   </portType>
+   <plnk:partnerLinkType name="UpsertBAPSFDCProvider">
+      <plnk:role name="UpsertBAPSFDCProviderProcess">
+         <plnk:portType name="client:UpsertBAPSFDCProvider"/>
+      </plnk:role>
+      <plnk:role name="CallbackProcessMsg">
+         <plnk:portType name="client:CallbackProcess"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+</definitions>

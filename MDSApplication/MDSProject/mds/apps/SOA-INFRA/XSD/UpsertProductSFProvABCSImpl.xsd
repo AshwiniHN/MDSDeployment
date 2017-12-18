@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://SalesforceProject/UpsertProductSFProvABCSImpl"
+        xmlns:tns="http://SalesforceProject/UpsertProductSFProvABCSImpl"
+	xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="process">
+		<complexType>
+			<sequence>
+				<element name="CallerID" type="string"/>
+                                <element name="event_details" type="tns:ProductEvent" minOccurs="0"
+                     maxOccurs="unbounded" nillable="true"/>
+			</sequence>
+		</complexType>
+	</element>
+    <complexType name="ProductEvent">
+      <sequence>
+          <element name="eventId" type="string"/>
+          <element name="eventXML" type="anyType"/>
+      </sequence>
+   </complexType>
+	<element name="processResponse">
+		<complexType>
+			<sequence>
+				<element name="result" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

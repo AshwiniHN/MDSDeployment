@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/EAIBrokerProcessor" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.siebel.com/xml/EAIBrokerTxnMessage">
+   <import namespace="http://www.siebel.com/xml/EAIBrokerTxnMessage" schemaLocation="oramds:/apps/SOA-INFRA/XSD/EAIBrokerTransactionMessage.xsd"/>
+   <element name="EAIBrokerProcessorProcessRequest">
+      <complexType>
+         <sequence>
+            <element name="TxnMessage" type="anyType"/>
+            <element name="CallerId" type="string"/>
+            <element name="ClientFWMInstanceId" type="string"/>
+         </sequence>
+         <attribute name="ObjectType" type="string"/>
+         <attribute name="SourceType" type="string"/>
+         <attribute name="Operation" type="string"/>
+      </complexType>
+   </element>
+   <element name="EAIBrokerProcessorProcessResponse">
+      <complexType>
+         <sequence>
+            <element name="Status" type="string"/>
+            <element name="ErrMsg" type="string"/>
+            <element name="EventId" type="int"/>
+         </sequence>
+      </complexType>
+   </element>
+</schema>

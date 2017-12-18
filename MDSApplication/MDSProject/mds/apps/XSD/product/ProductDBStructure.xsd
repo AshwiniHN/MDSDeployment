@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified"
+            targetNamespace="http://SalesforceProject/ProductDBXML"
+            xmlns:tns="http://SalesforceProject/ProductDBXML">
+            
+  <xsd:element name="ProductStruture">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ProductEvents" type="tns:ProductEvent" minOccurs="0" maxOccurs="unbounded" nillable="true"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+  
+  
+    <xsd:complexType name="ProductEvent">
+      <xsd:sequence>
+        <xsd:element name="eventId" type="xsd:string"/>
+        <xsd:element name="SFXrefId" type="xsd:string"/>
+        <xsd:element name="sf_product_netchanges">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="netchange_id" type="xsd:integer"/>
+              <xsd:element name="eventId" type="xsd:string"/>
+              <xsd:element name="name" type="xsd:string"/>
+              <xsd:element name="EVENT_SF_ID" type="xsd:string"/>
+              <xsd:element name="SF_PRODUCT_PRICEBOOK_LINK_STATUS" type="xsd:string"/>
+               
+              <xsd:element name="active_flg" type="xsd:string"/>
+              <xsd:element name="orderable_flg" type="xsd:string"/>
+              <xsd:element name="desc_text" type="xsd:string"/>
+              <xsd:element name="divn_cd" type="xsd:string"/>
+              <xsd:element name="part_num" type="xsd:string"/>
+              <xsd:element name="prod_attrib01_cd" type="xsd:integer"/>
+              <xsd:element name="prod_cd" type="xsd:string"/>
+              <xsd:element name="prod_prodglobaluid" type="xsd:integer"/>
+              <xsd:element name="uom_cd" type="xsd:string"/>
+              <xsd:element name="class_name"/>
+              <xsd:element name="shippable_flg" type="xsd:string"/>
+              <xsd:element name="support_level" type="xsd:string"/>
+              <xsd:element name="default_terms_lgth" type="xsd:integer"/>
+              <xsd:element name="material_grp" type="xsd:string"/>
+              <xsd:element name="material_type" type="xsd:string"/>
+              <xsd:element name="cont_start" type="xsd:integer"/>
+              <xsd:element name="perp_plus"/>
+              <xsd:element name="perp_plus_item" type="xsd:string"/>
+              <xsd:element name="ph_level1" type="xsd:string"/>
+              <xsd:element name="ph_level2" type="xsd:string"/>
+              <xsd:element name="ph_level3" type="xsd:string"/>
+              <xsd:element name="ph_level4" type="xsd:string"/>
+              <xsd:element name="ph_level5" type="xsd:string"/>
+              <xsd:element name="ph_level6" type="xsd:string"/>
+              <xsd:element name="ph_level7" type="xsd:string"/>
+              <xsd:element name="product_type" type="xsd:string"/>
+              <xsd:element name="product_cd" type="xsd:integer"/>
+              <xsd:element name="support_cd" type="xsd:string"/>
+              <xsd:element name="eol_dt">
+                <xsd:complexType>
+                  <xsd:attribute name="nil" type="xsd:string"/>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="eos_dt">
+                <xsd:complexType>
+                  <xsd:attribute name="nil" type="xsd:string"/>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="sol_competency" type="xsd:string"/>
+              <xsd:element name="netchange_operation" type="xsd:string"/>
+              <xsd:element name="netchange_created_date" type="xsd:string"/>
+            </xsd:sequence>
+            <xsd:attribute name="xsi" type="xsd:string"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+    
+     <xsd:element name="SFStatusResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="StatusEvents" type="tns:StatusEvent" minOccurs="0" maxOccurs="unbounded" nillable="true"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+  
+  
+    <xsd:complexType name="StatusEvent">
+      <xsd:sequence>
+        <xsd:element name="eventId" type="xsd:string"/>
+        <xsd:element name="ppiID" type="xsd:string"/>
+        <xsd:element name="salesForceId" type="xsd:string"/>
+        <xsd:element name="status" type="xsd:string"/>
+        <xsd:element name="errorMessage" type="xsd:string"/>
+       
+      </xsd:sequence>
+    </xsd:complexType>
+     <xsd:element name="InstanceId">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="FMWInstanceID" type="xsd:string" />
+                                <xsd:element name="ErrorMessage" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+  
+</xsd:schema>

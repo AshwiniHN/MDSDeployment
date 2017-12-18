@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://Isecg-SalesforceProject/UpsertOpportunityRevenueSFProvABCSImpl"
+	xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="process">
+		<complexType>
+			<sequence>
+				<element name="SBLOptyId" type="string"/>
+                                <element name="SFOptyId" type="string"/>
+                                <element name="Caller" type="string"/>
+                                <element name="InsertUpdate" type="string"/>
+                                
+			</sequence>
+		</complexType>
+	</element>
+	<element name="processResponse">
+		<complexType>
+			<sequence>
+				<element name="Status" type="string"/>
+                                <element name="Errormessage" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema xmlns:ns1="http://www.example.org" xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" targetNamespace="http://SalesforceIntegration/UserWSIds" elementFormDefault="qualified">
+   <element name="ids">
+      <complexType>
+         <sequence>
+            <element name="SFIdInSBL" type="string"/>
+            <element name="SBLId" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+</schema>

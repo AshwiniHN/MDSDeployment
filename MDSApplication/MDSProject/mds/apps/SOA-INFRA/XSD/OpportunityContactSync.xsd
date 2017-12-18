@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://xmlns.oracle.com/Salesforce/OpportunityFromSFtoSiebel/OpportunityContactSync"
+	xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="process">
+		<complexType>
+			<sequence>
+				<element name="sfOptyid" type="string"/>
+                                <element name="opOptyId" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="processResponse">
+		<complexType>
+			<sequence>
+				<element name="result" type="string"/>
+                                <element name="errorMessage" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

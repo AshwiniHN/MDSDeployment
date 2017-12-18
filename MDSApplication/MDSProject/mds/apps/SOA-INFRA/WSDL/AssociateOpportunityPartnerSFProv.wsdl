@@ -1,0 +1,35 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<wsdl:definitions name="AssociateOpportunityPartnerSFProv"
+                  targetNamespace="http://xmlns.oracle.com/AccountIntegration/AssociateOpportunityPartnerSFProv/AssociateOpportunityPartnerSFProv"
+                  xmlns:ns2="http://schemas.oracle.com/bpel/extension"
+                  xmlns:ns1="http://www.siebel.com/xml/ISG_SF_Opportunity_IO/Data"
+                  xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+                  xmlns:client="http://xmlns.oracle.com/AccountIntegration/AssociateOpportunityPartnerSFProv/AssociateOpportunityPartnerSFProv"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+    <plnk:partnerLinkType name="AssociateOpportunityPartnerSFProv">
+        <plnk:role name="AssociateOpportunityPartnerSFProvProvider">
+            <plnk:portType name="client:AssociateOpportunityPartnerSFProv"/>
+        </plnk:role>
+    </plnk:partnerLinkType>
+    <wsdl:import namespace="http://schemas.oracle.com/bpel/extension"
+                 location="oramds:/apps/SOA-INFRA/COMMON/RuntimeFault.wsdl"/>
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema">
+            <import namespace="http://xmlns.oracle.com/AccountIntegration/AssociateOpportunityPartnerSFProv/AssociateOpportunityPartnerSFProv"
+                    schemaLocation="oramds:/apps/SOA-INFRA/XSD/AssociateOpportunityPartnerSFProv.xsd"/>
+        </schema>
+    </wsdl:types>
+    <wsdl:message name="AssociateOpportunityPartnerSFProvRequestMessage">
+        <!--wsdl:part name="payload" element="client:SiebelMessage"/-->
+        <wsdl:part name="payload" element="client:processRequest"/>
+    </wsdl:message>
+    <wsdl:message name="AssociateOpportunityPartnerSFProvResponseMessage">
+        <wsdl:part name="payload" element="client:processResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="AssociateOpportunityPartnerSFProv">
+        <wsdl:operation name="process">
+            <wsdl:input message="client:AssociateOpportunityPartnerSFProvRequestMessage"/>
+            <wsdl:output message="client:AssociateOpportunityPartnerSFProvResponseMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>

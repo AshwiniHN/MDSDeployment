@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+        targetNamespace="http://xmlns.oracle.com/QuoteIntegration/QuoteIntegrationFromBrokerToSF/UpsertQuoteSFProvider"
+        xmlns="http://www.w3.org/2001/XMLSchema">
+ <element name="processRequest">
+  <complexType>
+   <sequence>
+    <element name="CallerID" type="string"/>
+   </sequence>
+  </complexType>
+ </element>
+ <element name="processResponse">
+  <complexType>
+   <sequence>
+    <sequence>
+     <element name="ErrMsg" type="string"/>
+     <element name="Status" type="string"/>
+     <element name="ReturnSFId" type="string"/>
+    </sequence>
+   </sequence>
+  </complexType>
+ </element>
+</schema>

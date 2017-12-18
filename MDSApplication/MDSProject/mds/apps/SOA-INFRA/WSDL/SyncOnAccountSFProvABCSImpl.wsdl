@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="SyncOnAccountSFProvABCSImpl" targetNamespace="http://xmlns.oracle.com/SyncOnAccountSFProvABCSImpl" xmlns:ns2="http://SalesforceIntegration/account_SFIds" xmlns:ns1="http://www.siebel.com/xml/ISGSFAccountIO" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/SyncOnAccountSFProvABCSImpl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<plnk:partnerLinkType name="SyncOnAccountSFProvABCSImpl">
+<plnk:role name="SyncOnAccountSFProvABCSImplProvider">
+<plnk:portType name="client:SyncOnAccountSFProvABCSImpl"/>
+</plnk:role>
+</plnk:partnerLinkType>
+<wsdl:types>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.siebel.com/xml/ISGSFAccountIO" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/SyncOnAccountSFProvABCSImpl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<import namespace="http://www.siebel.com/xml/ISGSFAccountIO" schemaLocation="oramds:/apps/XSD/account/SiebelMessageAccount.xsd"/>
+</schema>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:import namespace="http://SalesforceIntegration/account_SFIds" schemaLocation="oramds:/apps/XSD/account/Account_SFId.xsd"/>
+</xsd:schema>
+</wsdl:types>
+<wsdl:message name="SyncOnAccountSFProvABCSImplRequestMessage">
+<wsdl:part name="OPOrgId" type="xsd:string"/>
+<wsdl:part name="OPListOfAccount" element="ns1:SiebelMessage"/>
+</wsdl:message>
+<wsdl:portType name="SyncOnAccountSFProvABCSImpl">
+<wsdl:operation name="process">
+<wsdl:input message="client:SyncOnAccountSFProvABCSImplRequestMessage"/>
+</wsdl:operation>
+</wsdl:portType>
+</wsdl:definitions>

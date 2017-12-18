@@ -1,0 +1,73 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<definitions name="InsertContactSFProvABCSImpl"
+             targetNamespace="http://xmlns.oracle.com/InsertContactSFProvABCSImpl"
+             xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:ns2="http://www.siebel.com/xml/ISGSFContactIO"
+             xmlns:ns1="http://xmlns.oracle.com/OP_SF_Contact/InsertContactSFProvABCSImpl/InsertContactSFProvABCSImpl"
+             xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+             xmlns:ns4="http://schemas.oracle.com/bpel/extension"
+             xmlns:od="urn:/crmondemand/xml/account"
+             xmlns:ns3="http://SalesforceIntegration/account_SFIds"
+             xmlns:client="http://xmlns.oracle.com/InsertContactSFProvABCSImpl"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns:ns5="http://SalesforceIntegration/contact_SFIds"
+             xmlns:ns6="http://SalesforceProject/SFEndpointProcess">
+    <plnk:partnerLinkType name="InsertContactSFProvABCSImpl">
+        <plnk:role name="InsertContactSFProvABCSImplProvider">
+            <plnk:portType name="client:InsertContactSFProvABCSImpl"/>
+        </plnk:role>
+    </plnk:partnerLinkType>
+    <import namespace="http://schemas.oracle.com/bpel/extension"
+            location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+    <types>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                    xmlns:ns2="http://www.siebel.com/xml/ISGSFContactIO"
+                    xmlns:ns1="http://xmlns.oracle.com/OP_SF_Contact/InsertContactSFProvABCSImpl/InsertContactSFProvABCSImpl"
+                    xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+                    xmlns:ns3="http://SalesforceIntegration/account_SFIds"
+                    xmlns:client="http://xmlns.oracle.com/InsertContactSFProvABCSImpl"
+                    xmlns:ns4="http://schemas.oracle.com/bpel/extension"
+                    xmlns:od="urn:/crmondemand/xml/account"
+                    xmlns:ns5="http://SalesforceIntegration/contact_SFIds">
+            <xsd:import namespace="http://xmlns.oracle.com/OP_SF_Contact/InsertContactSFProvABCSImpl/InsertContactSFProvABCSImpl"
+                        schemaLocation="oramds:/apps/SOA-INFRA/XSD/InsertContactSFProvABCSImpl.xsd"/>
+        </xsd:schema>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                    xmlns:ns2="http://www.siebel.com/xml/ISGSFContactIO"
+                    xmlns:ns1="http://xmlns.oracle.com/OP_SF_Contact/InsertContactSFProvABCSImpl/InsertContactSFProvABCSImpl"
+                    xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+                    xmlns:ns3="http://SalesforceIntegration/account_SFIds"
+                    xmlns:client="http://xmlns.oracle.com/InsertContactSFProvABCSImpl"
+                    xmlns:ns4="http://schemas.oracle.com/bpel/extension"
+                    xmlns:od="urn:/crmondemand/xml/account"
+                    xmlns:ns5="http://SalesforceIntegration/contact_SFIds">
+            <xsd:import namespace="http://www.siebel.com/xml/ISGSFContactIO"
+                        schemaLocation="oramds:/apps/SOA-INFRA/XSD/SiebelMessage.xsd"/>
+        </xsd:schema>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                    xmlns:ns2="http://www.siebel.com/xml/ISGSFContactIO"
+                    xmlns:ns1="http://xmlns.oracle.com/OP_SF_Account/InsertContactSFProvABCSImpl/InsertContactSFProvABCSImpl"
+                    xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+                    xmlns:ns3="http://SalesforceIntegration/account_SFIds"
+                    xmlns:client="http://xmlns.oracle.com/InsertContactSFProvABCSImpl"
+                    xmlns:ns4="http://schemas.oracle.com/bpel/extension"
+                    xmlns:od="urn:/crmondemand/xml/account"
+                    xmlns:ns5="http://SalesforceIntegration/contact_SFIds">
+            <xsd:import namespace="http://SalesforceIntegration/contact_SFIds"
+                        schemaLocation="oramds:/apps/XSD/contact/Contact_SFId.xsd"/>
+        </xsd:schema>
+    </types>
+    <message name="InsertContactSFProvABCSImplRequestMessage">
+        <part name="HeaderRequest" element="ns1:process"/>
+        <part name="OPListOfContact" element="ns2:SiebelMessage"/>
+    </message>
+    <message name="InsertContactSFProvABCSImplResponseMessage">
+        <part name="HeaderResponse" element="ns1:processResponse"/>
+    </message>
+    <portType name="InsertContactSFProvABCSImpl">
+        <operation name="process">
+            <input message="client:InsertContactSFProvABCSImplRequestMessage"/>
+            <output message="client:InsertContactSFProvABCSImplResponseMessage"/>
+        </operation>
+    </portType>
+</definitions>

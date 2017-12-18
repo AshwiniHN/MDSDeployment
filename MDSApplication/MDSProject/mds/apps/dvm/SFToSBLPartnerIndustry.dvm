@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="SFToSBLPartnerIndustry" xmlns="http://xmlns.oracle.com/dvm">
+  <description/>
+  <columns>
+    <column name="Siebel"/>
+    <column name="Salesforce"/>
+  </columns>
+  <rows>
+    <row>
+      <cell>4-5TOF2GP</cell>
+      <cell>Accounting &amp; Legal</cell>
+    </row>
+    <row>
+      <cell>1-11OT89</cell>
+      <cell>Aerospace &amp; Defense</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2GQ</cell>
+      <cell>Agriculture</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2GR</cell>
+      <cell>Automotive</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2GS</cell>
+      <cell>Aviation</cell>
+    </row>
+    <row>
+      <cell>1-11OT8G</cell>
+      <cell>Banking/Financial/Wealth Management</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2GT</cell>
+      <cell>Construction</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2GU</cell>
+      <cell>Consumer Products</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2GV</cell>
+      <cell>Discrete Manufacturing</cell>
+    </row>
+    <row>
+      <cell>1-11OT86</cell>
+      <cell>Education</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2GW</cell>
+      <cell>Energy/Oil &amp; Gas</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2GX</cell>
+      <cell>Food/Beverages</cell>
+    </row>
+    <row>
+      <cell>1-11PFCH</cell>
+      <cell>Government</cell>
+    </row>
+    <row>
+      <cell>1-11OT84</cell>
+      <cell>Healthcare</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2GY</cell>
+      <cell>Hospitality</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2GZ</cell>
+      <cell>Industrial</cell>
+    </row>
+    <row>
+      <cell>1-11OT85</cell>
+      <cell>Insurance</cell>
+    </row>
+    <row>
+      <cell>1-11OT8A</cell>
+      <cell>Manufacturing</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2H0</cell>
+      <cell>Media &amp; Communications</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2H1</cell>
+      <cell>Mining</cell>
+    </row>
+    <row>
+      <cell>1-11OT8F</cell>
+      <cell>Other</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2H2</cell>
+      <cell>Outsourcing &amp; Hosting</cell>
+    </row>
+    <row>
+      <cell>1-11OT87</cell>
+      <cell>Pharma</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2H3</cell>
+      <cell>Process Manufacturing</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2H4</cell>
+      <cell>Real Estate</cell>
+    </row>
+    <row>
+      <cell>1-11OT8E</cell>
+      <cell>Retail</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2H5</cell>
+      <cell>Software</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2H6</cell>
+      <cell>Technology/IT</cell>
+    </row>
+    <row>
+      <cell>1-11OT8B</cell>
+      <cell>Telecom</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2H7</cell>
+      <cell>Transportation &amp; Shipping</cell>
+    </row>
+    <row>
+      <cell>1-11OT8C</cell>
+      <cell>Utilities</cell>
+    </row>
+    <row>
+      <cell>4-5TOF2H8</cell>
+      <cell>Welfare</cell>
+    </row>
+    <row>
+      <cell>1-11OT8D</cell>
+      <cell>Wholesale</cell>
+    </row>
+  </rows>
+</dvm>

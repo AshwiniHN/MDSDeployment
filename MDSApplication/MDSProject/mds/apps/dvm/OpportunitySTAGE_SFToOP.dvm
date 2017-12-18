@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="OpportunitySTAGE" xmlns="http://xmlns.oracle.com/dvm">
+<description/>
+<columns>
+<column name="Salesforce"/>
+<column name="Siebel"/>
+</columns>
+<rows>
+<row>
+<cell>Pre Qualified</cell>
+<cell>3-HTYW1Y</cell>
+</row>
+<row>
+<cell>Qualified</cell>
+<cell>3-HTYW1Z</cell>
+</row>
+<row>
+<cell>Solution Defined</cell>
+<cell>3-HTYW20</cell>
+</row>
+<row>
+<cell>Technical Win</cell>
+<cell>3-HTYW21</cell>
+</row>
+<row>
+<cell>Business Win</cell>
+<cell>3-HTYW22</cell>
+</row>
+<row>
+<cell>In Channel</cell>
+<cell>3-HTYW24</cell>
+</row>
+<row>
+<cell>Closed Won</cell>
+<cell>3-HTYW26</cell>
+</row>
+<row>
+<cell>Closed Lost</cell>
+<cell>3-HTYW27</cell>
+</row>
+</rows>
+</dvm>

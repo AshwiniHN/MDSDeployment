@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="XREFMultiLookUp" targetNamespace="http://xmlns.oracle.com/LatestCode/XREFInterface/XREFMultiLookUp" xmlns:ns2="http://xmlns.oracle.com/XREFInterface" xmlns:ns1="http://schemas.oracle.com/bpel/extension" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/LatestCode/XREFInterface/XREFMultiLookUp" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+   <plnk:partnerLinkType name="XREFMultiLookUp">
+      <plnk:role name="XREFMultiLookUpProvider">
+         <plnk:portType name="client:XREFMultiLookUp"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+   <wsdl:import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/XREFInterface" schemaLocation="oramds:/apps/SOA-INFRA/XSD/OPSF_XREF.xsd"/>
+      </schema>
+   </wsdl:types>
+   <wsdl:message name="XREFMultiLookUpRequestMessage">
+      <wsdl:part name="XREFInput" element="ns2:xrefinput"/>
+   </wsdl:message>
+   <wsdl:message name="XREFMultiLookUpResponseMessage">
+      <wsdl:part name="XREFOutput" element="ns2:xrefinput"/>
+   </wsdl:message>
+   <wsdl:portType name="XREFMultiLookUp">
+      <wsdl:operation name="process">
+         <wsdl:input message="client:XREFMultiLookUpRequestMessage"/>
+         <wsdl:output message="client:XREFMultiLookUpResponseMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+</wsdl:definitions>

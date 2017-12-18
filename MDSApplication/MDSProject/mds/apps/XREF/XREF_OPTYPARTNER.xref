@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xref xmlns="http://xmlns.oracle.com/xref">
+<table name="XREF_OPTYPARTNER" mode="specific" dbtable="XREF_OPTYPARTNER">
+<description/>
+<columns>
+<column name="SIEBEL"/>
+<column name="SALESFORCE"/>
+</columns>
+</table>
+</xref>

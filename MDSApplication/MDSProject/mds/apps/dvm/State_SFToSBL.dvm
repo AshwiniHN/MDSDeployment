@@ -1,0 +1,7514 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="State_SFToSBL" xmlns="http://xmlns.oracle.com/dvm">
+  <description/>
+  <columns>
+    <column name="SALESFORCE"/>
+    <column name="SBL"/>
+  </columns>
+  <rows>
+    <row>
+      <cell>Virginia-US</cell>
+      <cell>VA</cell>
+    </row>
+    <row>
+      <cell>Virgin Islands-US</cell>
+      <cell>VI</cell>
+    </row>
+    <row>
+      <cell>Vermont-US</cell>
+      <cell>VT</cell>
+    </row>
+    <row>
+      <cell>Utah-US</cell>
+      <cell>UT</cell>
+    </row>
+    <row>
+      <cell>Texas-US</cell>
+      <cell>TX</cell>
+    </row>
+    <row>
+      <cell>Tennessee-US</cell>
+      <cell>TN</cell>
+    </row>
+    <row>
+      <cell>South Dakota-US</cell>
+      <cell>SD</cell>
+    </row>
+    <row>
+      <cell>South Carolina-US</cell>
+      <cell>SC</cell>
+    </row>
+    <row>
+      <cell>Rhode Island-US</cell>
+      <cell>RI</cell>
+    </row>
+    <row>
+      <cell>Puerto Rico-US</cell>
+      <cell>PR</cell>
+    </row>
+    <row>
+      <cell>Pennsylvania-US</cell>
+      <cell>PA</cell>
+    </row>
+    <row>
+      <cell>Oregon-US</cell>
+      <cell>OR</cell>
+    </row>
+    <row>
+      <cell>Oklahoma-US</cell>
+      <cell>OK</cell>
+    </row>
+    <row>
+      <cell>Ohio-US</cell>
+      <cell>OH</cell>
+    </row>
+    <row>
+      <cell>North Dakota-US</cell>
+      <cell>ND</cell>
+    </row>
+    <row>
+      <cell>North Carolina-US</cell>
+      <cell>NC</cell>
+    </row>
+    <row>
+      <cell>New York-US</cell>
+      <cell>NY</cell>
+    </row>
+    <row>
+      <cell>New Mexico-US</cell>
+      <cell>NM</cell>
+    </row>
+    <row>
+      <cell>New Jersey-US</cell>
+      <cell>NJ</cell>
+    </row>
+    <row>
+      <cell>New Hampshire-US</cell>
+      <cell>NH</cell>
+    </row>
+    <row>
+      <cell>Nevada-US</cell>
+      <cell>NV</cell>
+    </row>
+    <row>
+      <cell>Nebraska-US</cell>
+      <cell>NE</cell>
+    </row>
+    <row>
+      <cell>Palau Island-US</cell>
+      <cell>PW</cell>
+    </row>
+    <row>
+      <cell>Northern Mariana IsI (Isle)-US</cell>
+      <cell>MP</cell>
+    </row>
+    <row>
+      <cell>Marshall Islands-US</cell>
+      <cell>MH</cell>
+    </row>
+    <row>
+      <cell>Federated States of Micronesia-US</cell>
+      <cell>FM</cell>
+    </row>
+    <row>
+      <cell>Montana-US</cell>
+      <cell>MT</cell>
+    </row>
+    <row>
+      <cell>Missouri-US</cell>
+      <cell>MO</cell>
+    </row>
+    <row>
+      <cell>Mississippi-US</cell>
+      <cell>MS</cell>
+    </row>
+    <row>
+      <cell>Minnesota-US</cell>
+      <cell>MN</cell>
+    </row>
+    <row>
+      <cell>Michigan-US</cell>
+      <cell>MI</cell>
+    </row>
+    <row>
+      <cell>Massachusetts-US</cell>
+      <cell>MA</cell>
+    </row>
+    <row>
+      <cell>Maryland-US</cell>
+      <cell>MD</cell>
+    </row>
+    <row>
+      <cell>Maine-US</cell>
+      <cell>ME</cell>
+    </row>
+    <row>
+      <cell>Louisiana-US</cell>
+      <cell>LA</cell>
+    </row>
+    <row>
+      <cell>Kentucky-US</cell>
+      <cell>KY</cell>
+    </row>
+    <row>
+      <cell>Kansas-US</cell>
+      <cell>KS</cell>
+    </row>
+    <row>
+      <cell>Iowa-US</cell>
+      <cell>IA</cell>
+    </row>
+    <row>
+      <cell>Indiana-US</cell>
+      <cell>IN</cell>
+    </row>
+    <row>
+      <cell>Illinois-US</cell>
+      <cell>IL</cell>
+    </row>
+    <row>
+      <cell>Idaho-US</cell>
+      <cell>ID</cell>
+    </row>
+    <row>
+      <cell>Hawaii-US</cell>
+      <cell>HI</cell>
+    </row>
+    <row>
+      <cell>Guam-US</cell>
+      <cell>GU</cell>
+    </row>
+    <row>
+      <cell>Georgia-US</cell>
+      <cell>GA</cell>
+    </row>
+    <row>
+      <cell>Florida-US</cell>
+      <cell>FL</cell>
+    </row>
+    <row>
+      <cell>District Of Columbia-US</cell>
+      <cell>DC</cell>
+    </row>
+    <row>
+      <cell>Delaware-US</cell>
+      <cell>DE</cell>
+    </row>
+    <row>
+      <cell>Connecticut-US</cell>
+      <cell>CT</cell>
+    </row>
+    <row>
+      <cell>Colorado-US</cell>
+      <cell>CO</cell>
+    </row>
+    <row>
+      <cell>California-US</cell>
+      <cell>CA</cell>
+    </row>
+    <row>
+      <cell>Armed Forces Pacific-US</cell>
+      <cell>AP</cell>
+    </row>
+    <row>
+      <cell>Arkansas-US</cell>
+      <cell>AR</cell>
+    </row>
+    <row>
+      <cell>Armed Forces Europe-US</cell>
+      <cell>AE</cell>
+    </row>
+    <row>
+      <cell>Armed Forces Americas-US</cell>
+      <cell>AA</cell>
+    </row>
+    <row>
+      <cell>Arizona-US</cell>
+      <cell>AZ</cell>
+    </row>
+    <row>
+      <cell>American Samoa-US</cell>
+      <cell>AS</cell>
+    </row>
+    <row>
+      <cell>Alaska-US</cell>
+      <cell>AK</cell>
+    </row>
+    <row>
+      <cell>Alabama-US</cell>
+      <cell>AL</cell>
+    </row>
+    <row>
+      <cell>Treinta Y Tres-UY</cell>
+      <cell>Treinta Y Tres</cell>
+    </row>
+    <row>
+      <cell>Tacuarembo-UY</cell>
+      <cell>Tacuarembo</cell>
+    </row>
+    <row>
+      <cell>Soriano-UY</cell>
+      <cell>Soriano</cell>
+    </row>
+    <row>
+      <cell>San Jose-UY</cell>
+      <cell>San Jose</cell>
+    </row>
+    <row>
+      <cell>Salto-UY</cell>
+      <cell>Salto</cell>
+    </row>
+    <row>
+      <cell>Rocha-UY</cell>
+      <cell>Rocha</cell>
+    </row>
+    <row>
+      <cell>Rivera-UY</cell>
+      <cell>Rivera</cell>
+    </row>
+    <row>
+      <cell>Rio Negro-UY</cell>
+      <cell>Rio Negro</cell>
+    </row>
+    <row>
+      <cell>Paysandu-UY</cell>
+      <cell>Paysandu</cell>
+    </row>
+    <row>
+      <cell>Montevideo-UY</cell>
+      <cell>Montevideo</cell>
+    </row>
+    <row>
+      <cell>Maldonado-UY</cell>
+      <cell>Maldonado</cell>
+    </row>
+    <row>
+      <cell>Lavalleja-UY</cell>
+      <cell>Lavalleja</cell>
+    </row>
+    <row>
+      <cell>Florida-UY</cell>
+      <cell>Florida</cell>
+    </row>
+    <row>
+      <cell>Flores-UY</cell>
+      <cell>Flores</cell>
+    </row>
+    <row>
+      <cell>Duranzo-UY</cell>
+      <cell>Duranzo</cell>
+    </row>
+    <row>
+      <cell>Colonia-UY</cell>
+      <cell>Colonia</cell>
+    </row>
+    <row>
+      <cell>Cerro Largo-UY</cell>
+      <cell>Cerro Largo</cell>
+    </row>
+    <row>
+      <cell>Canelones-UY</cell>
+      <cell>Canelones</cell>
+    </row>
+    <row>
+      <cell>York-GB</cell>
+      <cell>York</cell>
+    </row>
+    <row>
+      <cell>Artigas-UY</cell>
+      <cell>Artigas</cell>
+    </row>
+    <row>
+      <cell>Wrekin-GB</cell>
+      <cell>Wrekin</cell>
+    </row>
+    <row>
+      <cell>Worcestershire-GB</cell>
+      <cell>Worcesshre</cell>
+    </row>
+    <row>
+      <cell>Windsor &amp; Maidenhead-GB</cell>
+      <cell>WinMaidhed</cell>
+    </row>
+    <row>
+      <cell>Wiltshire-GB</cell>
+      <cell>Wiltshire</cell>
+    </row>
+    <row>
+      <cell>Western Isles-GB</cell>
+      <cell>WestnIsles</cell>
+    </row>
+    <row>
+      <cell>West Yorkshire-GB</cell>
+      <cell>WYorkshre</cell>
+    </row>
+    <row>
+      <cell>West Sussex-GB</cell>
+      <cell>WSussex</cell>
+    </row>
+    <row>
+      <cell>West Midlands-GB</cell>
+      <cell>WMidlands</cell>
+    </row>
+    <row>
+      <cell>West Glamorgan-GB</cell>
+      <cell>WGlamorgan</cell>
+    </row>
+    <row>
+      <cell>Warwickshire-GB</cell>
+      <cell>Warwicshre</cell>
+    </row>
+    <row>
+      <cell>Wales-GB</cell>
+      <cell>Wales</cell>
+    </row>
+    <row>
+      <cell>Warrington-GB</cell>
+      <cell>Warrington</cell>
+    </row>
+    <row>
+      <cell>Tyne and Wear-GB</cell>
+      <cell>TyneWear</cell>
+    </row>
+    <row>
+      <cell>Torbay-GB</cell>
+      <cell>Torbay</cell>
+    </row>
+    <row>
+      <cell>Thurrock-GB</cell>
+      <cell>Thurrock</cell>
+    </row>
+    <row>
+      <cell>Thamesdown-GB</cell>
+      <cell>Thamesdown</cell>
+    </row>
+    <row>
+      <cell>Tayside-GB</cell>
+      <cell>Tayside</cell>
+    </row>
+    <row>
+      <cell>Sussex-GB</cell>
+      <cell>Sussex</cell>
+    </row>
+    <row>
+      <cell>Surrey-GB</cell>
+      <cell>Surrey</cell>
+    </row>
+    <row>
+      <cell>Suffolk-GB</cell>
+      <cell>Suffolk</cell>
+    </row>
+    <row>
+      <cell>Strathclyde-GB</cell>
+      <cell>Stratclyde</cell>
+    </row>
+    <row>
+      <cell>Strabane-GB</cell>
+      <cell>Strabane</cell>
+    </row>
+    <row>
+      <cell>Stockton-on-Tees-GB</cell>
+      <cell>Stockton-on-Tees</cell>
+    </row>
+    <row>
+      <cell>Sth. Gloucestershire-GB</cell>
+      <cell>SGloceshre</cell>
+    </row>
+    <row>
+      <cell>Staffordshire-GB</cell>
+      <cell>Stafrdshre</cell>
+    </row>
+    <row>
+      <cell>Southend-GB</cell>
+      <cell>Southend</cell>
+    </row>
+    <row>
+      <cell>Southampton-GB</cell>
+      <cell>Southampton</cell>
+    </row>
+    <row>
+      <cell>South Yorkshire-GB</cell>
+      <cell>SYorkshre</cell>
+    </row>
+    <row>
+      <cell>South Humberside-GB</cell>
+      <cell>SHumbrside</cell>
+    </row>
+    <row>
+      <cell>South Glamorgan-GB</cell>
+      <cell>SGlamorgan</cell>
+    </row>
+    <row>
+      <cell>Somerset-GB</cell>
+      <cell>Somerset</cell>
+    </row>
+    <row>
+      <cell>Slough-GB</cell>
+      <cell>Slough</cell>
+    </row>
+    <row>
+      <cell>Shropshire-GB</cell>
+      <cell>Shropshire</cell>
+    </row>
+    <row>
+      <cell>Shetland-GB</cell>
+      <cell>Shetland</cell>
+    </row>
+    <row>
+      <cell>Rutland-GB</cell>
+      <cell>Rutland</cell>
+    </row>
+    <row>
+      <cell>Rochester up. Medway-GB</cell>
+      <cell>Rochester up. Medway</cell>
+    </row>
+    <row>
+      <cell>Redcar and Cleveland-GB</cell>
+      <cell>Redcar and Cleveland</cell>
+    </row>
+    <row>
+      <cell>Powys-GB</cell>
+      <cell>Powys</cell>
+    </row>
+    <row>
+      <cell>Reading-GB</cell>
+      <cell>Reading</cell>
+    </row>
+    <row>
+      <cell>Poole-GB</cell>
+      <cell>Poole</cell>
+    </row>
+    <row>
+      <cell>Portsmouth-GB</cell>
+      <cell>Portsmouth</cell>
+    </row>
+    <row>
+      <cell>Plymouth-GB</cell>
+      <cell>Plymouth</cell>
+    </row>
+    <row>
+      <cell>Peterborough-GB</cell>
+      <cell>Peterborgh</cell>
+    </row>
+    <row>
+      <cell>Oxfordshire-GB</cell>
+      <cell>Oxfordshre</cell>
+    </row>
+    <row>
+      <cell>Omagh-GB</cell>
+      <cell>Omagh</cell>
+    </row>
+    <row>
+      <cell>Orkney-GB</cell>
+      <cell>Orkney</cell>
+    </row>
+    <row>
+      <cell>NthEast Lincolnshire-GB</cell>
+      <cell>NELincshre</cell>
+    </row>
+    <row>
+      <cell>Nottinghamshire-GB</cell>
+      <cell>Nothamshre</cell>
+    </row>
+    <row>
+      <cell>Nottingham City-GB</cell>
+      <cell>Nothamcity</cell>
+    </row>
+    <row>
+      <cell>Northumberland-GB</cell>
+      <cell>NHumbeland</cell>
+    </row>
+    <row>
+      <cell>Northamptonshire-GB</cell>
+      <cell>NHamptshre</cell>
+    </row>
+    <row>
+      <cell>North Yorkshire-GB</cell>
+      <cell>NYorkshire</cell>
+    </row>
+    <row>
+      <cell>North Somerset-GB</cell>
+      <cell>NSomerset</cell>
+    </row>
+    <row>
+      <cell>North Lincolnshire-GB</cell>
+      <cell>NLincoshre</cell>
+    </row>
+    <row>
+      <cell>North Humberside-GB</cell>
+      <cell>NHumbeside</cell>
+    </row>
+    <row>
+      <cell>North Down-GB</cell>
+      <cell>North Down</cell>
+    </row>
+    <row>
+      <cell>Norfolk-GB</cell>
+      <cell>Norfolk</cell>
+    </row>
+    <row>
+      <cell>Newtownabbey-GB</cell>
+      <cell>Newtownabbey</cell>
+    </row>
+    <row>
+      <cell>Newry and Mourne-GB</cell>
+      <cell>Newry and Mourne</cell>
+    </row>
+    <row>
+      <cell>Moyle-GB</cell>
+      <cell>Moyle</cell>
+    </row>
+    <row>
+      <cell>Newbury-GB</cell>
+      <cell>Newbury</cell>
+    </row>
+    <row>
+      <cell>Milton Keynes-GB</cell>
+      <cell>MiltKeynes</cell>
+    </row>
+    <row>
+      <cell>Middlesex-GB</cell>
+      <cell>Middlesex</cell>
+    </row>
+    <row>
+      <cell>Middlesbrough-GB</cell>
+      <cell>Middlbroug</cell>
+    </row>
+    <row>
+      <cell>Mid Glamorgan-GB</cell>
+      <cell>MidGlamorg</cell>
+    </row>
+    <row>
+      <cell>Merseyside-GB</cell>
+      <cell>Merseyside</cell>
+    </row>
+    <row>
+      <cell>Manchester-GB</cell>
+      <cell>Manchester</cell>
+    </row>
+    <row>
+      <cell>Luton-GB</cell>
+      <cell>Luton</cell>
+    </row>
+    <row>
+      <cell>Magherafelt-GB</cell>
+      <cell>Magherafelt</cell>
+    </row>
+    <row>
+      <cell>Lothian-GB</cell>
+      <cell>Lothian</cell>
+    </row>
+    <row>
+      <cell>Londonderry-GB</cell>
+      <cell>Londondery</cell>
+    </row>
+    <row>
+      <cell>Lisburn-GB</cell>
+      <cell>Lisburn</cell>
+    </row>
+    <row>
+      <cell>Lincolnshire-GB</cell>
+      <cell>Linconshre</cell>
+    </row>
+    <row>
+      <cell>Limavady-GB</cell>
+      <cell>Limavady</cell>
+    </row>
+    <row>
+      <cell>Leicestershire-GB</cell>
+      <cell>Leictrshre</cell>
+    </row>
+    <row>
+      <cell>Larne-GB</cell>
+      <cell>Larne</cell>
+    </row>
+    <row>
+      <cell>Waals-Brabant-BE</cell>
+      <cell>Wls-Brabnt</cell>
+    </row>
+    <row>
+      <cell>Arklow-IE</cell>
+      <cell>Arklow</cell>
+    </row>
+    <row>
+      <cell>Chairrai-IE</cell>
+      <cell>Chairrai</cell>
+    </row>
+    <row>
+      <cell>Gaillimhe-IE</cell>
+      <cell>Gaillimhe</cell>
+    </row>
+    <row>
+      <cell>Phortláige-IE</cell>
+      <cell>Phortláige</cell>
+    </row>
+    <row>
+      <cell>Aberdeenshire-GB</cell>
+      <cell>Aberdesire</cell>
+    </row>
+    <row>
+      <cell>Angus-GB</cell>
+      <cell>Angus</cell>
+    </row>
+    <row>
+      <cell>Ayrshire-GB</cell>
+      <cell>Ayrshire</cell>
+    </row>
+    <row>
+      <cell>Banffshire-GB</cell>
+      <cell>Banffshire</cell>
+    </row>
+    <row>
+      <cell>Berwickshire-GB</cell>
+      <cell>Berwicshre</cell>
+    </row>
+    <row>
+      <cell>Caithness-GB</cell>
+      <cell>Caithness</cell>
+    </row>
+    <row>
+      <cell>County Fermanagh-GB</cell>
+      <cell>Cnty Fermg</cell>
+    </row>
+    <row>
+      <cell>County Tyrone-GB</cell>
+      <cell>Cnty Tyron</cell>
+    </row>
+    <row>
+      <cell>Dumfriesshire-GB</cell>
+      <cell>Dumfrishre</cell>
+    </row>
+    <row>
+      <cell>Dunbartonshire-GB</cell>
+      <cell>Dunbarshre</cell>
+    </row>
+    <row>
+      <cell>East Lothian-GB</cell>
+      <cell>E Lothian</cell>
+    </row>
+    <row>
+      <cell>Guernsey-GB</cell>
+      <cell>Guernsey</cell>
+    </row>
+    <row>
+      <cell>Herefordshire-GB</cell>
+      <cell>Herefdshre</cell>
+    </row>
+    <row>
+      <cell>Inverness Shire-GB</cell>
+      <cell>Invnershre</cell>
+    </row>
+    <row>
+      <cell>Isle Of Arran-GB</cell>
+      <cell>IsleOArran</cell>
+    </row>
+    <row>
+      <cell>Isle Of Barra-GB</cell>
+      <cell>IsleOBarra</cell>
+    </row>
+    <row>
+      <cell>Isle Of Benbecula-GB</cell>
+      <cell>IsleOBenbe</cell>
+    </row>
+    <row>
+      <cell>Isle Of Bute-GB</cell>
+      <cell>IsleOBute</cell>
+    </row>
+    <row>
+      <cell>Isle Of Islay-GB</cell>
+      <cell>IsleOIslay</cell>
+    </row>
+    <row>
+      <cell>Isle Of Jura-GB</cell>
+      <cell>IsleOJura</cell>
+    </row>
+    <row>
+      <cell>Isle Of Lewis-GB</cell>
+      <cell>IsleOLewis</cell>
+    </row>
+    <row>
+      <cell>Isle Of Mull-GB</cell>
+      <cell>IsleOMull</cell>
+    </row>
+    <row>
+      <cell>Isle Of North Uist-GB</cell>
+      <cell>IsleONUist</cell>
+    </row>
+    <row>
+      <cell>Isle Of Skye-GB</cell>
+      <cell>IsleOSkye</cell>
+    </row>
+    <row>
+      <cell>Isle Of South Uist-GB</cell>
+      <cell>IsleOSUist</cell>
+    </row>
+    <row>
+      <cell>Jersey-GB</cell>
+      <cell>Jersey</cell>
+    </row>
+    <row>
+      <cell>Kincardineshire-GB</cell>
+      <cell>Kincarshre</cell>
+    </row>
+    <row>
+      <cell>Kinross Shire-GB</cell>
+      <cell>Kinrosshre</cell>
+    </row>
+    <row>
+      <cell>Kirkcudbrightshire-GB</cell>
+      <cell>Kirkcbshre</cell>
+    </row>
+    <row>
+      <cell>Lanarkshire-GB</cell>
+      <cell>Lanarkshre</cell>
+    </row>
+    <row>
+      <cell>London-GB</cell>
+      <cell>Cnty Londn</cell>
+    </row>
+    <row>
+      <cell>Midlothian-GB</cell>
+      <cell>Midlothian</cell>
+    </row>
+    <row>
+      <cell>Morayshire-GB</cell>
+      <cell>Morayshire</cell>
+    </row>
+    <row>
+      <cell>Nairnshire-GB</cell>
+      <cell>Nairnshire</cell>
+    </row>
+    <row>
+      <cell>Peeblesshire-GB</cell>
+      <cell>Peebleshre</cell>
+    </row>
+    <row>
+      <cell>Perthshire-GB</cell>
+      <cell>Perthshire</cell>
+    </row>
+    <row>
+      <cell>Renfrewshire-GB</cell>
+      <cell>Renfreshre</cell>
+    </row>
+    <row>
+      <cell>Ross Shire-GB</cell>
+      <cell>Ross Shire</cell>
+    </row>
+    <row>
+      <cell>Roxburghshire-GB</cell>
+      <cell>Roxbrgshre</cell>
+    </row>
+    <row>
+      <cell>Selkirkshire-GB</cell>
+      <cell>Sekirkshre</cell>
+    </row>
+    <row>
+      <cell>Shetland Islands-GB</cell>
+      <cell>SetlndIsle</cell>
+    </row>
+    <row>
+      <cell>Stirlingshire-GB</cell>
+      <cell>Stirlnshre</cell>
+    </row>
+    <row>
+      <cell>Sutherland-GB</cell>
+      <cell>Sutherland</cell>
+    </row>
+    <row>
+      <cell>West Lothian-GB</cell>
+      <cell>WLothian</cell>
+    </row>
+    <row>
+      <cell>Wigtownshire-GB</cell>
+      <cell>Wigtowshre</cell>
+    </row>
+    <row>
+      <cell>Neath-IE</cell>
+      <cell>Neath</cell>
+    </row>
+    <row>
+      <cell>Argyll-GB</cell>
+      <cell>Argyll</cell>
+    </row>
+    <row>
+      <cell>Clackmannanshire-GB</cell>
+      <cell>Clacmnshre</cell>
+    </row>
+    <row>
+      <cell>Århus amt-DK</cell>
+      <cell>Århus amt</cell>
+    </row>
+    <row>
+      <cell>Bornholm amt-DK</cell>
+      <cell>Bornholm amt</cell>
+    </row>
+    <row>
+      <cell>Copenhagen-DK</cell>
+      <cell>Copenhagen</cell>
+    </row>
+    <row>
+      <cell>Frederiksborg amt-DK</cell>
+      <cell>Frederiksborg amt</cell>
+    </row>
+    <row>
+      <cell>Fyn amt-DK</cell>
+      <cell>Fyn amt</cell>
+    </row>
+    <row>
+      <cell>Gronlands amt-DK</cell>
+      <cell>Gronlands amt</cell>
+    </row>
+    <row>
+      <cell>Kobenhavn amt-DK</cell>
+      <cell>Kobenhavn amt</cell>
+    </row>
+    <row>
+      <cell>Nordjyland-DK</cell>
+      <cell>Nordjyland</cell>
+    </row>
+    <row>
+      <cell>Ribe amt-DK</cell>
+      <cell>Ribe amt</cell>
+    </row>
+    <row>
+      <cell>Ringkobing amt-DK</cell>
+      <cell>Ringkobing amt</cell>
+    </row>
+    <row>
+      <cell>Roskilde amt-DK</cell>
+      <cell>Roskilde amt</cell>
+    </row>
+    <row>
+      <cell>Sonderjylland amt-DK</cell>
+      <cell>Sonderjylland amt</cell>
+    </row>
+    <row>
+      <cell>Vlaams-Brabant-BE</cell>
+      <cell>Vlm-Brabnt</cell>
+    </row>
+    <row>
+      <cell>Namen-BE</cell>
+      <cell>Namen</cell>
+    </row>
+    <row>
+      <cell>Luik-BE</cell>
+      <cell>Luik</cell>
+    </row>
+    <row>
+      <cell>Leuttich-BE</cell>
+      <cell>Leuttich</cell>
+    </row>
+    <row>
+      <cell>Limbourg-BE</cell>
+      <cell>Limbourg</cell>
+    </row>
+    <row>
+      <cell>Henegouwen-BE</cell>
+      <cell>Henegouwen</cell>
+    </row>
+    <row>
+      <cell>Bruxelles-Capitale-BE</cell>
+      <cell>Bruxl-Capt</cell>
+    </row>
+    <row>
+      <cell>Brussel-Hoofdstad-BE</cell>
+      <cell>Brsl-Hfstd</cell>
+    </row>
+    <row>
+      <cell>Brabant Wallon-BE</cell>
+      <cell>Brabt Waln</cell>
+    </row>
+    <row>
+      <cell>Brabant Flamand-BE</cell>
+      <cell>Brabt Flmd</cell>
+    </row>
+    <row>
+      <cell>Santiago-CL</cell>
+      <cell>Santiago</cell>
+    </row>
+    <row>
+      <cell>Marga Marga-CL</cell>
+      <cell>MargMarga</cell>
+    </row>
+    <row>
+      <cell>Maipo-CL</cell>
+      <cell>Maipo</cell>
+    </row>
+    <row>
+      <cell>Linares-CL</cell>
+      <cell>Linares</cell>
+    </row>
+    <row>
+      <cell>Limarí-CL</cell>
+      <cell>Limarí</cell>
+    </row>
+    <row>
+      <cell>Curicó-CL</cell>
+      <cell>Curicó</cell>
+    </row>
+    <row>
+      <cell>Chiloé-CL</cell>
+      <cell>Chiloé</cell>
+    </row>
+    <row>
+      <cell>Chacabuco-CL</cell>
+      <cell>Chacabuco</cell>
+    </row>
+    <row>
+      <cell>Cachapoal-CL</cell>
+      <cell>Cachapoal</cell>
+    </row>
+    <row>
+      <cell>Biobío-CL</cell>
+      <cell>Biobío</cell>
+    </row>
+    <row>
+      <cell>Arica-CL</cell>
+      <cell>Arica</cell>
+    </row>
+    <row>
+      <cell>Valdivia-CL</cell>
+      <cell>Valdivia</cell>
+    </row>
+    <row>
+      <cell>Talagante-CL</cell>
+      <cell>Talagante</cell>
+    </row>
+    <row>
+      <cell>San Felipe-CL</cell>
+      <cell>San Felipe</cell>
+    </row>
+    <row>
+      <cell>San Antonio-CL</cell>
+      <cell>SanAntonio</cell>
+    </row>
+    <row>
+      <cell>Quillota-CL</cell>
+      <cell>Quillota</cell>
+    </row>
+    <row>
+      <cell>Osorno-CL</cell>
+      <cell>Osorno</cell>
+    </row>
+    <row>
+      <cell>Ñuble-CL</cell>
+      <cell>Ñuble</cell>
+    </row>
+    <row>
+      <cell>Melipilla-CL</cell>
+      <cell>Melipilla</cell>
+    </row>
+    <row>
+      <cell>Magallanes-CL</cell>
+      <cell>Magallanes</cell>
+    </row>
+    <row>
+      <cell>Elqui-CL</cell>
+      <cell>Elqui</cell>
+    </row>
+    <row>
+      <cell>Cordillera-CL</cell>
+      <cell>Cordillera</cell>
+    </row>
+    <row>
+      <cell>Colchagua-CL</cell>
+      <cell>Colchagua</cell>
+    </row>
+    <row>
+      <cell>Cautín-CL</cell>
+      <cell>Cautín</cell>
+    </row>
+    <row>
+      <cell>Capitán Prat Province-CL</cell>
+      <cell>CapitánPro</cell>
+    </row>
+    <row>
+      <cell>BANGKOK-TW</cell>
+      <cell>BANGKOK</cell>
+    </row>
+    <row>
+      <cell>Bangkok-TH</cell>
+      <cell>Bangkok</cell>
+    </row>
+    <row>
+      <cell>Keelung-TW</cell>
+      <cell>Keelung</cell>
+    </row>
+    <row>
+      <cell>Putrajava-MY</cell>
+      <cell>Putrajava</cell>
+    </row>
+    <row>
+      <cell>Uttarakhand-IN</cell>
+      <cell>Uttarakhnd</cell>
+    </row>
+    <row>
+      <cell>Telangana-IN</cell>
+      <cell>Telangana</cell>
+    </row>
+    <row>
+      <cell>Corrientes-AR</cell>
+      <cell>Corrientes</cell>
+    </row>
+    <row>
+      <cell>Zulia-VE</cell>
+      <cell>Zulia</cell>
+    </row>
+    <row>
+      <cell>Yaracuy-VE</cell>
+      <cell>Yaracuy</cell>
+    </row>
+    <row>
+      <cell>Vargas-VE</cell>
+      <cell>Vargas</cell>
+    </row>
+    <row>
+      <cell>Trujillo-VE</cell>
+      <cell>Trujillo</cell>
+    </row>
+    <row>
+      <cell>Tachira-VE</cell>
+      <cell>Tachira</cell>
+    </row>
+    <row>
+      <cell>Sucre-VE</cell>
+      <cell>Sucre</cell>
+    </row>
+    <row>
+      <cell>Portuguesa-VE</cell>
+      <cell>Portuguesa</cell>
+    </row>
+    <row>
+      <cell>Nueva Esparta-VE</cell>
+      <cell>Nueva Esparta</cell>
+    </row>
+    <row>
+      <cell>Monagas-VE</cell>
+      <cell>Monagas</cell>
+    </row>
+    <row>
+      <cell>Miranda-VE</cell>
+      <cell>Miranda</cell>
+    </row>
+    <row>
+      <cell>Merida-VE</cell>
+      <cell>Merida</cell>
+    </row>
+    <row>
+      <cell>Lara-VE</cell>
+      <cell>Lara</cell>
+    </row>
+    <row>
+      <cell>Guarico-VE</cell>
+      <cell>Guarico</cell>
+    </row>
+    <row>
+      <cell>Falcon-VE</cell>
+      <cell>Falcon</cell>
+    </row>
+    <row>
+      <cell>Distrito Federal-VE</cell>
+      <cell>Distrito Federal</cell>
+    </row>
+    <row>
+      <cell>Delta Amacuro-VE</cell>
+      <cell>Delta Amacuro</cell>
+    </row>
+    <row>
+      <cell>Cojedes-VE</cell>
+      <cell>Cojedes</cell>
+    </row>
+    <row>
+      <cell>Carabobo-VE</cell>
+      <cell>Carabobo</cell>
+    </row>
+    <row>
+      <cell>CARACAS-VE</cell>
+      <cell>Caracas</cell>
+    </row>
+    <row>
+      <cell>Bolivar-VE</cell>
+      <cell>Bolivar</cell>
+    </row>
+    <row>
+      <cell>Barinas-VE</cell>
+      <cell>Barinas</cell>
+    </row>
+    <row>
+      <cell>Aragua-VE</cell>
+      <cell>Aragua</cell>
+    </row>
+    <row>
+      <cell>Washington-US</cell>
+      <cell>WA</cell>
+    </row>
+    <row>
+      <cell>Västerbottens Län-SE</cell>
+      <cell>Västerbottens Län</cell>
+    </row>
+    <row>
+      <cell>Värmlands Län-SE</cell>
+      <cell>Värmlands Län</cell>
+    </row>
+    <row>
+      <cell>Uppsala Län-SE</cell>
+      <cell>Uppsala Län</cell>
+    </row>
+    <row>
+      <cell>Södermanlands Län-SE</cell>
+      <cell>Södermanlands Län</cell>
+    </row>
+    <row>
+      <cell>Stockholms Län-SE</cell>
+      <cell>Stockholms Län</cell>
+    </row>
+    <row>
+      <cell>Skåne Län-SE</cell>
+      <cell>Skåne Län</cell>
+    </row>
+    <row>
+      <cell>Norrbottens Län-SE</cell>
+      <cell>Norrbottens Län</cell>
+    </row>
+    <row>
+      <cell>Kronobergs Län-SE</cell>
+      <cell>Kronobergs Län</cell>
+    </row>
+    <row>
+      <cell>Kalmar Län-SE</cell>
+      <cell>Kalmar Län</cell>
+    </row>
+    <row>
+      <cell>Jönköpings Län-SE</cell>
+      <cell>Jönköpings Län</cell>
+    </row>
+    <row>
+      <cell>Jämtlands Län-SE</cell>
+      <cell>Jämtlands Län</cell>
+    </row>
+    <row>
+      <cell>Hallands Län-SE</cell>
+      <cell>Hallands Län</cell>
+    </row>
+    <row>
+      <cell>Gävleborgs Län-SE</cell>
+      <cell>Gävleborgs Län</cell>
+    </row>
+    <row>
+      <cell>Gotlands Län-SE</cell>
+      <cell>Gotlands Län</cell>
+    </row>
+    <row>
+      <cell>Dalarnas Län-SE</cell>
+      <cell>Dalarnas Län</cell>
+    </row>
+    <row>
+      <cell>Blekinge Län-SE</cell>
+      <cell>Blekinge Län</cell>
+    </row>
+    <row>
+      <cell>Colombo-LK</cell>
+      <cell>Colombo</cell>
+    </row>
+    <row>
+      <cell>Zaragoza-ES</cell>
+      <cell>Zaragoza</cell>
+    </row>
+    <row>
+      <cell>Zamora-ES</cell>
+      <cell>Zamora</cell>
+    </row>
+    <row>
+      <cell>Vizcaya-ES</cell>
+      <cell>Vizcaya</cell>
+    </row>
+    <row>
+      <cell>Valladolid-ES</cell>
+      <cell>Valladolid</cell>
+    </row>
+    <row>
+      <cell>Valencia-ES</cell>
+      <cell>Valencia</cell>
+    </row>
+    <row>
+      <cell>Toledo-ES</cell>
+      <cell>Toledo</cell>
+    </row>
+    <row>
+      <cell>Teruel-ES</cell>
+      <cell>Teruel</cell>
+    </row>
+    <row>
+      <cell>Tarragona-ES</cell>
+      <cell>Tarragona</cell>
+    </row>
+    <row>
+      <cell>Sta. Cruz Tenerife-ES</cell>
+      <cell>Sta. Cruz Tenerife</cell>
+    </row>
+    <row>
+      <cell>Soria-ES</cell>
+      <cell>Soria</cell>
+    </row>
+    <row>
+      <cell>Sevilla-ES</cell>
+      <cell>Sevilla</cell>
+    </row>
+    <row>
+      <cell>Segovia-ES</cell>
+      <cell>Segovia</cell>
+    </row>
+    <row>
+      <cell>Salamanca-ES</cell>
+      <cell>Salamanca</cell>
+    </row>
+    <row>
+      <cell>Pontevedra-ES</cell>
+      <cell>Pontevedra</cell>
+    </row>
+    <row>
+      <cell>Palencia-ES</cell>
+      <cell>Palencia</cell>
+    </row>
+    <row>
+      <cell>Orense-ES</cell>
+      <cell>Orense</cell>
+    </row>
+    <row>
+      <cell>Navarra-ES</cell>
+      <cell>Navarra</cell>
+    </row>
+    <row>
+      <cell>Murcia-ES</cell>
+      <cell>Murcia</cell>
+    </row>
+    <row>
+      <cell>Malaga-ES</cell>
+      <cell>Malaga</cell>
+    </row>
+    <row>
+      <cell>Lugo-ES</cell>
+      <cell>Lugo</cell>
+    </row>
+    <row>
+      <cell>Madrid-ES</cell>
+      <cell>Madrid</cell>
+    </row>
+    <row>
+      <cell>Leon-ES</cell>
+      <cell>Leon</cell>
+    </row>
+    <row>
+      <cell>Lerida-ES</cell>
+      <cell>Lerida</cell>
+    </row>
+    <row>
+      <cell>Las Palmas-ES</cell>
+      <cell>Las Palmas</cell>
+    </row>
+    <row>
+      <cell>La Rioja-ES</cell>
+      <cell>La Rioja</cell>
+    </row>
+    <row>
+      <cell>Jaen-ES</cell>
+      <cell>Jaen</cell>
+    </row>
+    <row>
+      <cell>La Coruña-ES</cell>
+      <cell>La Coruña</cell>
+    </row>
+    <row>
+      <cell>Huesca-ES</cell>
+      <cell>Huesca</cell>
+    </row>
+    <row>
+      <cell>Huelva-ES</cell>
+      <cell>Huelva</cell>
+    </row>
+    <row>
+      <cell>Guipuzcoa-ES</cell>
+      <cell>Guipuzcoa</cell>
+    </row>
+    <row>
+      <cell>Guadalajara-ES</cell>
+      <cell>Guadalajara</cell>
+    </row>
+    <row>
+      <cell>Granada-ES</cell>
+      <cell>Granada</cell>
+    </row>
+    <row>
+      <cell>Gerona-ES</cell>
+      <cell>Gerona</cell>
+    </row>
+    <row>
+      <cell>Cuenca-ES</cell>
+      <cell>Cuenca</cell>
+    </row>
+    <row>
+      <cell>Córdoba-ES</cell>
+      <cell>Córdoba</cell>
+    </row>
+    <row>
+      <cell>Ciudad Real-ES</cell>
+      <cell>Ciudad Real</cell>
+    </row>
+    <row>
+      <cell>Castellon-ES</cell>
+      <cell>Castellon</cell>
+    </row>
+    <row>
+      <cell>Cantabria-ES</cell>
+      <cell>Cantabria</cell>
+    </row>
+    <row>
+      <cell>Cadiz-ES</cell>
+      <cell>Cadiz</cell>
+    </row>
+    <row>
+      <cell>Caceres-ES</cell>
+      <cell>Caceres</cell>
+    </row>
+    <row>
+      <cell>Burgos-ES</cell>
+      <cell>Burgos</cell>
+    </row>
+    <row>
+      <cell>Barcelona-ES</cell>
+      <cell>Barcelona</cell>
+    </row>
+    <row>
+      <cell>Baleares-ES</cell>
+      <cell>Baleares</cell>
+    </row>
+    <row>
+      <cell>Badajoz-ES</cell>
+      <cell>Badajoz</cell>
+    </row>
+    <row>
+      <cell>Avila-ES</cell>
+      <cell>Avila</cell>
+    </row>
+    <row>
+      <cell>Asturias-ES</cell>
+      <cell>Asturias</cell>
+    </row>
+    <row>
+      <cell>Almeria-ES</cell>
+      <cell>Almeria</cell>
+    </row>
+    <row>
+      <cell>Alicante-ES</cell>
+      <cell>Alicante</cell>
+    </row>
+    <row>
+      <cell>Albacete-ES</cell>
+      <cell>Albacete</cell>
+    </row>
+    <row>
+      <cell>Alava-ES</cell>
+      <cell>Alava</cell>
+    </row>
+    <row>
+      <cell>Ulsan-KR</cell>
+      <cell>Ulsan</cell>
+    </row>
+    <row>
+      <cell>Taejon-jikhalsi-KR</cell>
+      <cell>Taejon-jikhalsi</cell>
+    </row>
+    <row>
+      <cell>Taegu-jikhalsi-KR</cell>
+      <cell>Taegu-jikhalsi</cell>
+    </row>
+    <row>
+      <cell>Soul-t'ukpyolsi-KR</cell>
+      <cell>Soul-t'ukpyolsi</cell>
+    </row>
+    <row>
+      <cell>Seoul, S. Korea-KR</cell>
+      <cell>Seoul, S. Korea</cell>
+    </row>
+    <row>
+      <cell>Pusan-jikhalsi-KR</cell>
+      <cell>Pusan-jikhalsi</cell>
+    </row>
+    <row>
+      <cell>Kyongsang-namdo-KR</cell>
+      <cell>Kyongsang-namdo</cell>
+    </row>
+    <row>
+      <cell>Kyongsang-bukto-KR</cell>
+      <cell>Kyongsang-bukto</cell>
+    </row>
+    <row>
+      <cell>Kyonggi-do-KR</cell>
+      <cell>Kyonggi-do</cell>
+    </row>
+    <row>
+      <cell>Kwangju-jikhalsi-KR</cell>
+      <cell>Kwangju-jikhalsi</cell>
+    </row>
+    <row>
+      <cell>Kangwon-do-KR</cell>
+      <cell>Kangwon-do</cell>
+    </row>
+    <row>
+      <cell>Inch'on-jikhalsi-KR</cell>
+      <cell>Inch'on-jikhalsi</cell>
+    </row>
+    <row>
+      <cell>Cholla-namdo-KR</cell>
+      <cell>Cholla-namdo</cell>
+    </row>
+    <row>
+      <cell>Cholla-bukto-KR</cell>
+      <cell>Cholla-bukto</cell>
+    </row>
+    <row>
+      <cell>Cheju-do-KR</cell>
+      <cell>Cheju-do</cell>
+    </row>
+    <row>
+      <cell>Ch'ungch'ong-namdo-KR</cell>
+      <cell>Ch'ungch'ong-namdo</cell>
+    </row>
+    <row>
+      <cell>Ch'ungch'ong-bukto-KR</cell>
+      <cell>Ch'ungch'ong-bukto</cell>
+    </row>
+    <row>
+      <cell>Western Cape-ZA</cell>
+      <cell>WesterCape</cell>
+    </row>
+    <row>
+      <cell>North-West-ZA</cell>
+      <cell>North-West</cell>
+    </row>
+    <row>
+      <cell>Northern Province-ZA</cell>
+      <cell>NProvince</cell>
+    </row>
+    <row>
+      <cell>Northern Cape-ZA</cell>
+      <cell>NorthCape</cell>
+    </row>
+    <row>
+      <cell>Mpumalanga-ZA</cell>
+      <cell>Mpumalanga</cell>
+    </row>
+    <row>
+      <cell>Kwazulu/Natal-ZA</cell>
+      <cell>KwazuNatal</cell>
+    </row>
+    <row>
+      <cell>Gauteng-ZA</cell>
+      <cell>Gauteng</cell>
+    </row>
+    <row>
+      <cell>Freestate-ZA</cell>
+      <cell>Freestate</cell>
+    </row>
+    <row>
+      <cell>Eastern Cape-ZA</cell>
+      <cell>EastCape</cell>
+    </row>
+    <row>
+      <cell>Zalec-SI</cell>
+      <cell>Zalec</cell>
+    </row>
+    <row>
+      <cell>Bryanston-ZA</cell>
+      <cell>Bryanston</cell>
+    </row>
+    <row>
+      <cell>Zagorje Ob Savi-SI</cell>
+      <cell>Zagorje Ob Savi</cell>
+    </row>
+    <row>
+      <cell>Vrhnika-SI</cell>
+      <cell>Vrhnika</cell>
+    </row>
+    <row>
+      <cell>Trzic-SI</cell>
+      <cell>Trzic</cell>
+    </row>
+    <row>
+      <cell>Velenje-SI</cell>
+      <cell>Velenje</cell>
+    </row>
+    <row>
+      <cell>Trebnje-SI</cell>
+      <cell>Trebnje</cell>
+    </row>
+    <row>
+      <cell>Trbovlje-SI</cell>
+      <cell>Trbovlje</cell>
+    </row>
+    <row>
+      <cell>Tolmin-SI</cell>
+      <cell>Tolmin</cell>
+    </row>
+    <row>
+      <cell>Smarje Pri Jelsah-SI</cell>
+      <cell>Smarje Pri Jelsah</cell>
+    </row>
+    <row>
+      <cell>Slovenske Konjice-SI</cell>
+      <cell>Slovenske Konjice</cell>
+    </row>
+    <row>
+      <cell>Slovenska Bistrica-SI</cell>
+      <cell>Slovenska Bistrica</cell>
+    </row>
+    <row>
+      <cell>Slovenj Gradec-SI</cell>
+      <cell>Slovenj Gradec</cell>
+    </row>
+    <row>
+      <cell>Skofja Loka-SI</cell>
+      <cell>Skofja Loka</cell>
+    </row>
+    <row>
+      <cell>Sezana-SI</cell>
+      <cell>Sezana</cell>
+    </row>
+    <row>
+      <cell>Sevnica-SI</cell>
+      <cell>Sevnica</cell>
+    </row>
+    <row>
+      <cell>Ruse-SI</cell>
+      <cell>Ruse</cell>
+    </row>
+    <row>
+      <cell>Sentjur Pri Celju-SI</cell>
+      <cell>Sentjur Pri Celju</cell>
+    </row>
+    <row>
+      <cell>Ribnica-SI</cell>
+      <cell>Ribnica</cell>
+    </row>
+    <row>
+      <cell>Ravne Na Koroskem-SI</cell>
+      <cell>Ravne Na Koroskem</cell>
+    </row>
+    <row>
+      <cell>Radovljica-SI</cell>
+      <cell>Radovljica</cell>
+    </row>
+    <row>
+      <cell>Ptuj-SI</cell>
+      <cell>Ptuj</cell>
+    </row>
+    <row>
+      <cell>Radlje Ob Dravi-SI</cell>
+      <cell>Radlje Ob Dravi</cell>
+    </row>
+    <row>
+      <cell>Piran-SI</cell>
+      <cell>Piran</cell>
+    </row>
+    <row>
+      <cell>Postojna-SI</cell>
+      <cell>Postojna</cell>
+    </row>
+    <row>
+      <cell>Ormoz-SI</cell>
+      <cell>Ormoz</cell>
+    </row>
+    <row>
+      <cell>Pesnica-SI</cell>
+      <cell>Pesnica</cell>
+    </row>
+    <row>
+      <cell>Novo Mesto-SI</cell>
+      <cell>Novo Mesto</cell>
+    </row>
+    <row>
+      <cell>Nova Gorica-SI</cell>
+      <cell>Nova Gorica</cell>
+    </row>
+    <row>
+      <cell>Murska Sobota-SI</cell>
+      <cell>Murska Sobota</cell>
+    </row>
+    <row>
+      <cell>Mozirje-SI</cell>
+      <cell>Mozirje</cell>
+    </row>
+    <row>
+      <cell>Metlika-SI</cell>
+      <cell>Metlika</cell>
+    </row>
+    <row>
+      <cell>Maribor-SI</cell>
+      <cell>Maribor</cell>
+    </row>
+    <row>
+      <cell>Logatec-SI</cell>
+      <cell>Logatec</cell>
+    </row>
+    <row>
+      <cell>Ljutomer-SI</cell>
+      <cell>Ljutomer</cell>
+    </row>
+    <row>
+      <cell>Ljubljana-Vic-Rudnik-SI</cell>
+      <cell>Ljubljana-Vic-Rudnik</cell>
+    </row>
+    <row>
+      <cell>Ljubljana-Siska-SI</cell>
+      <cell>Ljubljana-Siska</cell>
+    </row>
+    <row>
+      <cell>Ljubljana-Moste-Polj-SI</cell>
+      <cell>Ljubljana-Moste-Polj</cell>
+    </row>
+    <row>
+      <cell>Ljubljana-Center-SI</cell>
+      <cell>Ljubljana-Center</cell>
+    </row>
+    <row>
+      <cell>Ljubljana-Bezigrad-SI</cell>
+      <cell>Ljubljana-Bezigrad</cell>
+    </row>
+    <row>
+      <cell>Litija-SI</cell>
+      <cell>Litija</cell>
+    </row>
+    <row>
+      <cell>Lendava-SI</cell>
+      <cell>Lendava</cell>
+    </row>
+    <row>
+      <cell>Krsko-SI</cell>
+      <cell>Krsko</cell>
+    </row>
+    <row>
+      <cell>Lenart-SI</cell>
+      <cell>Lenart</cell>
+    </row>
+    <row>
+      <cell>Koper-SI</cell>
+      <cell>Koper</cell>
+    </row>
+    <row>
+      <cell>Kranj-SI</cell>
+      <cell>Kranj</cell>
+    </row>
+    <row>
+      <cell>Kocevje-SI</cell>
+      <cell>Kocevje</cell>
+    </row>
+    <row>
+      <cell>Kamnik-SI</cell>
+      <cell>Kamnik</cell>
+    </row>
+    <row>
+      <cell>Izola-SI</cell>
+      <cell>Izola</cell>
+    </row>
+    <row>
+      <cell>Jesenice-SI</cell>
+      <cell>Jesenice</cell>
+    </row>
+    <row>
+      <cell>Ilirska Bistrica-SI</cell>
+      <cell>Ilirska Bistrica</cell>
+    </row>
+    <row>
+      <cell>Idrija-SI</cell>
+      <cell>Idrija</cell>
+    </row>
+    <row>
+      <cell>Hrastnik Lasko-SI</cell>
+      <cell>Hrastnik Lasko</cell>
+    </row>
+    <row>
+      <cell>Grosuplje-SI</cell>
+      <cell>Grosuplje</cell>
+    </row>
+    <row>
+      <cell>Gornja Radgona-SI</cell>
+      <cell>Gornja Radgona</cell>
+    </row>
+    <row>
+      <cell>Dravograd-SI</cell>
+      <cell>Dravograd</cell>
+    </row>
+    <row>
+      <cell>Crnomelj-SI</cell>
+      <cell>Crnomelj</cell>
+    </row>
+    <row>
+      <cell>Leicester City-GB</cell>
+      <cell>LeictrCity</cell>
+    </row>
+    <row>
+      <cell>Lancashire-GB</cell>
+      <cell>Lancashire</cell>
+    </row>
+    <row>
+      <cell>Kent-GB</cell>
+      <cell>Kent</cell>
+    </row>
+    <row>
+      <cell>Kingston-upon-Hull-GB</cell>
+      <cell>KingUpHull</cell>
+    </row>
+    <row>
+      <cell>Isles of Scilly-GB</cell>
+      <cell>IslesOScil</cell>
+    </row>
+    <row>
+      <cell>Isle of Wight-GB</cell>
+      <cell>IsleOWight</cell>
+    </row>
+    <row>
+      <cell>Isle of Man-GB</cell>
+      <cell>IsleOMan</cell>
+    </row>
+    <row>
+      <cell>Humberside-GB</cell>
+      <cell>Humberside</cell>
+    </row>
+    <row>
+      <cell>Highland-GB</cell>
+      <cell>Highland</cell>
+    </row>
+    <row>
+      <cell>Hertfordshire-GB</cell>
+      <cell>Hertfdshre</cell>
+    </row>
+    <row>
+      <cell>Hereford and Worcs.-GB</cell>
+      <cell>HerefWorcs</cell>
+    </row>
+    <row>
+      <cell>Hartlepool-GB</cell>
+      <cell>Hartlepool</cell>
+    </row>
+    <row>
+      <cell>Hampshire-GB</cell>
+      <cell>Hampshire</cell>
+    </row>
+    <row>
+      <cell>Halton-GB</cell>
+      <cell>Halton</cell>
+    </row>
+    <row>
+      <cell>Gwent-GB</cell>
+      <cell>Gwent</cell>
+    </row>
+    <row>
+      <cell>Gwynedd-GB</cell>
+      <cell>Gwynedd</cell>
+    </row>
+    <row>
+      <cell>Greater Manchester-GB</cell>
+      <cell>Gt Manches</cell>
+    </row>
+    <row>
+      <cell>Greater London-GB</cell>
+      <cell>Gt London</cell>
+    </row>
+    <row>
+      <cell>Grampian-GB</cell>
+      <cell>Grampian</cell>
+    </row>
+    <row>
+      <cell>Fife-GB</cell>
+      <cell>Fife</cell>
+    </row>
+    <row>
+      <cell>Gloucestershire-GB</cell>
+      <cell>Glocesshre</cell>
+    </row>
+    <row>
+      <cell>Fermanagh-GB</cell>
+      <cell>Fermanagh</cell>
+    </row>
+    <row>
+      <cell>Essex-GB</cell>
+      <cell>Essex</cell>
+    </row>
+    <row>
+      <cell>East Sussex-GB</cell>
+      <cell>E Sussex</cell>
+    </row>
+    <row>
+      <cell>Dyfed-GB</cell>
+      <cell>Dyfed</cell>
+    </row>
+    <row>
+      <cell>East Riding-GB</cell>
+      <cell>E Riding</cell>
+    </row>
+    <row>
+      <cell>Durham-GB</cell>
+      <cell>Cnty Durhm</cell>
+    </row>
+    <row>
+      <cell>Dungannon-GB</cell>
+      <cell>Dungannon</cell>
+    </row>
+    <row>
+      <cell>Down-GB</cell>
+      <cell>Cnty Down</cell>
+    </row>
+    <row>
+      <cell>Dumfries a. Galloway-GB</cell>
+      <cell>DumAGallwy</cell>
+    </row>
+    <row>
+      <cell>Dorset-GB</cell>
+      <cell>Dorset</cell>
+    </row>
+    <row>
+      <cell>Devon-GB</cell>
+      <cell>Devon</cell>
+    </row>
+    <row>
+      <cell>Derbyshire-GB</cell>
+      <cell>Derbyshire</cell>
+    </row>
+    <row>
+      <cell>Darlington-GB</cell>
+      <cell>Darlington</cell>
+    </row>
+    <row>
+      <cell>Cumbria-GB</cell>
+      <cell>Cumbria</cell>
+    </row>
+    <row>
+      <cell>Craigavon-GB</cell>
+      <cell>Craigavon</cell>
+    </row>
+    <row>
+      <cell>Cornwall-GB</cell>
+      <cell>Cornwall</cell>
+    </row>
+    <row>
+      <cell>Clwyd-GB</cell>
+      <cell>Clwyd</cell>
+    </row>
+    <row>
+      <cell>Cookstown-GB</cell>
+      <cell>Cookstown</cell>
+    </row>
+    <row>
+      <cell>Cleveland-GB</cell>
+      <cell>Cleveland</cell>
+    </row>
+    <row>
+      <cell>Cheshire-GB</cell>
+      <cell>Cheshire</cell>
+    </row>
+    <row>
+      <cell>Channel Islands-GB</cell>
+      <cell>Chan Isles</cell>
+    </row>
+    <row>
+      <cell>Central-GB</cell>
+      <cell>Central</cell>
+    </row>
+    <row>
+      <cell>Castlereagh-GB</cell>
+      <cell>Castlereagh</cell>
+    </row>
+    <row>
+      <cell>Carrickfergus-GB</cell>
+      <cell>Carrickfergus</cell>
+    </row>
+    <row>
+      <cell>Cambridgeshire-GB</cell>
+      <cell>Cambrgshre</cell>
+    </row>
+    <row>
+      <cell>Buckinghamshire-GB</cell>
+      <cell>Buchamshre</cell>
+    </row>
+    <row>
+      <cell>Bristol-GB</cell>
+      <cell>Bristol</cell>
+    </row>
+    <row>
+      <cell>Brighton &amp; Hove-GB</cell>
+      <cell>BrightHove</cell>
+    </row>
+    <row>
+      <cell>Bracknell Forest-GB</cell>
+      <cell>Bracknell Forest</cell>
+    </row>
+    <row>
+      <cell>Bournemouth-GB</cell>
+      <cell>Bornemouth</cell>
+    </row>
+    <row>
+      <cell>Borders-GB</cell>
+      <cell>Borders</cell>
+    </row>
+    <row>
+      <cell>Blackpool-GB</cell>
+      <cell>Blackpool</cell>
+    </row>
+    <row>
+      <cell>Blackburn-GB</cell>
+      <cell>Blackburn</cell>
+    </row>
+    <row>
+      <cell>Berkshire-GB</cell>
+      <cell>Berkshire</cell>
+    </row>
+    <row>
+      <cell>Belfast-GB</cell>
+      <cell>Belfast</cell>
+    </row>
+    <row>
+      <cell>Bedfordshire-GB</cell>
+      <cell>Bedfrdshre</cell>
+    </row>
+    <row>
+      <cell>Bath&amp;NthEstSomerset-GB</cell>
+      <cell>BNESomrset</cell>
+    </row>
+    <row>
+      <cell>Banbridge-GB</cell>
+      <cell>Banbridge</cell>
+    </row>
+    <row>
+      <cell>Ballymoney-GB</cell>
+      <cell>Ballymoney</cell>
+    </row>
+    <row>
+      <cell>Avon-GB</cell>
+      <cell>Avon</cell>
+    </row>
+    <row>
+      <cell>Ballymena-GB</cell>
+      <cell>Ballymena</cell>
+    </row>
+    <row>
+      <cell>Ards-GB</cell>
+      <cell>Ards</cell>
+    </row>
+    <row>
+      <cell>Armagh-GB</cell>
+      <cell>Cnty Armgh</cell>
+    </row>
+    <row>
+      <cell>Antrim-GB</cell>
+      <cell>Cnty Antrm</cell>
+    </row>
+    <row>
+      <cell>Umm al-Qawain-AE</cell>
+      <cell>Umm al-Qawain</cell>
+    </row>
+    <row>
+      <cell>Tucumán-AR</cell>
+      <cell>Tucumán</cell>
+    </row>
+    <row>
+      <cell>Tierra de Fuego-AR</cell>
+      <cell>Tierra Del Fuego</cell>
+    </row>
+    <row>
+      <cell>Sharjah-AE</cell>
+      <cell>Sharjah</cell>
+    </row>
+    <row>
+      <cell>Santiago Del Estero-AR</cell>
+      <cell>Santiago Del Estero</cell>
+    </row>
+    <row>
+      <cell>Santa Fé-AR</cell>
+      <cell>Santa Fé</cell>
+    </row>
+    <row>
+      <cell>Santa Cruz-AR</cell>
+      <cell>Santa Cruz</cell>
+    </row>
+    <row>
+      <cell>San Luis-AR</cell>
+      <cell>San Luis</cell>
+    </row>
+    <row>
+      <cell>San Juan-AR</cell>
+      <cell>San Juan</cell>
+    </row>
+    <row>
+      <cell>Salta-AR</cell>
+      <cell>Salta</cell>
+    </row>
+    <row>
+      <cell>Rio Negro-AR</cell>
+      <cell>Rio Negro</cell>
+    </row>
+    <row>
+      <cell>Ras al-Khaimah-AE</cell>
+      <cell>Ras al-Khaimah</cell>
+    </row>
+    <row>
+      <cell>Neuquen-AR</cell>
+      <cell>Neuquen</cell>
+    </row>
+    <row>
+      <cell>Fujairah-AE</cell>
+      <cell>Fujairah</cell>
+    </row>
+    <row>
+      <cell>Dubai-AE</cell>
+      <cell>Dubai</cell>
+    </row>
+    <row>
+      <cell>Ajman-AE</cell>
+      <cell>Ajman</cell>
+    </row>
+    <row>
+      <cell>Abu Dhabi-AE</cell>
+      <cell>Abu Dhabi</cell>
+    </row>
+    <row>
+      <cell>Zhitomirs'ka-UA</cell>
+      <cell>Zhitomirs'ka</cell>
+    </row>
+    <row>
+      <cell>Zaporiz'ka-UA</cell>
+      <cell>Zaporiz'ka</cell>
+    </row>
+    <row>
+      <cell>Zakarpats'ka-UA</cell>
+      <cell>Zakarpats'ka</cell>
+    </row>
+    <row>
+      <cell>Volins'ka-UA</cell>
+      <cell>Volins'ka</cell>
+    </row>
+    <row>
+      <cell>Vinnits'ka-UA</cell>
+      <cell>Vinnits'ka</cell>
+    </row>
+    <row>
+      <cell>Ternopil's'ka-UA</cell>
+      <cell>Ternopil's'ka</cell>
+    </row>
+    <row>
+      <cell>Sums'ka-UA</cell>
+      <cell>Sums'ka</cell>
+    </row>
+    <row>
+      <cell>Rivnens'ka-UA</cell>
+      <cell>Rivnens'ka</cell>
+    </row>
+    <row>
+      <cell>Poltavs'ka-UA</cell>
+      <cell>Poltavs'ka</cell>
+    </row>
+    <row>
+      <cell>Odes'ka-UA</cell>
+      <cell>Odes'ka</cell>
+    </row>
+    <row>
+      <cell>Mikolaivs'ka-UA</cell>
+      <cell>Mikolaivs'ka</cell>
+    </row>
+    <row>
+      <cell>m.Sevastopil'-UA</cell>
+      <cell>m.Sevastopil'</cell>
+    </row>
+    <row>
+      <cell>m.Kiev-UA</cell>
+      <cell>m.Kiev</cell>
+    </row>
+    <row>
+      <cell>L'vivsbka-UA</cell>
+      <cell>L'vivsbka</cell>
+    </row>
+    <row>
+      <cell>Lugans'ka-UA</cell>
+      <cell>Lugans'ka</cell>
+    </row>
+    <row>
+      <cell>Respublika Krim-UA</cell>
+      <cell>Respublika Krim</cell>
+    </row>
+    <row>
+      <cell>Kirovograds'ka-UA</cell>
+      <cell>Kirovograds'ka</cell>
+    </row>
+    <row>
+      <cell>Kievs'ka-UA</cell>
+      <cell>Kievs'ka</cell>
+    </row>
+    <row>
+      <cell>Ivano-Frankivs'ka-UA</cell>
+      <cell>Ivano-Frankivs'ka</cell>
+    </row>
+    <row>
+      <cell>Hersons'ka-UA</cell>
+      <cell>Hersons'ka</cell>
+    </row>
+    <row>
+      <cell>Hmel'nits'ka-UA</cell>
+      <cell>Hmel'nits'ka</cell>
+    </row>
+    <row>
+      <cell>Harkivs'ka-UA</cell>
+      <cell>Harkivs'ka</cell>
+    </row>
+    <row>
+      <cell>Donets'ka-UA</cell>
+      <cell>Donets'ka</cell>
+    </row>
+    <row>
+      <cell>Dnipropetrovs'ka-UA</cell>
+      <cell>Dnipropetrovs'ka</cell>
+    </row>
+    <row>
+      <cell>Chernovits'ka-UA</cell>
+      <cell>Chernovits'ka</cell>
+    </row>
+    <row>
+      <cell>Cherkas'ka-UA</cell>
+      <cell>Cherkas'ka</cell>
+    </row>
+    <row>
+      <cell>Chernigivs'ka-UA</cell>
+      <cell>Chernigivs'ka</cell>
+    </row>
+    <row>
+      <cell>Igdir-TR</cell>
+      <cell>Igdir</cell>
+    </row>
+    <row>
+      <cell>Yalova-TR</cell>
+      <cell>Yalova</cell>
+    </row>
+    <row>
+      <cell>Ardahan-TR</cell>
+      <cell>Ardahan</cell>
+    </row>
+    <row>
+      <cell>Bartin-TR</cell>
+      <cell>Bartin</cell>
+    </row>
+    <row>
+      <cell>Shirnak-TR</cell>
+      <cell>Shirnak</cell>
+    </row>
+    <row>
+      <cell>Batman-TR</cell>
+      <cell>Batman</cell>
+    </row>
+    <row>
+      <cell>Kirikkale-TR</cell>
+      <cell>Kirikkale</cell>
+    </row>
+    <row>
+      <cell>Karaman-TR</cell>
+      <cell>Karaman</cell>
+    </row>
+    <row>
+      <cell>Bayburt-TR</cell>
+      <cell>Bayburt</cell>
+    </row>
+    <row>
+      <cell>Aksaray-TR</cell>
+      <cell>Aksaray</cell>
+    </row>
+    <row>
+      <cell>Zonguldak-TR</cell>
+      <cell>Zonguldak</cell>
+    </row>
+    <row>
+      <cell>Yozgat-TR</cell>
+      <cell>Yozgat</cell>
+    </row>
+    <row>
+      <cell>Ushak-TR</cell>
+      <cell>Ushak</cell>
+    </row>
+    <row>
+      <cell>Van-TR</cell>
+      <cell>Van</cell>
+    </row>
+    <row>
+      <cell>Shanliurfa-TR</cell>
+      <cell>Shanliurfa</cell>
+    </row>
+    <row>
+      <cell>Tunceli-TR</cell>
+      <cell>Tunceli</cell>
+    </row>
+    <row>
+      <cell>Tokat-TR</cell>
+      <cell>Tokat</cell>
+    </row>
+    <row>
+      <cell>Trabzon-TR</cell>
+      <cell>Trabzon</cell>
+    </row>
+    <row>
+      <cell>Sivas-TR</cell>
+      <cell>Sivas</cell>
+    </row>
+    <row>
+      <cell>Tekirdag-TR</cell>
+      <cell>Tekirdag</cell>
+    </row>
+    <row>
+      <cell>Siirt-TR</cell>
+      <cell>Siirt</cell>
+    </row>
+    <row>
+      <cell>Sinop-TR</cell>
+      <cell>Sinop</cell>
+    </row>
+    <row>
+      <cell>Samsun-TR</cell>
+      <cell>Samsun</cell>
+    </row>
+    <row>
+      <cell>Rize-TR</cell>
+      <cell>Rize</cell>
+    </row>
+    <row>
+      <cell>Sakarya-TR</cell>
+      <cell>Sakarya</cell>
+    </row>
+    <row>
+      <cell>Nigde-TR</cell>
+      <cell>Nigde</cell>
+    </row>
+    <row>
+      <cell>Ordu-TR</cell>
+      <cell>Ordu</cell>
+    </row>
+    <row>
+      <cell>Nevshehir-TR</cell>
+      <cell>Nevshehir</cell>
+    </row>
+    <row>
+      <cell>Mugla-TR</cell>
+      <cell>Mugla</cell>
+    </row>
+    <row>
+      <cell>Mush-TR</cell>
+      <cell>Mush</cell>
+    </row>
+    <row>
+      <cell>Mardin-TR</cell>
+      <cell>Mardin</cell>
+    </row>
+    <row>
+      <cell>K.Marash-TR</cell>
+      <cell>K.Marash</cell>
+    </row>
+    <row>
+      <cell>Manisa-TR</cell>
+      <cell>Manisa</cell>
+    </row>
+    <row>
+      <cell>Malatya-TR</cell>
+      <cell>Malatya</cell>
+    </row>
+    <row>
+      <cell>Konya-TR</cell>
+      <cell>Konya</cell>
+    </row>
+    <row>
+      <cell>Kütahya-TR</cell>
+      <cell>Kütahya</cell>
+    </row>
+    <row>
+      <cell>Kocaeli-TR</cell>
+      <cell>Kocaeli</cell>
+    </row>
+    <row>
+      <cell>Kirshehir-TR</cell>
+      <cell>Kirshehir</cell>
+    </row>
+    <row>
+      <cell>Kirklareli-TR</cell>
+      <cell>Kirklareli</cell>
+    </row>
+    <row>
+      <cell>Kayseri-TR</cell>
+      <cell>Kayseri</cell>
+    </row>
+    <row>
+      <cell>Kastamonu-TR</cell>
+      <cell>Kastamonu</cell>
+    </row>
+    <row>
+      <cell>Izmir-TR</cell>
+      <cell>Izmir</cell>
+    </row>
+    <row>
+      <cell>Kars-TR</cell>
+      <cell>Kars</cell>
+    </row>
+    <row>
+      <cell>Icel-TR</cell>
+      <cell>Icel</cell>
+    </row>
+    <row>
+      <cell>Istanbul-TR</cell>
+      <cell>Istanbul</cell>
+    </row>
+    <row>
+      <cell>Hatay-TR</cell>
+      <cell>Hatay</cell>
+    </row>
+    <row>
+      <cell>Isparta-TR</cell>
+      <cell>Isparta</cell>
+    </row>
+    <row>
+      <cell>Hakkari-TR</cell>
+      <cell>Hakkari</cell>
+    </row>
+    <row>
+      <cell>Gümüshane-TR</cell>
+      <cell>Gümüshane</cell>
+    </row>
+    <row>
+      <cell>Giresun-TR</cell>
+      <cell>Giresun</cell>
+    </row>
+    <row>
+      <cell>Gaziantep-TR</cell>
+      <cell>Gaziantep</cell>
+    </row>
+    <row>
+      <cell>Eskisehir-TR</cell>
+      <cell>Eskisehir</cell>
+    </row>
+    <row>
+      <cell>Erzurum-TR</cell>
+      <cell>Erzurum</cell>
+    </row>
+    <row>
+      <cell>Erzincan-TR</cell>
+      <cell>Erzincan</cell>
+    </row>
+    <row>
+      <cell>Elazig-TR</cell>
+      <cell>Elazig</cell>
+    </row>
+    <row>
+      <cell>Edirne-TR</cell>
+      <cell>Edirne</cell>
+    </row>
+    <row>
+      <cell>Diyarbakir-TR</cell>
+      <cell>Diyarbakir</cell>
+    </row>
+    <row>
+      <cell>Corum-TR</cell>
+      <cell>Corum</cell>
+    </row>
+    <row>
+      <cell>Denizli-TR</cell>
+      <cell>Denizli</cell>
+    </row>
+    <row>
+      <cell>Cankiri-TR</cell>
+      <cell>Cankiri</cell>
+    </row>
+    <row>
+      <cell>Bursa-TR</cell>
+      <cell>Bursa</cell>
+    </row>
+    <row>
+      <cell>Canakkale-TR</cell>
+      <cell>Canakkale</cell>
+    </row>
+    <row>
+      <cell>Bolu-TR</cell>
+      <cell>Bolu</cell>
+    </row>
+    <row>
+      <cell>Burdur-TR</cell>
+      <cell>Burdur</cell>
+    </row>
+    <row>
+      <cell>Bitlis-TR</cell>
+      <cell>Bitlis</cell>
+    </row>
+    <row>
+      <cell>Bingöl-TR</cell>
+      <cell>Bingöl</cell>
+    </row>
+    <row>
+      <cell>Bilecik-TR</cell>
+      <cell>Bilecik</cell>
+    </row>
+    <row>
+      <cell>Aydin-TR</cell>
+      <cell>Aydin</cell>
+    </row>
+    <row>
+      <cell>Balikesir-TR</cell>
+      <cell>Balikesir</cell>
+    </row>
+    <row>
+      <cell>Artvin-TR</cell>
+      <cell>Artvin</cell>
+    </row>
+    <row>
+      <cell>Antalya-TR</cell>
+      <cell>Antalya</cell>
+    </row>
+    <row>
+      <cell>Ankara-TR</cell>
+      <cell>Ankara</cell>
+    </row>
+    <row>
+      <cell>Amasya-TR</cell>
+      <cell>Amasya</cell>
+    </row>
+    <row>
+      <cell>Afyon-TR</cell>
+      <cell>Afyon</cell>
+    </row>
+    <row>
+      <cell>Agri-TR</cell>
+      <cell>Agri</cell>
+    </row>
+    <row>
+      <cell>Adana-TR</cell>
+      <cell>Adana</cell>
+    </row>
+    <row>
+      <cell>Adiyaman-TR</cell>
+      <cell>Adiyaman</cell>
+    </row>
+    <row>
+      <cell>South-TH</cell>
+      <cell>South</cell>
+    </row>
+    <row>
+      <cell>West-TH</cell>
+      <cell>West</cell>
+    </row>
+    <row>
+      <cell>East-TH</cell>
+      <cell>East</cell>
+    </row>
+    <row>
+      <cell>North-TH</cell>
+      <cell>North</cell>
+    </row>
+    <row>
+      <cell>Central-TH</cell>
+      <cell>Central</cell>
+    </row>
+    <row>
+      <cell>Yasothon-TH</cell>
+      <cell>Yasothon</cell>
+    </row>
+    <row>
+      <cell>Yala-TH</cell>
+      <cell>Yala</cell>
+    </row>
+    <row>
+      <cell>Uttaradit-TH</cell>
+      <cell>Uttaradit</cell>
+    </row>
+    <row>
+      <cell>Udon Thani-TH</cell>
+      <cell>Udon Thani</cell>
+    </row>
+    <row>
+      <cell>Ubon Ratchathani-TH</cell>
+      <cell>Ubon Rchan</cell>
+    </row>
+    <row>
+      <cell>Trat-TH</cell>
+      <cell>Trat</cell>
+    </row>
+    <row>
+      <cell>Trang-TH</cell>
+      <cell>Trang</cell>
+    </row>
+    <row>
+      <cell>Tak-TH</cell>
+      <cell>Tak</cell>
+    </row>
+    <row>
+      <cell>Surin-TH</cell>
+      <cell>Surin</cell>
+    </row>
+    <row>
+      <cell>Surat Thani-TH</cell>
+      <cell>Surat Thni</cell>
+    </row>
+    <row>
+      <cell>Supahn Buri-TH</cell>
+      <cell>Supan Buri</cell>
+    </row>
+    <row>
+      <cell>Sukhothai-TH</cell>
+      <cell>Sukhothai</cell>
+    </row>
+    <row>
+      <cell>Songkhla-TH</cell>
+      <cell>Songkhla</cell>
+    </row>
+    <row>
+      <cell>Sing Buri-TH</cell>
+      <cell>Sing Buri</cell>
+    </row>
+    <row>
+      <cell>Si Sa Ket-TH</cell>
+      <cell>Si Sa Ket</cell>
+    </row>
+    <row>
+      <cell>Satun-TH</cell>
+      <cell>Satun</cell>
+    </row>
+    <row>
+      <cell>Saraburi-TH</cell>
+      <cell>Saraburi</cell>
+    </row>
+    <row>
+      <cell>Samut Songkhram-TH</cell>
+      <cell>Samt Sonkm</cell>
+    </row>
+    <row>
+      <cell>Samut Sakhon-TH</cell>
+      <cell>Samt Sakhn</cell>
+    </row>
+    <row>
+      <cell>Samut Prakan-TH</cell>
+      <cell>Samt Prakn</cell>
+    </row>
+    <row>
+      <cell>Sakon Nakhon-TH</cell>
+      <cell>Sakn Nakhn</cell>
+    </row>
+    <row>
+      <cell>Sa Kaeo-TH</cell>
+      <cell>Sa Kaeo</cell>
+    </row>
+    <row>
+      <cell>Roi Et-TH</cell>
+      <cell>Roi Et</cell>
+    </row>
+    <row>
+      <cell>Rayong-TH</cell>
+      <cell>Rayong</cell>
+    </row>
+    <row>
+      <cell>Ratchaburi-TH</cell>
+      <cell>Ratchaburi</cell>
+    </row>
+    <row>
+      <cell>Ranong-TH</cell>
+      <cell>Ranong</cell>
+    </row>
+    <row>
+      <cell>Prachuap Khiri Khan-TH</cell>
+      <cell>Pracup Khn</cell>
+    </row>
+    <row>
+      <cell>Uthai Thani-TH</cell>
+      <cell>Uthai Thni</cell>
+    </row>
+    <row>
+      <cell>Prachin Buri-TH</cell>
+      <cell>Pracin Bri</cell>
+    </row>
+    <row>
+      <cell>Phuket-TH</cell>
+      <cell>Phuket</cell>
+    </row>
+    <row>
+      <cell>Phrae-TH</cell>
+      <cell>Phrae</cell>
+    </row>
+    <row>
+      <cell>Phra Nakhon Si Ayut.-TH</cell>
+      <cell>Pha Nk Ayt</cell>
+    </row>
+    <row>
+      <cell>Phitsanulok-TH</cell>
+      <cell>Phitsnulok</cell>
+    </row>
+    <row>
+      <cell>Phichit-TH</cell>
+      <cell>Phichit</cell>
+    </row>
+    <row>
+      <cell>Phetchaburi-TH</cell>
+      <cell>Phetchburi</cell>
+    </row>
+    <row>
+      <cell>Phetchabun-TH</cell>
+      <cell>Phetchabun</cell>
+    </row>
+    <row>
+      <cell>Phayao-TH</cell>
+      <cell>Phayao</cell>
+    </row>
+    <row>
+      <cell>Phatthalung-TH</cell>
+      <cell>Phathalung</cell>
+    </row>
+    <row>
+      <cell>Phangnga-TH</cell>
+      <cell>Phangnga</cell>
+    </row>
+    <row>
+      <cell>Pattani-TH</cell>
+      <cell>Pattani</cell>
+    </row>
+    <row>
+      <cell>Pathum Thani-TH</cell>
+      <cell>Patm Thani</cell>
+    </row>
+    <row>
+      <cell>Nonthaburi-TH</cell>
+      <cell>Nonthaburi</cell>
+    </row>
+    <row>
+      <cell>Nong Khai-TH</cell>
+      <cell>Nong Khai</cell>
+    </row>
+    <row>
+      <cell>Nong Bua Lamphu-TH</cell>
+      <cell>Nog B Lapu</cell>
+    </row>
+    <row>
+      <cell>Narathiwat-TH</cell>
+      <cell>Narathiwat</cell>
+    </row>
+    <row>
+      <cell>Nan-TH</cell>
+      <cell>Nan</cell>
+    </row>
+    <row>
+      <cell>Nakhon Si Thammarat-TH</cell>
+      <cell>Nakn That</cell>
+    </row>
+    <row>
+      <cell>Nakhon Sawan-TH</cell>
+      <cell>Nakhn Sawn</cell>
+    </row>
+    <row>
+      <cell>Nakhon Ratchasima-TH</cell>
+      <cell>Nakn Rahma</cell>
+    </row>
+    <row>
+      <cell>Nakhon Phanom-TH</cell>
+      <cell>Nakhn Pham</cell>
+    </row>
+    <row>
+      <cell>Nakhon Pathom-TH</cell>
+      <cell>Nakhn Patm</cell>
+    </row>
+    <row>
+      <cell>Nakhon Nayok-TH</cell>
+      <cell>Nakon Nayk</cell>
+    </row>
+    <row>
+      <cell>Mukdahan-TH</cell>
+      <cell>Mukdahan</cell>
+    </row>
+    <row>
+      <cell>Maha Sarakham-TH</cell>
+      <cell>Mha Sarkhm</cell>
+    </row>
+    <row>
+      <cell>Mae Hong Son-TH</cell>
+      <cell>Mae Hng Sn</cell>
+    </row>
+    <row>
+      <cell>Lop Buri-TH</cell>
+      <cell>Lop Buri</cell>
+    </row>
+    <row>
+      <cell>Loei-TH</cell>
+      <cell>Loei</cell>
+    </row>
+    <row>
+      <cell>Lamphun-TH</cell>
+      <cell>Lamphun</cell>
+    </row>
+    <row>
+      <cell>Lampang-TH</cell>
+      <cell>Lampang</cell>
+    </row>
+    <row>
+      <cell>Mahanakhon-TH</cell>
+      <cell>Mahanakhon</cell>
+    </row>
+    <row>
+      <cell>Krung Thep-TH</cell>
+      <cell>Krung Thep</cell>
+    </row>
+    <row>
+      <cell>Krabi-TH</cell>
+      <cell>Krabi</cell>
+    </row>
+    <row>
+      <cell>Khon Kaen-TH</cell>
+      <cell>Khon Kaen</cell>
+    </row>
+    <row>
+      <cell>Kanchanaburi-TH</cell>
+      <cell>Kanchaburi</cell>
+    </row>
+    <row>
+      <cell>Kamphaeng Phet-TH</cell>
+      <cell>Kampg Phet</cell>
+    </row>
+    <row>
+      <cell>Kalasin-TH</cell>
+      <cell>Kalasin</cell>
+    </row>
+    <row>
+      <cell>Chumphon-TH</cell>
+      <cell>Chumphon</cell>
+    </row>
+    <row>
+      <cell>Chon Buri-TH</cell>
+      <cell>Chon Buri</cell>
+    </row>
+    <row>
+      <cell>Chiang Rai-TH</cell>
+      <cell>Chiang Rai</cell>
+    </row>
+    <row>
+      <cell>Chiang Mai-TH</cell>
+      <cell>Chiang Mai</cell>
+    </row>
+    <row>
+      <cell>Chanthaburi-TH</cell>
+      <cell>Chanthburi</cell>
+    </row>
+    <row>
+      <cell>Chaiyaphum-TH</cell>
+      <cell>Chaiyaphum</cell>
+    </row>
+    <row>
+      <cell>Chai Nat-TH</cell>
+      <cell>Chai Nat</cell>
+    </row>
+    <row>
+      <cell>Chachoengsao-TH</cell>
+      <cell>Chachngsao</cell>
+    </row>
+    <row>
+      <cell>Buriram-TH</cell>
+      <cell>Buriram</cell>
+    </row>
+    <row>
+      <cell>Ang Thong-TH</cell>
+      <cell>Ang Thong</cell>
+    </row>
+    <row>
+      <cell>Amnat Charoen-TH</cell>
+      <cell>Amnt Charn</cell>
+    </row>
+    <row>
+      <cell>Taiwan-TW</cell>
+      <cell>Taiwan</cell>
+    </row>
+    <row>
+      <cell>T'ai-pei-TW</cell>
+      <cell>T'ai-pei</cell>
+    </row>
+    <row>
+      <cell>Taipei-TW</cell>
+      <cell>Taipei</cell>
+    </row>
+    <row>
+      <cell>Kao-hsiung-TW</cell>
+      <cell>Kao-hsiung</cell>
+    </row>
+    <row>
+      <cell>Fu-chien-TW</cell>
+      <cell>Fu-chien</cell>
+    </row>
+    <row>
+      <cell>Yunlin-TW</cell>
+      <cell>Yunlin</cell>
+    </row>
+    <row>
+      <cell>Taoyuan-TW</cell>
+      <cell>Taoyuan</cell>
+    </row>
+    <row>
+      <cell>Taitung-TW</cell>
+      <cell>Taitung</cell>
+    </row>
+    <row>
+      <cell>Tainan-TW</cell>
+      <cell>Tainan</cell>
+    </row>
+    <row>
+      <cell>Taichung-TW</cell>
+      <cell>Taichung</cell>
+    </row>
+    <row>
+      <cell>Pingtung-TW</cell>
+      <cell>Pingtung</cell>
+    </row>
+    <row>
+      <cell>Penghu-TW</cell>
+      <cell>Penghu</cell>
+    </row>
+    <row>
+      <cell>Nantou-TW</cell>
+      <cell>Nantou</cell>
+    </row>
+    <row>
+      <cell>Miaoli-TW</cell>
+      <cell>Miaoli</cell>
+    </row>
+    <row>
+      <cell>Ilan-TW</cell>
+      <cell>Ilan</cell>
+    </row>
+    <row>
+      <cell>Hualien-TW</cell>
+      <cell>Hualien</cell>
+    </row>
+    <row>
+      <cell>Hsinchu-TW</cell>
+      <cell>Hsinchu</cell>
+    </row>
+    <row>
+      <cell>Chinmen-TW</cell>
+      <cell>Chinmen</cell>
+    </row>
+    <row>
+      <cell>Chiayi-TW</cell>
+      <cell>Chiayi</cell>
+    </row>
+    <row>
+      <cell>Changhua-TW</cell>
+      <cell>Changhua</cell>
+    </row>
+    <row>
+      <cell>Zurich-CH</cell>
+      <cell>Zurich</cell>
+    </row>
+    <row>
+      <cell>Vaud-CH</cell>
+      <cell>Vaud</cell>
+    </row>
+    <row>
+      <cell>Zug-CH</cell>
+      <cell>Zug</cell>
+    </row>
+    <row>
+      <cell>Uri-CH</cell>
+      <cell>Uri</cell>
+    </row>
+    <row>
+      <cell>Valais-CH</cell>
+      <cell>Valais</cell>
+    </row>
+    <row>
+      <cell>Ticino-CH</cell>
+      <cell>Ticino</cell>
+    </row>
+    <row>
+      <cell>Thurgau-CH</cell>
+      <cell>Thurgau</cell>
+    </row>
+    <row>
+      <cell>St. Gallen-CH</cell>
+      <cell>St. Gallen</cell>
+    </row>
+    <row>
+      <cell>Solothurn-CH</cell>
+      <cell>Solothurn</cell>
+    </row>
+    <row>
+      <cell>Schwyz-CH</cell>
+      <cell>Schwyz</cell>
+    </row>
+    <row>
+      <cell>Schaffhausen-CH</cell>
+      <cell>Schaffhausen</cell>
+    </row>
+    <row>
+      <cell>Obwalden-CH</cell>
+      <cell>Obwalden</cell>
+    </row>
+    <row>
+      <cell>Nidwalden-CH</cell>
+      <cell>Nidwalden</cell>
+    </row>
+    <row>
+      <cell>Neuchatel-CH</cell>
+      <cell>Neuchatel</cell>
+    </row>
+    <row>
+      <cell>Jura-CH</cell>
+      <cell>Jura</cell>
+    </row>
+    <row>
+      <cell>Lucerne-CH</cell>
+      <cell>Lucerne</cell>
+    </row>
+    <row>
+      <cell>Inner-Rhoden-CH</cell>
+      <cell>Inner-Rhoden</cell>
+    </row>
+    <row>
+      <cell>Graubuenden-CH</cell>
+      <cell>Graubuenden</cell>
+    </row>
+    <row>
+      <cell>Glarus-CH</cell>
+      <cell>Glarus</cell>
+    </row>
+    <row>
+      <cell>Geneva-CH</cell>
+      <cell>Geneva</cell>
+    </row>
+    <row>
+      <cell>Bern-CH</cell>
+      <cell>Bern</cell>
+    </row>
+    <row>
+      <cell>Fribourg-CH</cell>
+      <cell>Fribourg</cell>
+    </row>
+    <row>
+      <cell>Basel Stadt-CH</cell>
+      <cell>Basel Stadt</cell>
+    </row>
+    <row>
+      <cell>Basel Land-CH</cell>
+      <cell>Basel Land</cell>
+    </row>
+    <row>
+      <cell>Ausser-Rhoden-CH</cell>
+      <cell>Ausser-Rhoden</cell>
+    </row>
+    <row>
+      <cell>Aargau-CH</cell>
+      <cell>Aargau</cell>
+    </row>
+    <row>
+      <cell>Stockholm-SE</cell>
+      <cell>Stockholm</cell>
+    </row>
+    <row>
+      <cell>Skaraborgs Lan-SE</cell>
+      <cell>Skaraborgs Lan</cell>
+    </row>
+    <row>
+      <cell>Malmohus Lan-SE</cell>
+      <cell>Malmohus Lan</cell>
+    </row>
+    <row>
+      <cell>Kopparbergs Lan-SE</cell>
+      <cell>Kopparbergs Lan</cell>
+    </row>
+    <row>
+      <cell>Alvsborgs Lan-SE</cell>
+      <cell>Alvsborgs Lan</cell>
+    </row>
+    <row>
+      <cell>Östergötlands Län-SE</cell>
+      <cell>Östergötlands Län</cell>
+    </row>
+    <row>
+      <cell>Örebro Län-SE</cell>
+      <cell>Örebro Län</cell>
+    </row>
+    <row>
+      <cell>Pieria-GR</cell>
+      <cell>Pieria</cell>
+    </row>
+    <row>
+      <cell>Messinia-GR</cell>
+      <cell>Messinia</cell>
+    </row>
+    <row>
+      <cell>Magnisia-GR</cell>
+      <cell>Magnisia</cell>
+    </row>
+    <row>
+      <cell>Levkas-GR</cell>
+      <cell>Levkas</cell>
+    </row>
+    <row>
+      <cell>Lesvos-GR</cell>
+      <cell>Lesvos</cell>
+    </row>
+    <row>
+      <cell>Lasithi-GR</cell>
+      <cell>Lasithi</cell>
+    </row>
+    <row>
+      <cell>Larisa-GR</cell>
+      <cell>Larisa</cell>
+    </row>
+    <row>
+      <cell>Lakonia-GR</cell>
+      <cell>Lakonia</cell>
+    </row>
+    <row>
+      <cell>Kozani-GR</cell>
+      <cell>Kozani</cell>
+    </row>
+    <row>
+      <cell>Korinthia-GR</cell>
+      <cell>Korinthia</cell>
+    </row>
+    <row>
+      <cell>Kilkis-GR</cell>
+      <cell>Kilkis</cell>
+    </row>
+    <row>
+      <cell>Khios-GR</cell>
+      <cell>Khios</cell>
+    </row>
+    <row>
+      <cell>Kikladhes-GR</cell>
+      <cell>Kikladhes</cell>
+    </row>
+    <row>
+      <cell>Khania-GR</cell>
+      <cell>Khania</cell>
+    </row>
+    <row>
+      <cell>Khalkidhiki-GR</cell>
+      <cell>Khalkidhiki</cell>
+    </row>
+    <row>
+      <cell>Kerkira-GR</cell>
+      <cell>Kerkira</cell>
+    </row>
+    <row>
+      <cell>Kefallinia-GR</cell>
+      <cell>Kefallinia</cell>
+    </row>
+    <row>
+      <cell>Kavala-GR</cell>
+      <cell>Kavala</cell>
+    </row>
+    <row>
+      <cell>Kastoria-GR</cell>
+      <cell>Kastoria</cell>
+    </row>
+    <row>
+      <cell>Kardhitsa-GR</cell>
+      <cell>Kardhitsa</cell>
+    </row>
+    <row>
+      <cell>Iraklion-GR</cell>
+      <cell>Iraklion</cell>
+    </row>
+    <row>
+      <cell>Ioannina-GR</cell>
+      <cell>Ioannina</cell>
+    </row>
+    <row>
+      <cell>Ilia-GR</cell>
+      <cell>Ilia</cell>
+    </row>
+    <row>
+      <cell>Celje-SI</cell>
+      <cell>Celje</cell>
+    </row>
+    <row>
+      <cell>Cerknica-SI</cell>
+      <cell>Cerknica</cell>
+    </row>
+    <row>
+      <cell>Brezice-SI</cell>
+      <cell>Brezice</cell>
+    </row>
+    <row>
+      <cell>Ajdovscina-SI</cell>
+      <cell>Ajdovscina</cell>
+    </row>
+    <row>
+      <cell>Vychodoslovensky-SK</cell>
+      <cell>Vychodoslovensky</cell>
+    </row>
+    <row>
+      <cell>Stredoslovensky-SK</cell>
+      <cell>Stredoslovensky</cell>
+    </row>
+    <row>
+      <cell>Zapadoslovensky-SK</cell>
+      <cell>Zapadoslovensky</cell>
+    </row>
+    <row>
+      <cell>Bratislava-SK</cell>
+      <cell>Bratislava</cell>
+    </row>
+    <row>
+      <cell>Singapore-SG</cell>
+      <cell>Singapore</cell>
+    </row>
+    <row>
+      <cell>Jamalo-Nenekchky Aut-RU</cell>
+      <cell>Jamalo-Nenekchky Aut</cell>
+    </row>
+    <row>
+      <cell>Evensky Auton.distri-RU</cell>
+      <cell>Evensky Auton.distri</cell>
+    </row>
+    <row>
+      <cell>Chukotka Auton. dist-RU</cell>
+      <cell>Chukotka Auton. dist</cell>
+    </row>
+    <row>
+      <cell>Chanti-Mansyjsky Aut-RU</cell>
+      <cell>Chanti-Mansyjsky Aut</cell>
+    </row>
+    <row>
+      <cell>Ust-Ordinsky Buryat-RU</cell>
+      <cell>Ust-Ordinsky Buryat</cell>
+    </row>
+    <row>
+      <cell>The Taymir Auton.dis-RU</cell>
+      <cell>The Taymir Auton.dis</cell>
+    </row>
+    <row>
+      <cell>Nenekchky Auton.dist-RU</cell>
+      <cell>Nenekchky Auton.dist</cell>
+    </row>
+    <row>
+      <cell>Korjacs Auton.distri-RU</cell>
+      <cell>Korjacs Auton.distri</cell>
+    </row>
+    <row>
+      <cell>Komy Permjats.Aut.di-RU</cell>
+      <cell>Komy Permjats.Aut.di</cell>
+    </row>
+    <row>
+      <cell>Aginsk Buryat Aut.di-RU</cell>
+      <cell>Aginsk Buryat Aut.di</cell>
+    </row>
+    <row>
+      <cell>The Jewish Auton.are-RU</cell>
+      <cell>The Jewish Auton.are</cell>
+    </row>
+    <row>
+      <cell>c.St-Peterburg-RU</cell>
+      <cell>c.St-Peterburg</cell>
+    </row>
+    <row>
+      <cell>c.Moscow-RU</cell>
+      <cell>c.Moscow</cell>
+    </row>
+    <row>
+      <cell>The Yaroslavl Area-RU</cell>
+      <cell>The Yaroslavl Area</cell>
+    </row>
+    <row>
+      <cell>The Chita Area-RU</cell>
+      <cell>The Chita Area</cell>
+    </row>
+    <row>
+      <cell>The Chelyabinsk Area-RU</cell>
+      <cell>The Chelyabinsk Area</cell>
+    </row>
+    <row>
+      <cell>The Ulyanovsk Area-RU</cell>
+      <cell>The Ulyanovsk Area</cell>
+    </row>
+    <row>
+      <cell>The Tyumen Area-RU</cell>
+      <cell>The Tyumen Area</cell>
+    </row>
+    <row>
+      <cell>The Tula Area-RU</cell>
+      <cell>The Tula Area</cell>
+    </row>
+    <row>
+      <cell>The Tomsk Area-RU</cell>
+      <cell>The Tomsk Area</cell>
+    </row>
+    <row>
+      <cell>The Tver Area-RU</cell>
+      <cell>The Tver Area</cell>
+    </row>
+    <row>
+      <cell>The Tambov Area-RU</cell>
+      <cell>The Tambov Area</cell>
+    </row>
+    <row>
+      <cell>The Smolensk Area-RU</cell>
+      <cell>The Smolensk Area</cell>
+    </row>
+    <row>
+      <cell>The Sverdlovsk Area-RU</cell>
+      <cell>The Sverdlovsk Area</cell>
+    </row>
+    <row>
+      <cell>The Sakhalin Area-RU</cell>
+      <cell>The Sakhalin Area</cell>
+    </row>
+    <row>
+      <cell>The Saratov Area-RU</cell>
+      <cell>The Saratov Area</cell>
+    </row>
+    <row>
+      <cell>The Samara Area-RU</cell>
+      <cell>The Samara Area</cell>
+    </row>
+    <row>
+      <cell>The Ryazan Area-RU</cell>
+      <cell>The Ryazan Area</cell>
+    </row>
+    <row>
+      <cell>The Rostov Area-RU</cell>
+      <cell>The Rostov Area</cell>
+    </row>
+    <row>
+      <cell>The Pskov Area-RU</cell>
+      <cell>The Pskov Area</cell>
+    </row>
+    <row>
+      <cell>The Perm Area-RU</cell>
+      <cell>The Perm Area</cell>
+    </row>
+    <row>
+      <cell>The Penza Area-RU</cell>
+      <cell>The Penza Area</cell>
+    </row>
+    <row>
+      <cell>The Oryol Area-RU</cell>
+      <cell>The Oryol Area</cell>
+    </row>
+    <row>
+      <cell>The Orenburg Area-RU</cell>
+      <cell>The Orenburg Area</cell>
+    </row>
+    <row>
+      <cell>The Omsk Area-RU</cell>
+      <cell>The Omsk Area</cell>
+    </row>
+    <row>
+      <cell>The Novosibirsk Area-RU</cell>
+      <cell>The Novosibirsk Area</cell>
+    </row>
+    <row>
+      <cell>The Novgorod Area-RU</cell>
+      <cell>The Novgorod Area</cell>
+    </row>
+    <row>
+      <cell>The Nizhniy Novgorod-RU</cell>
+      <cell>The Nizhniy Novgorod</cell>
+    </row>
+    <row>
+      <cell>The Murmansk Area-RU</cell>
+      <cell>The Murmansk Area</cell>
+    </row>
+    <row>
+      <cell>The Moscow Area-RU</cell>
+      <cell>The Moscow Area</cell>
+    </row>
+    <row>
+      <cell>The Magadan Area-RU</cell>
+      <cell>The Magadan Area</cell>
+    </row>
+    <row>
+      <cell>The Lipetsk Area-RU</cell>
+      <cell>The Lipetsk Area</cell>
+    </row>
+    <row>
+      <cell>The Leningrad Area-RU</cell>
+      <cell>The Leningrad Area</cell>
+    </row>
+    <row>
+      <cell>The Kursk Area-RU</cell>
+      <cell>The Kursk Area</cell>
+    </row>
+    <row>
+      <cell>The Kurgan Area-RU</cell>
+      <cell>The Kurgan Area</cell>
+    </row>
+    <row>
+      <cell>The Kostroma Area-RU</cell>
+      <cell>The Kostroma Area</cell>
+    </row>
+    <row>
+      <cell>The Kirov Area-RU</cell>
+      <cell>The Kirov Area</cell>
+    </row>
+    <row>
+      <cell>The Kemerovo Area-RU</cell>
+      <cell>The Kemerovo Area</cell>
+    </row>
+    <row>
+      <cell>The Kamchatka Area-RU</cell>
+      <cell>The Kamchatka Area</cell>
+    </row>
+    <row>
+      <cell>The Kaluga Area-RU</cell>
+      <cell>The Kaluga Area</cell>
+    </row>
+    <row>
+      <cell>The Kaliningrad Area-RU</cell>
+      <cell>The Kaliningrad Area</cell>
+    </row>
+    <row>
+      <cell>The Irkutsk Area-RU</cell>
+      <cell>The Irkutsk Area</cell>
+    </row>
+    <row>
+      <cell>The Ivanovo Area-RU</cell>
+      <cell>The Ivanovo Area</cell>
+    </row>
+    <row>
+      <cell>The Voronezh Area-RU</cell>
+      <cell>The Voronezh Area</cell>
+    </row>
+    <row>
+      <cell>The Vologda Area-RU</cell>
+      <cell>The Vologda Area</cell>
+    </row>
+    <row>
+      <cell>The Volgograd Area-RU</cell>
+      <cell>The Volgograd Area</cell>
+    </row>
+    <row>
+      <cell>The Vladimir Area-RU</cell>
+      <cell>The Vladimir Area</cell>
+    </row>
+    <row>
+      <cell>The Bryansk Area-RU</cell>
+      <cell>The Bryansk Area</cell>
+    </row>
+    <row>
+      <cell>The Belgorod Area-RU</cell>
+      <cell>The Belgorod Area</cell>
+    </row>
+    <row>
+      <cell>The Astrakhan Area-RU</cell>
+      <cell>The Astrakhan Area</cell>
+    </row>
+    <row>
+      <cell>The Arkhangelsk Area-RU</cell>
+      <cell>The Arkhangelsk Area</cell>
+    </row>
+    <row>
+      <cell>The Amur Area-RU</cell>
+      <cell>The Amur Area</cell>
+    </row>
+    <row>
+      <cell>Khabarovsk Territory-RU</cell>
+      <cell>Khabarovsk Territory</cell>
+    </row>
+    <row>
+      <cell>Stavropol Territory-RU</cell>
+      <cell>Stavropol Territory</cell>
+    </row>
+    <row>
+      <cell>Primorye Territory-RU</cell>
+      <cell>Primorye Territory</cell>
+    </row>
+    <row>
+      <cell>Krasnoyarsk Territor-RU</cell>
+      <cell>Krasnoyarsk Territor</cell>
+    </row>
+    <row>
+      <cell>Krasnodar Territory-RU</cell>
+      <cell>Krasnodar Territory</cell>
+    </row>
+    <row>
+      <cell>Altay Territory-RU</cell>
+      <cell>Altay Territory</cell>
+    </row>
+    <row>
+      <cell>Chuvash Republic-RU</cell>
+      <cell>Chuvash Republic</cell>
+    </row>
+    <row>
+      <cell>Chechenskaya Republ.-RU</cell>
+      <cell>Chechenskaya Republ.</cell>
+    </row>
+    <row>
+      <cell>Chakassky Republic-RU</cell>
+      <cell>Chakassky Republic</cell>
+    </row>
+    <row>
+      <cell>The Udmurt Republic-RU</cell>
+      <cell>The Udmurt Republic</cell>
+    </row>
+    <row>
+      <cell>Tuva Republic-RU</cell>
+      <cell>Tuva Republic</cell>
+    </row>
+    <row>
+      <cell>Tatarstan Republic-RU</cell>
+      <cell>Tatarstan Republic</cell>
+    </row>
+    <row>
+      <cell>North-Osetiya Republ-RU</cell>
+      <cell>North-Osetiya Republ</cell>
+    </row>
+    <row>
+      <cell>Yakutiya-Saha Rrepub-RU</cell>
+      <cell>Yakutiya-Saha Rrepub</cell>
+    </row>
+    <row>
+      <cell>Mordovian Republic-RU</cell>
+      <cell>Mordovian Republic</cell>
+    </row>
+    <row>
+      <cell>Marijskaya Republic-RU</cell>
+      <cell>Marijskaya Republic</cell>
+    </row>
+    <row>
+      <cell>Komi Republic-RU</cell>
+      <cell>Komi Republic</cell>
+    </row>
+    <row>
+      <cell>Karelian Republic-RU</cell>
+      <cell>Karelian Republic</cell>
+    </row>
+    <row>
+      <cell>Karach.-Cherkessk Re-RU</cell>
+      <cell>Karach.-Cherkessk Re</cell>
+    </row>
+    <row>
+      <cell>Kalmyk Republic-RU</cell>
+      <cell>Kalmyk Republic</cell>
+    </row>
+    <row>
+      <cell>Kabardino-Balkar.Rep-RU</cell>
+      <cell>Kabardino-Balkar.Rep</cell>
+    </row>
+    <row>
+      <cell>Ingushetija Republic-RU</cell>
+      <cell>Ingushetija Republic</cell>
+    </row>
+    <row>
+      <cell>Dagestan Republic-RU</cell>
+      <cell>Dagestan Republic</cell>
+    </row>
+    <row>
+      <cell>Buryat Republic-RU</cell>
+      <cell>Buryat Republic</cell>
+    </row>
+    <row>
+      <cell>Republ.of Bashkortos-RU</cell>
+      <cell>Republ.of Bashkortos</cell>
+    </row>
+    <row>
+      <cell>Highlands-Altay Rep.-RU</cell>
+      <cell>Highlands-Altay Rep.</cell>
+    </row>
+    <row>
+      <cell>Adigeja Republic-RU</cell>
+      <cell>Adigeja Republic</cell>
+    </row>
+    <row>
+      <cell>Vrancea-RO</cell>
+      <cell>Vrancea</cell>
+    </row>
+    <row>
+      <cell>Vilcea-RO</cell>
+      <cell>Vilcea</cell>
+    </row>
+    <row>
+      <cell>Vaslui-RO</cell>
+      <cell>Vaslui</cell>
+    </row>
+    <row>
+      <cell>Timis-RO</cell>
+      <cell>Timis</cell>
+    </row>
+    <row>
+      <cell>Tulcea-RO</cell>
+      <cell>Tulcea</cell>
+    </row>
+    <row>
+      <cell>Teleorman-RO</cell>
+      <cell>Teleorman</cell>
+    </row>
+    <row>
+      <cell>Sibiu-RO</cell>
+      <cell>Sibiu</cell>
+    </row>
+    <row>
+      <cell>Suceava-RO</cell>
+      <cell>Suceava</cell>
+    </row>
+    <row>
+      <cell>Salaj-RO</cell>
+      <cell>Salaj</cell>
+    </row>
+    <row>
+      <cell>Satu Mare-RO</cell>
+      <cell>Satu Mare</cell>
+    </row>
+    <row>
+      <cell>Olt-RO</cell>
+      <cell>Olt</cell>
+    </row>
+    <row>
+      <cell>Prahova-RO</cell>
+      <cell>Prahova</cell>
+    </row>
+    <row>
+      <cell>Mures-RO</cell>
+      <cell>Mures</cell>
+    </row>
+    <row>
+      <cell>Neamt-RO</cell>
+      <cell>Neamt</cell>
+    </row>
+    <row>
+      <cell>Mehedinti-RO</cell>
+      <cell>Mehedinti</cell>
+    </row>
+    <row>
+      <cell>Iasi-RO</cell>
+      <cell>Iasi</cell>
+    </row>
+    <row>
+      <cell>Maramures-RO</cell>
+      <cell>Maramures</cell>
+    </row>
+    <row>
+      <cell>Ialomita-RO</cell>
+      <cell>Ialomita</cell>
+    </row>
+    <row>
+      <cell>Hunedoara-RO</cell>
+      <cell>Hunedoara</cell>
+    </row>
+    <row>
+      <cell>Apure-VE</cell>
+      <cell>Apure</cell>
+    </row>
+    <row>
+      <cell>Anzoategui-VE</cell>
+      <cell>Anzoategui</cell>
+    </row>
+    <row>
+      <cell>Amazon-VE</cell>
+      <cell>Amazon</cell>
+    </row>
+    <row>
+      <cell>Wyoming-US</cell>
+      <cell>WY</cell>
+    </row>
+    <row>
+      <cell>Wisconsin-US</cell>
+      <cell>WI</cell>
+    </row>
+    <row>
+      <cell>West Virginia-US</cell>
+      <cell>WV</cell>
+    </row>
+    <row>
+      <cell>Reg. Aut. dos Açores-PT</cell>
+      <cell>Reg. Aut. dos Açores</cell>
+    </row>
+    <row>
+      <cell>Algarve-PT</cell>
+      <cell>Algarve</cell>
+    </row>
+    <row>
+      <cell>Baixo Alentejo-PT</cell>
+      <cell>Baixo Alentejo</cell>
+    </row>
+    <row>
+      <cell>Alentejo Central-PT</cell>
+      <cell>Alentejo Central</cell>
+    </row>
+    <row>
+      <cell>Alto Alentejo-PT</cell>
+      <cell>Alto Alentejo</cell>
+    </row>
+    <row>
+      <cell>Alentejo Litoral-PT</cell>
+      <cell>Alentejo Litoral</cell>
+    </row>
+    <row>
+      <cell>Lezíria do Tejo-PT</cell>
+      <cell>Lezíria do Tejo</cell>
+    </row>
+    <row>
+      <cell>Médio Tejo-PT</cell>
+      <cell>Médio Tejo</cell>
+    </row>
+    <row>
+      <cell>Península de Setúbal-PT</cell>
+      <cell>Península de Setúbal</cell>
+    </row>
+    <row>
+      <cell>Oeste-PT</cell>
+      <cell>Oeste</cell>
+    </row>
+    <row>
+      <cell>Grande Lisboa-PT</cell>
+      <cell>Grande Lisboa</cell>
+    </row>
+    <row>
+      <cell>Cova da Beira-PT</cell>
+      <cell>Cova da Beira</cell>
+    </row>
+    <row>
+      <cell>Beira Interior Sul-PT</cell>
+      <cell>Beira Interior Sul</cell>
+    </row>
+    <row>
+      <cell>Beira Interior Norte-PT</cell>
+      <cell>Beira Interior Norte</cell>
+    </row>
+    <row>
+      <cell>Serra da Estrela-PT</cell>
+      <cell>Serra da Estrela</cell>
+    </row>
+    <row>
+      <cell>Pinhal Interior Sul-PT</cell>
+      <cell>Pinhal Interior Sul</cell>
+    </row>
+    <row>
+      <cell>Pinhal Interior N.-PT</cell>
+      <cell>Pinhal Interior N.</cell>
+    </row>
+    <row>
+      <cell>Pinhal Litoral-PT</cell>
+      <cell>Pinhal Litoral</cell>
+    </row>
+    <row>
+      <cell>Baixo Mondego-PT</cell>
+      <cell>Baixo Mondego</cell>
+    </row>
+    <row>
+      <cell>Baixo Vouga-PT</cell>
+      <cell>Baixo Vouga</cell>
+    </row>
+    <row>
+      <cell>Douro-PT</cell>
+      <cell>Douro</cell>
+    </row>
+    <row>
+      <cell>Alto Trás-os-Montes-PT</cell>
+      <cell>Alto Trás-os-Montes</cell>
+    </row>
+    <row>
+      <cell>Entre Douro e Vouga-PT</cell>
+      <cell>Entre Douro e Vouga</cell>
+    </row>
+    <row>
+      <cell>Tâmega-PT</cell>
+      <cell>Tâmega</cell>
+    </row>
+    <row>
+      <cell>Ave-PT</cell>
+      <cell>Ave</cell>
+    </row>
+    <row>
+      <cell>Grande Porto-PT</cell>
+      <cell>Grande Porto</cell>
+    </row>
+    <row>
+      <cell>Cávado-PT</cell>
+      <cell>Cávado</cell>
+    </row>
+    <row>
+      <cell>Minho-Lima-PT</cell>
+      <cell>Minho-Lima</cell>
+    </row>
+    <row>
+      <cell>Western Mindanao-PH</cell>
+      <cell>Western Mindanao</cell>
+    </row>
+    <row>
+      <cell>West Visayas-PH</cell>
+      <cell>West Visayas</cell>
+    </row>
+    <row>
+      <cell>South Mindanao-PH</cell>
+      <cell>South Mindanao</cell>
+    </row>
+    <row>
+      <cell>South Luzon-PH</cell>
+      <cell>South Luzon</cell>
+    </row>
+    <row>
+      <cell>Northern Mindanao-PH</cell>
+      <cell>Northern Mindanao</cell>
+    </row>
+    <row>
+      <cell>Ilocos-PH</cell>
+      <cell>Ilocos</cell>
+    </row>
+    <row>
+      <cell>Eastern Visayas-PH</cell>
+      <cell>Eastern Visayas</cell>
+    </row>
+    <row>
+      <cell>Cntrl Mindanao-PH</cell>
+      <cell>Cntrl Mindanao</cell>
+    </row>
+    <row>
+      <cell>Central Visayas-PH</cell>
+      <cell>Central Visayas</cell>
+    </row>
+    <row>
+      <cell>Central Luzon-PH</cell>
+      <cell>Central Luzon</cell>
+    </row>
+    <row>
+      <cell>Bicol-PH</cell>
+      <cell>Bicol</cell>
+    </row>
+    <row>
+      <cell>Cagayan Valley-PH</cell>
+      <cell>Cagayan Valley</cell>
+    </row>
+    <row>
+      <cell>Callao-PE</cell>
+      <cell>Callao</cell>
+    </row>
+    <row>
+      <cell>Madre de Díos-PE</cell>
+      <cell>Mad d Dios</cell>
+    </row>
+    <row>
+      <cell>Ucayali-PE</cell>
+      <cell>Ucayali</cell>
+    </row>
+    <row>
+      <cell>Puno-PE</cell>
+      <cell>Puno</cell>
+    </row>
+    <row>
+      <cell>Loreto-PE</cell>
+      <cell>Loreto</cell>
+    </row>
+    <row>
+      <cell>Cuzco-PE</cell>
+      <cell>Cuzco</cell>
+    </row>
+    <row>
+      <cell>Apurimac-PE</cell>
+      <cell>Apurimac</cell>
+    </row>
+    <row>
+      <cell>Ayacucho-PE</cell>
+      <cell>Ayacucho</cell>
+    </row>
+    <row>
+      <cell>Huancavelica-PE</cell>
+      <cell>Huacavlica</cell>
+    </row>
+    <row>
+      <cell>Junín-PE</cell>
+      <cell>Junín</cell>
+    </row>
+    <row>
+      <cell>Pasco-PE</cell>
+      <cell>Pasco</cell>
+    </row>
+    <row>
+      <cell>Huánuco-PE</cell>
+      <cell>Huánuco</cell>
+    </row>
+    <row>
+      <cell>San Martín-PE</cell>
+      <cell>San Martín</cell>
+    </row>
+    <row>
+      <cell>Cajamarca-PE</cell>
+      <cell>Cajamarca</cell>
+    </row>
+    <row>
+      <cell>Amazon-PE</cell>
+      <cell>Amazon</cell>
+    </row>
+    <row>
+      <cell>Tacna-PE</cell>
+      <cell>Tacna</cell>
+    </row>
+    <row>
+      <cell>Moquegua-PE</cell>
+      <cell>Moquegua</cell>
+    </row>
+    <row>
+      <cell>Ica-PE</cell>
+      <cell>Ica</cell>
+    </row>
+    <row>
+      <cell>Arequipa-PE</cell>
+      <cell>Arequipa</cell>
+    </row>
+    <row>
+      <cell>Lima y Callao-PE</cell>
+      <cell>Lima Y Cal</cell>
+    </row>
+    <row>
+      <cell>Ancash-PE</cell>
+      <cell>Ancash</cell>
+    </row>
+    <row>
+      <cell>La Libertad-PE</cell>
+      <cell>La Libetad</cell>
+    </row>
+    <row>
+      <cell>Lambayeque-PE</cell>
+      <cell>Lambayeque</cell>
+    </row>
+    <row>
+      <cell>Piura-PE</cell>
+      <cell>Piura</cell>
+    </row>
+    <row>
+      <cell>Tumbes-PE</cell>
+      <cell>Tumbes</cell>
+    </row>
+    <row>
+      <cell>San Pedro-PY</cell>
+      <cell>San Pedro</cell>
+    </row>
+    <row>
+      <cell>Presidente Hayes-PY</cell>
+      <cell>Presidente Hayes</cell>
+    </row>
+    <row>
+      <cell>Paraguari-PY</cell>
+      <cell>Paraguari</cell>
+    </row>
+    <row>
+      <cell>Olimpo-PY</cell>
+      <cell>Olimpo</cell>
+    </row>
+    <row>
+      <cell>Neembucu-PY</cell>
+      <cell>Neembucu</cell>
+    </row>
+    <row>
+      <cell>Misiones-PY</cell>
+      <cell>Misiones</cell>
+    </row>
+    <row>
+      <cell>Itapua-PY</cell>
+      <cell>Itapua</cell>
+    </row>
+    <row>
+      <cell>Guaira-PY</cell>
+      <cell>Guaira</cell>
+    </row>
+    <row>
+      <cell>Cordillera-PY</cell>
+      <cell>Cordillera</cell>
+    </row>
+    <row>
+      <cell>Concepcion-PY</cell>
+      <cell>Concepcion</cell>
+    </row>
+    <row>
+      <cell>Central-PY</cell>
+      <cell>Central</cell>
+    </row>
+    <row>
+      <cell>Caazapa-PY</cell>
+      <cell>Caazapa</cell>
+    </row>
+    <row>
+      <cell>Caaguazu-PY</cell>
+      <cell>Caaguazu</cell>
+    </row>
+    <row>
+      <cell>Boqueron-PY</cell>
+      <cell>Boqueron</cell>
+    </row>
+    <row>
+      <cell>Amambay-PY</cell>
+      <cell>Amambay</cell>
+    </row>
+    <row>
+      <cell>Alto Parana-PY</cell>
+      <cell>Alto Parana</cell>
+    </row>
+    <row>
+      <cell>Finnmark Fylke-NO</cell>
+      <cell>Finnmark Fylke</cell>
+    </row>
+    <row>
+      <cell>Troms Fylke-NO</cell>
+      <cell>Troms Fylke</cell>
+    </row>
+    <row>
+      <cell>Nordland Fylke-NO</cell>
+      <cell>Nordland Fylke</cell>
+    </row>
+    <row>
+      <cell>Nord-Trondelag Fylke-NO</cell>
+      <cell>Nord-Trondelag Fylke</cell>
+    </row>
+    <row>
+      <cell>Sor-Trondelag Fylke-NO</cell>
+      <cell>Sor-Trondelag Fylke</cell>
+    </row>
+    <row>
+      <cell>More og Romsdal F.-NO</cell>
+      <cell>More og Romsdal F.</cell>
+    </row>
+    <row>
+      <cell>Sogn og Fjordane F.-NO</cell>
+      <cell>Sogn og Fjordane F.</cell>
+    </row>
+    <row>
+      <cell>Hordaland Fylke-NO</cell>
+      <cell>Hordaland Fylke</cell>
+    </row>
+    <row>
+      <cell>Rogaland Fylke-NO</cell>
+      <cell>Rogaland Fylke</cell>
+    </row>
+    <row>
+      <cell>Vest-Agder Fylke-NO</cell>
+      <cell>Vest-Agder Fylke</cell>
+    </row>
+    <row>
+      <cell>Aust-Agder Fylke-NO</cell>
+      <cell>Aust-Agder Fylke</cell>
+    </row>
+    <row>
+      <cell>Telemark Fylke-NO</cell>
+      <cell>Telemark Fylke</cell>
+    </row>
+    <row>
+      <cell>Vestfold Fylke-NO</cell>
+      <cell>Vestfold Fylke</cell>
+    </row>
+    <row>
+      <cell>Buskerud Fylke-NO</cell>
+      <cell>Buskerud Fylke</cell>
+    </row>
+    <row>
+      <cell>Oppland Fylke-NO</cell>
+      <cell>Oppland Fylke</cell>
+    </row>
+    <row>
+      <cell>Oslo-NO</cell>
+      <cell>Oslo</cell>
+    </row>
+    <row>
+      <cell>Hedmark Fylke-NO</cell>
+      <cell>Hedmark Fylke</cell>
+    </row>
+    <row>
+      <cell>Akershus Fylke-NO</cell>
+      <cell>Akershus Fylke</cell>
+    </row>
+    <row>
+      <cell>Ostfold Fylke-NO</cell>
+      <cell>Ostfold Fylke</cell>
+    </row>
+    <row>
+      <cell>West Coast-NZ</cell>
+      <cell>West Coast</cell>
+    </row>
+    <row>
+      <cell>Wellington-NZ</cell>
+      <cell>Wellington</cell>
+    </row>
+    <row>
+      <cell>Waikato-NZ</cell>
+      <cell>Waikato</cell>
+    </row>
+    <row>
+      <cell>Taranaki-NZ</cell>
+      <cell>Taranaki</cell>
+    </row>
+    <row>
+      <cell>Southland-NZ</cell>
+      <cell>Southland</cell>
+    </row>
+    <row>
+      <cell>Otago-NZ</cell>
+      <cell>Otago</cell>
+    </row>
+    <row>
+      <cell>Northland-NZ</cell>
+      <cell>Northland</cell>
+    </row>
+    <row>
+      <cell>Manawatu-Wanganui-NZ</cell>
+      <cell>ManawWangu</cell>
+    </row>
+    <row>
+      <cell>Hawke's Bay-NZ</cell>
+      <cell>Hawkes Bay</cell>
+    </row>
+    <row>
+      <cell>Canterbury-NZ</cell>
+      <cell>Canterbury</cell>
+    </row>
+    <row>
+      <cell>Bay of Plenty-NZ</cell>
+      <cell>BayoPlenty</cell>
+    </row>
+    <row>
+      <cell>Auckland-NZ</cell>
+      <cell>Auckland</cell>
+    </row>
+    <row>
+      <cell>Zuid-Holland-NL</cell>
+      <cell>Zuid-Holnd</cell>
+    </row>
+    <row>
+      <cell>Zeeland-NL</cell>
+      <cell>Zeeland</cell>
+    </row>
+    <row>
+      <cell>Utrecht-NL</cell>
+      <cell>Utrecht</cell>
+    </row>
+    <row>
+      <cell>Overijssel-NL</cell>
+      <cell>Overijssel</cell>
+    </row>
+    <row>
+      <cell>Noord-Holland-NL</cell>
+      <cell>Nord-Holnd</cell>
+    </row>
+    <row>
+      <cell>Noord-Brabant-NL</cell>
+      <cell>Nord-Brbnt</cell>
+    </row>
+    <row>
+      <cell>Netherlands-NL</cell>
+      <cell>Netherland</cell>
+    </row>
+    <row>
+      <cell>Limburg-NL</cell>
+      <cell>Limburg</cell>
+    </row>
+    <row>
+      <cell>Groningen-NL</cell>
+      <cell>Groningen</cell>
+    </row>
+    <row>
+      <cell>Gelderland-NL</cell>
+      <cell>Gelderland</cell>
+    </row>
+    <row>
+      <cell>Friesland-NL</cell>
+      <cell>Friesland</cell>
+    </row>
+    <row>
+      <cell>Flevoland-NL</cell>
+      <cell>Flevoland</cell>
+    </row>
+    <row>
+      <cell>Drenthe-NL</cell>
+      <cell>Drenthe</cell>
+    </row>
+    <row>
+      <cell>Zacatecas-MX</cell>
+      <cell>ZAC</cell>
+    </row>
+    <row>
+      <cell>Yucatán-MX</cell>
+      <cell>YUC</cell>
+    </row>
+    <row>
+      <cell>Veracruz-MX</cell>
+      <cell>VER</cell>
+    </row>
+    <row>
+      <cell>Tlaxcala-MX</cell>
+      <cell>TLAX</cell>
+    </row>
+    <row>
+      <cell>Tamaulipas-MX</cell>
+      <cell>TAMPS</cell>
+    </row>
+    <row>
+      <cell>Tabasco-MX</cell>
+      <cell>TAB</cell>
+    </row>
+    <row>
+      <cell>Sonora-MX</cell>
+      <cell>SON</cell>
+    </row>
+    <row>
+      <cell>Sinaloa-MX</cell>
+      <cell>SIN</cell>
+    </row>
+    <row>
+      <cell>San Luis Potosí-MX</cell>
+      <cell>SLP</cell>
+    </row>
+    <row>
+      <cell>Quintana Roo-MX</cell>
+      <cell>QROO</cell>
+    </row>
+    <row>
+      <cell>Querétaro-MX</cell>
+      <cell>QRO</cell>
+    </row>
+    <row>
+      <cell>Puebla-MX</cell>
+      <cell>PUE</cell>
+    </row>
+    <row>
+      <cell>Oaxaca-MX</cell>
+      <cell>OAX</cell>
+    </row>
+    <row>
+      <cell>Nuevo Léon-MX</cell>
+      <cell>NL</cell>
+    </row>
+    <row>
+      <cell>Nayarit-MX</cell>
+      <cell>NAY</cell>
+    </row>
+    <row>
+      <cell>Morelos-MX</cell>
+      <cell>MOR</cell>
+    </row>
+    <row>
+      <cell>Michoacán-MX</cell>
+      <cell>MICH</cell>
+    </row>
+    <row>
+      <cell>Jalisco-MX</cell>
+      <cell>JAL</cell>
+    </row>
+    <row>
+      <cell>Hidalgo-MX</cell>
+      <cell>HGO</cell>
+    </row>
+    <row>
+      <cell>Guerrero-MX</cell>
+      <cell>GRO</cell>
+    </row>
+    <row>
+      <cell>Guanajuato-MX</cell>
+      <cell>GTO</cell>
+    </row>
+    <row>
+      <cell>Estado de México-MX</cell>
+      <cell>MEX</cell>
+    </row>
+    <row>
+      <cell>Durango-MX</cell>
+      <cell>DGO</cell>
+    </row>
+    <row>
+      <cell>Distrito Federal-MX</cell>
+      <cell>DF</cell>
+    </row>
+    <row>
+      <cell>Colima-MX</cell>
+      <cell>COL</cell>
+    </row>
+    <row>
+      <cell>Coahuila-MX</cell>
+      <cell>COAH</cell>
+    </row>
+    <row>
+      <cell>Chihuahua-MX</cell>
+      <cell>CHIH</cell>
+    </row>
+    <row>
+      <cell>Chiapas-MX</cell>
+      <cell>CHIS</cell>
+    </row>
+    <row>
+      <cell>Campeche-MX</cell>
+      <cell>CAMP</cell>
+    </row>
+    <row>
+      <cell>Baja California S-MX</cell>
+      <cell>BCS</cell>
+    </row>
+    <row>
+      <cell>Baja California-MX</cell>
+      <cell>BC</cell>
+    </row>
+    <row>
+      <cell>Aguascalientes-MX</cell>
+      <cell>AGS</cell>
+    </row>
+    <row>
+      <cell>Terengganu-MY</cell>
+      <cell>Terengganu</cell>
+    </row>
+    <row>
+      <cell>Selangor-MY</cell>
+      <cell>Selangor</cell>
+    </row>
+    <row>
+      <cell>Sarawak-MY</cell>
+      <cell>Sarawak</cell>
+    </row>
+    <row>
+      <cell>Sabah-MY</cell>
+      <cell>Sabah</cell>
+    </row>
+    <row>
+      <cell>Pulau Pinang-MY</cell>
+      <cell>PulaPinang</cell>
+    </row>
+    <row>
+      <cell>Perlis-MY</cell>
+      <cell>Perlis</cell>
+    </row>
+    <row>
+      <cell>Perak-MY</cell>
+      <cell>Perak</cell>
+    </row>
+    <row>
+      <cell>Pahang-MY</cell>
+      <cell>Pahang</cell>
+    </row>
+    <row>
+      <cell>Negeri Sembilan-MY</cell>
+      <cell>NegSemblan</cell>
+    </row>
+    <row>
+      <cell>Melaka-MY</cell>
+      <cell>Melaka</cell>
+    </row>
+    <row>
+      <cell>Labuan-MY</cell>
+      <cell>Labuan</cell>
+    </row>
+    <row>
+      <cell>Kuala Lumpur-MY</cell>
+      <cell>KualaLmpur</cell>
+    </row>
+    <row>
+      <cell>Kelantan-MY</cell>
+      <cell>Kelantan</cell>
+    </row>
+    <row>
+      <cell>Kedah-MY</cell>
+      <cell>Kedah</cell>
+    </row>
+    <row>
+      <cell>Johor-MY</cell>
+      <cell>Johor</cell>
+    </row>
+    <row>
+      <cell>Taipa-MO</cell>
+      <cell>Taipa</cell>
+    </row>
+    <row>
+      <cell>Macao-MO</cell>
+      <cell>Macao</cell>
+    </row>
+    <row>
+      <cell>Coloane-MO</cell>
+      <cell>Coloane</cell>
+    </row>
+    <row>
+      <cell>Luxembourg-LU</cell>
+      <cell>Luxembourg</cell>
+    </row>
+    <row>
+      <cell>Zapadno-Kazakhst-KZ</cell>
+      <cell>Zapadno-Kazakhst</cell>
+    </row>
+    <row>
+      <cell>Vostochno-Kazakhstan-KZ</cell>
+      <cell>Vostochno-Kazakhstan</cell>
+    </row>
+    <row>
+      <cell>Severo-Kazakhstansk-KZ</cell>
+      <cell>Severo-Kazakhstansk</cell>
+    </row>
+    <row>
+      <cell>Pavlodarskaia-KZ</cell>
+      <cell>Pavlodarskaia</cell>
+    </row>
+    <row>
+      <cell>Mangystayskaia-KZ</cell>
+      <cell>Mangystayskaia</cell>
+    </row>
+    <row>
+      <cell>Kyzilordinskaia-KZ</cell>
+      <cell>Kyzilordinskaia</cell>
+    </row>
+    <row>
+      <cell>Kostanaiskaia-KZ</cell>
+      <cell>Kostanaiskaia</cell>
+    </row>
+    <row>
+      <cell>Karagandinskaia-KZ</cell>
+      <cell>Karagandinskaia</cell>
+    </row>
+    <row>
+      <cell>Gambilskaia-KZ</cell>
+      <cell>Gambilskaia</cell>
+    </row>
+    <row>
+      <cell>Atyrauskaia-KZ</cell>
+      <cell>Atyrauskaia</cell>
+    </row>
+    <row>
+      <cell>Almatynskaia-KZ</cell>
+      <cell>Almatynskaia</cell>
+    </row>
+    <row>
+      <cell>Aktubinskaia-KZ</cell>
+      <cell>Aktubinskaia</cell>
+    </row>
+    <row>
+      <cell>Akmolinskaia-KZ</cell>
+      <cell>Akmolinskaia</cell>
+    </row>
+    <row>
+      <cell>Yamanashi-ken-JP</cell>
+      <cell>Yamanashi</cell>
+    </row>
+    <row>
+      <cell>Yamaguchi-ken-JP</cell>
+      <cell>Yamaguchi</cell>
+    </row>
+    <row>
+      <cell>Yamagata-ken-JP</cell>
+      <cell>Yamagata</cell>
+    </row>
+    <row>
+      <cell>Wakayama-ken-JP</cell>
+      <cell>Wakayama</cell>
+    </row>
+    <row>
+      <cell>Toyama-ken-JP</cell>
+      <cell>Toyama</cell>
+    </row>
+    <row>
+      <cell>Tottori-ken-JP</cell>
+      <cell>Tottori</cell>
+    </row>
+    <row>
+      <cell>Tokyo-to-JP</cell>
+      <cell>Tokyo</cell>
+    </row>
+    <row>
+      <cell>Tokushima-ken-JP</cell>
+      <cell>Tokushima</cell>
+    </row>
+    <row>
+      <cell>Tochigi-ken-JP</cell>
+      <cell>Tochigi</cell>
+    </row>
+    <row>
+      <cell>Shizuoka-ken-JP</cell>
+      <cell>Shizuoka</cell>
+    </row>
+    <row>
+      <cell>Shimane-ken-JP</cell>
+      <cell>Shimane</cell>
+    </row>
+    <row>
+      <cell>Shiga-ken-JP</cell>
+      <cell>Shiga</cell>
+    </row>
+    <row>
+      <cell>Saitama-ken-JP</cell>
+      <cell>Saitama</cell>
+    </row>
+    <row>
+      <cell>Saga-ken-JP</cell>
+      <cell>Saga</cell>
+    </row>
+    <row>
+      <cell>Osaka-fu-JP</cell>
+      <cell>Osaka</cell>
+    </row>
+    <row>
+      <cell>Okinawa-ken-JP</cell>
+      <cell>Okinawa</cell>
+    </row>
+    <row>
+      <cell>Okayama-ken-JP</cell>
+      <cell>Okayama</cell>
+    </row>
+    <row>
+      <cell>Oita-ken-JP</cell>
+      <cell>Oita</cell>
+    </row>
+    <row>
+      <cell>Niigata-ken-JP</cell>
+      <cell>Niigata</cell>
+    </row>
+    <row>
+      <cell>Nara-ken-JP</cell>
+      <cell>Nara</cell>
+    </row>
+    <row>
+      <cell>Nagasaki-ken-JP</cell>
+      <cell>Nagasaki</cell>
+    </row>
+    <row>
+      <cell>Nagano-ken-JP</cell>
+      <cell>Nagano</cell>
+    </row>
+    <row>
+      <cell>Miyazaki-ken-JP</cell>
+      <cell>Miyazaki</cell>
+    </row>
+    <row>
+      <cell>Miyagi-ken-JP</cell>
+      <cell>Miyagi</cell>
+    </row>
+    <row>
+      <cell>Mie-ken-JP</cell>
+      <cell>Mie</cell>
+    </row>
+    <row>
+      <cell>Kyoto-fu-JP</cell>
+      <cell>Kyoto</cell>
+    </row>
+    <row>
+      <cell>Kumamoto-ken-JP</cell>
+      <cell>Kumamoto</cell>
+    </row>
+    <row>
+      <cell>Kochi-ken-JP</cell>
+      <cell>Kochi</cell>
+    </row>
+    <row>
+      <cell>Kanagawa-ken-JP</cell>
+      <cell>Kanagawa</cell>
+    </row>
+    <row>
+      <cell>Kagoshima-ken-JP</cell>
+      <cell>Kagoshima</cell>
+    </row>
+    <row>
+      <cell>Kagawa-ken-JP</cell>
+      <cell>Kagawa</cell>
+    </row>
+    <row>
+      <cell>Iwate-ken-JP</cell>
+      <cell>Iwate</cell>
+    </row>
+    <row>
+      <cell>Ishikawa-ken-JP</cell>
+      <cell>Ishikawa</cell>
+    </row>
+    <row>
+      <cell>Ibaraki-ken-JP</cell>
+      <cell>Ibaraki</cell>
+    </row>
+    <row>
+      <cell>Hyogo-ken-JP</cell>
+      <cell>Hyogo</cell>
+    </row>
+    <row>
+      <cell>Hokkaido-JP</cell>
+      <cell>Hokkaido</cell>
+    </row>
+    <row>
+      <cell>Hiroshima-ken-JP</cell>
+      <cell>Hiroshima</cell>
+    </row>
+    <row>
+      <cell>Gunma-ken-JP</cell>
+      <cell>Gunma</cell>
+    </row>
+    <row>
+      <cell>Gifu-ken-JP</cell>
+      <cell>Gifu</cell>
+    </row>
+    <row>
+      <cell>Fukushima-ken-JP</cell>
+      <cell>Fukushima</cell>
+    </row>
+    <row>
+      <cell>Fukuoka-ken-JP</cell>
+      <cell>Fukuoka</cell>
+    </row>
+    <row>
+      <cell>Fukui-ken-JP</cell>
+      <cell>Fukui</cell>
+    </row>
+    <row>
+      <cell>Ehime-ken-JP</cell>
+      <cell>Ehime</cell>
+    </row>
+    <row>
+      <cell>Chiba-ken-JP</cell>
+      <cell>Chiba</cell>
+    </row>
+    <row>
+      <cell>Aomori-ken-JP</cell>
+      <cell>Aomori</cell>
+    </row>
+    <row>
+      <cell>Akita-ken-JP</cell>
+      <cell>Akita</cell>
+    </row>
+    <row>
+      <cell>Aichi-ken-JP</cell>
+      <cell>Aichi</cell>
+    </row>
+    <row>
+      <cell>Vibo Valentia-IT</cell>
+      <cell>Vibo Valentia</cell>
+    </row>
+    <row>
+      <cell>Viterbo-IT</cell>
+      <cell>Viterbo</cell>
+    </row>
+    <row>
+      <cell>Verona-IT</cell>
+      <cell>Verona</cell>
+    </row>
+    <row>
+      <cell>Vicenza-IT</cell>
+      <cell>Vicenza</cell>
+    </row>
+    <row>
+      <cell>Venice-IT</cell>
+      <cell>Venice</cell>
+    </row>
+    <row>
+      <cell>Vercelli-IT</cell>
+      <cell>Vercelli</cell>
+    </row>
+    <row>
+      <cell>Verbania-IT</cell>
+      <cell>Verbania</cell>
+    </row>
+    <row>
+      <cell>Varese-IT</cell>
+      <cell>Varese</cell>
+    </row>
+    <row>
+      <cell>Udine-IT</cell>
+      <cell>Udine</cell>
+    </row>
+    <row>
+      <cell>Treviso-IT</cell>
+      <cell>Treviso</cell>
+    </row>
+    <row>
+      <cell>Trieste-IT</cell>
+      <cell>Trieste</cell>
+    </row>
+    <row>
+      <cell>Terni-IT</cell>
+      <cell>Terni</cell>
+    </row>
+    <row>
+      <cell>Trapani-IT</cell>
+      <cell>Trapani</cell>
+    </row>
+    <row>
+      <cell>Turin-IT</cell>
+      <cell>Turin</cell>
+    </row>
+    <row>
+      <cell>Trento-IT</cell>
+      <cell>Trento</cell>
+    </row>
+    <row>
+      <cell>Teramo-IT</cell>
+      <cell>Teramo</cell>
+    </row>
+    <row>
+      <cell>Taranto-IT</cell>
+      <cell>Taranto</cell>
+    </row>
+    <row>
+      <cell>Savona-IT</cell>
+      <cell>Savona</cell>
+    </row>
+    <row>
+      <cell>Sassari-IT</cell>
+      <cell>Sassari</cell>
+    </row>
+    <row>
+      <cell>Siracusa-IT</cell>
+      <cell>Siracusa</cell>
+    </row>
+    <row>
+      <cell>La Spezia-IT</cell>
+      <cell>La Spezia</cell>
+    </row>
+    <row>
+      <cell>Sondrio-IT</cell>
+      <cell>Sondrio</cell>
+    </row>
+    <row>
+      <cell>Siena-IT</cell>
+      <cell>Siena</cell>
+    </row>
+    <row>
+      <cell>Salerno-IT</cell>
+      <cell>Salerno</cell>
+    </row>
+    <row>
+      <cell>Rovigo-IT</cell>
+      <cell>Rovigo</cell>
+    </row>
+    <row>
+      <cell>Rome-IT</cell>
+      <cell>Rome</cell>
+    </row>
+    <row>
+      <cell>Rimini-IT</cell>
+      <cell>Rimini</cell>
+    </row>
+    <row>
+      <cell>Rieti-IT</cell>
+      <cell>Rieti</cell>
+    </row>
+    <row>
+      <cell>Ragusa-IT</cell>
+      <cell>Ragusa</cell>
+    </row>
+    <row>
+      <cell>Reggio Emilia-IT</cell>
+      <cell>Reggio Emilia</cell>
+    </row>
+    <row>
+      <cell>Reggio Calabria-IT</cell>
+      <cell>Reggio Calabria</cell>
+    </row>
+    <row>
+      <cell>Ravenna-IT</cell>
+      <cell>Ravenna</cell>
+    </row>
+    <row>
+      <cell>Potenza-IT</cell>
+      <cell>Potenza</cell>
+    </row>
+    <row>
+      <cell>Pavia-IT</cell>
+      <cell>Pavia</cell>
+    </row>
+    <row>
+      <cell>Pistoia-IT</cell>
+      <cell>Pistoia</cell>
+    </row>
+    <row>
+      <cell>Pesaro-IT</cell>
+      <cell>Pesaro</cell>
+    </row>
+    <row>
+      <cell>Parma-IT</cell>
+      <cell>Parma</cell>
+    </row>
+    <row>
+      <cell>Prato-IT</cell>
+      <cell>Prato</cell>
+    </row>
+    <row>
+      <cell>Pisa-IT</cell>
+      <cell>Pisa</cell>
+    </row>
+    <row>
+      <cell>Pordenone-IT</cell>
+      <cell>Pordenone</cell>
+    </row>
+    <row>
+      <cell>Perugia-IT</cell>
+      <cell>Perugia</cell>
+    </row>
+    <row>
+      <cell>Pescara-IT</cell>
+      <cell>Pescara</cell>
+    </row>
+    <row>
+      <cell>Padova-IT</cell>
+      <cell>Padova</cell>
+    </row>
+    <row>
+      <cell>Piacenza-IT</cell>
+      <cell>Piacenza</cell>
+    </row>
+    <row>
+      <cell>Palermo-IT</cell>
+      <cell>Palermo</cell>
+    </row>
+    <row>
+      <cell>Oristano-IT</cell>
+      <cell>Oristano</cell>
+    </row>
+    <row>
+      <cell>Nuoro-IT</cell>
+      <cell>Nuoro</cell>
+    </row>
+    <row>
+      <cell>Novara-IT</cell>
+      <cell>Novara</cell>
+    </row>
+    <row>
+      <cell>Naples-IT</cell>
+      <cell>Naples</cell>
+    </row>
+    <row>
+      <cell>Matera-IT</cell>
+      <cell>Matera</cell>
+    </row>
+    <row>
+      <cell>Massa Carrara-IT</cell>
+      <cell>Massa Carrara</cell>
+    </row>
+    <row>
+      <cell>Modena-IT</cell>
+      <cell>Modena</cell>
+    </row>
+    <row>
+      <cell>Mantova-IT</cell>
+      <cell>Mantova</cell>
+    </row>
+    <row>
+      <cell>Milan-IT</cell>
+      <cell>Milan</cell>
+    </row>
+    <row>
+      <cell>Messina-IT</cell>
+      <cell>Messina</cell>
+    </row>
+    <row>
+      <cell>Macerata-IT</cell>
+      <cell>Macerata</cell>
+    </row>
+    <row>
+      <cell>Lucca-IT</cell>
+      <cell>Lucca</cell>
+    </row>
+    <row>
+      <cell>Lodi-IT</cell>
+      <cell>Lodi</cell>
+    </row>
+    <row>
+      <cell>Latina-IT</cell>
+      <cell>Latina</cell>
+    </row>
+    <row>
+      <cell>Livorno-IT</cell>
+      <cell>Livorno</cell>
+    </row>
+    <row>
+      <cell>Lecce-IT</cell>
+      <cell>Lecce</cell>
+    </row>
+    <row>
+      <cell>Lecco-IT</cell>
+      <cell>Lecco</cell>
+    </row>
+    <row>
+      <cell>Crotone-IT</cell>
+      <cell>Crotone</cell>
+    </row>
+    <row>
+      <cell>Isernia-IT</cell>
+      <cell>Isernia</cell>
+    </row>
+    <row>
+      <cell>Imperia-IT</cell>
+      <cell>Imperia</cell>
+    </row>
+    <row>
+      <cell>Grosseto-IT</cell>
+      <cell>Grosseto</cell>
+    </row>
+    <row>
+      <cell>Gorizia-IT</cell>
+      <cell>Gorizia</cell>
+    </row>
+    <row>
+      <cell>Genova-IT</cell>
+      <cell>Genova</cell>
+    </row>
+    <row>
+      <cell>Frosinone-IT</cell>
+      <cell>Frosinone</cell>
+    </row>
+    <row>
+      <cell>Forlì-IT</cell>
+      <cell>Forlì</cell>
+    </row>
+    <row>
+      <cell>Florence-IT</cell>
+      <cell>Florence</cell>
+    </row>
+    <row>
+      <cell>Foggia-IT</cell>
+      <cell>Foggia</cell>
+    </row>
+    <row>
+      <cell>Enna-IT</cell>
+      <cell>Enna</cell>
+    </row>
+    <row>
+      <cell>Ferrara-IT</cell>
+      <cell>Ferrara</cell>
+    </row>
+    <row>
+      <cell>Catanzaro-IT</cell>
+      <cell>Catanzaro</cell>
+    </row>
+    <row>
+      <cell>Catania-IT</cell>
+      <cell>Catania</cell>
+    </row>
+    <row>
+      <cell>Cosenza-IT</cell>
+      <cell>Cosenza</cell>
+    </row>
+    <row>
+      <cell>Como-IT</cell>
+      <cell>Como</cell>
+    </row>
+    <row>
+      <cell>Cremona-IT</cell>
+      <cell>Cremona</cell>
+    </row>
+    <row>
+      <cell>Cuneo-IT</cell>
+      <cell>Cuneo</cell>
+    </row>
+    <row>
+      <cell>Caltanisetta-IT</cell>
+      <cell>Caltanisetta</cell>
+    </row>
+    <row>
+      <cell>Chieti-IT</cell>
+      <cell>Chieti</cell>
+    </row>
+    <row>
+      <cell>Caserta-IT</cell>
+      <cell>Caserta</cell>
+    </row>
+    <row>
+      <cell>Campobasso-IT</cell>
+      <cell>Campobasso</cell>
+    </row>
+    <row>
+      <cell>Cagliari-IT</cell>
+      <cell>Cagliari</cell>
+    </row>
+    <row>
+      <cell>Bolzano-IT</cell>
+      <cell>Bolzano</cell>
+    </row>
+    <row>
+      <cell>Brescia-IT</cell>
+      <cell>Brescia</cell>
+    </row>
+    <row>
+      <cell>Västernorrlands Län-SE</cell>
+      <cell>Västernorrlands Län</cell>
+    </row>
+    <row>
+      <cell>Bologna-IT</cell>
+      <cell>Bologna</cell>
+    </row>
+    <row>
+      <cell>Benevento-IT</cell>
+      <cell>Benevento</cell>
+    </row>
+    <row>
+      <cell>Belluno-IT</cell>
+      <cell>Belluno</cell>
+    </row>
+    <row>
+      <cell>Biella-IT</cell>
+      <cell>Biella</cell>
+    </row>
+    <row>
+      <cell>Bari-IT</cell>
+      <cell>Bari</cell>
+    </row>
+    <row>
+      <cell>Bergamo-IT</cell>
+      <cell>Bergamo</cell>
+    </row>
+    <row>
+      <cell>Asti-IT</cell>
+      <cell>Asti</cell>
+    </row>
+    <row>
+      <cell>Avellino-IT</cell>
+      <cell>Avellino</cell>
+    </row>
+    <row>
+      <cell>Arezzo-IT</cell>
+      <cell>Arezzo</cell>
+    </row>
+    <row>
+      <cell>L'Aquila-IT</cell>
+      <cell>L'Aquila</cell>
+    </row>
+    <row>
+      <cell>Ascoli Piceno-IT</cell>
+      <cell>Ascoli Piceno</cell>
+    </row>
+    <row>
+      <cell>Aosta-IT</cell>
+      <cell>Aosta</cell>
+    </row>
+    <row>
+      <cell>Ancona-IT</cell>
+      <cell>Ancona</cell>
+    </row>
+    <row>
+      <cell>Alessandria-IT</cell>
+      <cell>Alessandria</cell>
+    </row>
+    <row>
+      <cell>Agriento-IT</cell>
+      <cell>Agriento</cell>
+    </row>
+    <row>
+      <cell>Tel Aviv-IL</cell>
+      <cell>Tel Aviv</cell>
+    </row>
+    <row>
+      <cell>Southern-IL</cell>
+      <cell>Southern</cell>
+    </row>
+    <row>
+      <cell>Northern-IL</cell>
+      <cell>Northern</cell>
+    </row>
+    <row>
+      <cell>Jerusalem-IL</cell>
+      <cell>Jerusalem</cell>
+    </row>
+    <row>
+      <cell>Haifa-IL</cell>
+      <cell>Haifa</cell>
+    </row>
+    <row>
+      <cell>Central-IL</cell>
+      <cell>Central</cell>
+    </row>
+    <row>
+      <cell>Wexford-IE</cell>
+      <cell>Wexford</cell>
+    </row>
+    <row>
+      <cell>Westmeath-IE</cell>
+      <cell>Westmeath</cell>
+    </row>
+    <row>
+      <cell>Wicklow-IE</cell>
+      <cell>Wicklow</cell>
+    </row>
+    <row>
+      <cell>Waterford-IE</cell>
+      <cell>Waterford</cell>
+    </row>
+    <row>
+      <cell>Tyrone-IE</cell>
+      <cell>Tyrone</cell>
+    </row>
+    <row>
+      <cell>Tipperary-IE</cell>
+      <cell>Tipperary</cell>
+    </row>
+    <row>
+      <cell>Sligo-IE</cell>
+      <cell>Sligo</cell>
+    </row>
+    <row>
+      <cell>Rosscommon-IE</cell>
+      <cell>Rosscommon</cell>
+    </row>
+    <row>
+      <cell>Offaly-IE</cell>
+      <cell>Offaly</cell>
+    </row>
+    <row>
+      <cell>Mayo-IE</cell>
+      <cell>Mayo</cell>
+    </row>
+    <row>
+      <cell>Meath-IE</cell>
+      <cell>Meath</cell>
+    </row>
+    <row>
+      <cell>Monaghan-IE</cell>
+      <cell>Monaghan</cell>
+    </row>
+    <row>
+      <cell>Louth-IE</cell>
+      <cell>Louth</cell>
+    </row>
+    <row>
+      <cell>Laois-IE</cell>
+      <cell>Laois</cell>
+    </row>
+    <row>
+      <cell>Leitrim-IE</cell>
+      <cell>Leitrim</cell>
+    </row>
+    <row>
+      <cell>Limerick-IE</cell>
+      <cell>Limerick</cell>
+    </row>
+    <row>
+      <cell>Longford-IE</cell>
+      <cell>Longford</cell>
+    </row>
+    <row>
+      <cell>Kerry-IE</cell>
+      <cell>Kerry</cell>
+    </row>
+    <row>
+      <cell>Kilkenny-IE</cell>
+      <cell>Kilkenny</cell>
+    </row>
+    <row>
+      <cell>Kildare-IE</cell>
+      <cell>Kildare</cell>
+    </row>
+    <row>
+      <cell>Galway-IE</cell>
+      <cell>Galway</cell>
+    </row>
+    <row>
+      <cell>Fermanagh-IE</cell>
+      <cell>Fermanagh</cell>
+    </row>
+    <row>
+      <cell>Down-IE</cell>
+      <cell>Down</cell>
+    </row>
+    <row>
+      <cell>Derry-IE</cell>
+      <cell>Derry</cell>
+    </row>
+    <row>
+      <cell>Donegal-IE</cell>
+      <cell>Donegal</cell>
+    </row>
+    <row>
+      <cell>Dublin-IE</cell>
+      <cell>Dublin</cell>
+    </row>
+    <row>
+      <cell>Carlow-IE</cell>
+      <cell>Carlow</cell>
+    </row>
+    <row>
+      <cell>Cavan-IE</cell>
+      <cell>Cavan</cell>
+    </row>
+    <row>
+      <cell>Clare-IE</cell>
+      <cell>Clare</cell>
+    </row>
+    <row>
+      <cell>Cork-IE</cell>
+      <cell>Cork</cell>
+    </row>
+    <row>
+      <cell>Antrim-IE</cell>
+      <cell>Antrim</cell>
+    </row>
+    <row>
+      <cell>Armagh-IE</cell>
+      <cell>Armagh</cell>
+    </row>
+    <row>
+      <cell>Timor Timur East Tim-ID</cell>
+      <cell>Tmr Tmr E</cell>
+    </row>
+    <row>
+      <cell>Irian Jaya Irian Jay-ID</cell>
+      <cell>Irn Jy Irn</cell>
+    </row>
+    <row>
+      <cell>Maluku Maluku-ID</cell>
+      <cell>Malk Malku</cell>
+    </row>
+    <row>
+      <cell>Nusa Tenggara Timur-ID</cell>
+      <cell>Nsa Tr Tmr</cell>
+    </row>
+    <row>
+      <cell>Nusa Tenggara Barat-ID</cell>
+      <cell>Nsa Tr Brt</cell>
+    </row>
+    <row>
+      <cell>Bali Bali-ID</cell>
+      <cell>Bali Bali</cell>
+    </row>
+    <row>
+      <cell>Sulawesi Utara North-ID</cell>
+      <cell>Slws U Nth</cell>
+    </row>
+    <row>
+      <cell>Sulawesi Tengah Cent-ID</cell>
+      <cell>Slws T Cnt</cell>
+    </row>
+    <row>
+      <cell>Sulawesi Tenggara So-ID</cell>
+      <cell>Slws Tr S</cell>
+    </row>
+    <row>
+      <cell>Sulawesi Selatan Sou-ID</cell>
+      <cell>Slws S Sou</cell>
+    </row>
+    <row>
+      <cell>Kalimantan Timur Eas-ID</cell>
+      <cell>Klmt T E</cell>
+    </row>
+    <row>
+      <cell>Kalimantan Tengah Ce-ID</cell>
+      <cell>Klmt Th Ce</cell>
+    </row>
+    <row>
+      <cell>Kalimantan Barat Wes-ID</cell>
+      <cell>Klmt B W</cell>
+    </row>
+    <row>
+      <cell>Kalimantan Selatan S-ID</cell>
+      <cell>Klmt Sln S</cell>
+    </row>
+    <row>
+      <cell>Lampung Lampung-ID</cell>
+      <cell>Lampng Lmg</cell>
+    </row>
+    <row>
+      <cell>Bengkulu Bengkulu-ID</cell>
+      <cell>Beng Bkulu</cell>
+    </row>
+    <row>
+      <cell>Sumatera Selatan Sou-ID</cell>
+      <cell>Smtr Slt S</cell>
+    </row>
+    <row>
+      <cell>Jambi Jambi-ID</cell>
+      <cell>Jmbi Jambi</cell>
+    </row>
+    <row>
+      <cell>Riau Riau-ID</cell>
+      <cell>Riau Riau</cell>
+    </row>
+    <row>
+      <cell>Sumatera Barat West-ID</cell>
+      <cell>Smtr B Wst</cell>
+    </row>
+    <row>
+      <cell>Sumatera Utara North-ID</cell>
+      <cell>Smtr U Nth</cell>
+    </row>
+    <row>
+      <cell>DI Aceh Aceh-ID</cell>
+      <cell>DI Aceh</cell>
+    </row>
+    <row>
+      <cell>DI Yogyakarta Yogyak-ID</cell>
+      <cell>DI Yogyat</cell>
+    </row>
+    <row>
+      <cell>Jawa Timur East Java-ID</cell>
+      <cell>Jw T East</cell>
+    </row>
+    <row>
+      <cell>Jawa Tengah Central-ID</cell>
+      <cell>Jw Th Ctrl</cell>
+    </row>
+    <row>
+      <cell>Jawa Barat West Java-ID</cell>
+      <cell>Jwa Bt Wst</cell>
+    </row>
+    <row>
+      <cell>DKI Jakarta Jakarta-ID</cell>
+      <cell>DKI Jkrta</cell>
+    </row>
+    <row>
+      <cell>West Bengal-IN</cell>
+      <cell>WSTBENGAL</cell>
+    </row>
+    <row>
+      <cell>Uttar Pradesh-IN</cell>
+      <cell>UP</cell>
+    </row>
+    <row>
+      <cell>Utranchal-IN</cell>
+      <cell>UTRANCHAL</cell>
+    </row>
+    <row>
+      <cell>Tripura-IN</cell>
+      <cell>TRIPURA</cell>
+    </row>
+    <row>
+      <cell>Tamil Nadu-IN</cell>
+      <cell>TAMILNADU</cell>
+    </row>
+    <row>
+      <cell>Sikkim-IN</cell>
+      <cell>SIKKIM</cell>
+    </row>
+    <row>
+      <cell>Rajasthan-IN</cell>
+      <cell>RAJASTHAN</cell>
+    </row>
+    <row>
+      <cell>Punjab-IN</cell>
+      <cell>PUNJAB</cell>
+    </row>
+    <row>
+      <cell>Puducherry-IN</cell>
+      <cell>Puducherry</cell>
+    </row>
+    <row>
+      <cell>Orissa-IN</cell>
+      <cell>ORISSA</cell>
+    </row>
+    <row>
+      <cell>Delhi-IN</cell>
+      <cell>Delhi</cell>
+    </row>
+    <row>
+      <cell>Nagaland-IN</cell>
+      <cell>NAGALAND</cell>
+    </row>
+    <row>
+      <cell>Mizoram-IN</cell>
+      <cell>MIZORAM</cell>
+    </row>
+    <row>
+      <cell>Meghalaya-IN</cell>
+      <cell>MEGHALAYA</cell>
+    </row>
+    <row>
+      <cell>Manipur-IN</cell>
+      <cell>MANIPUR</cell>
+    </row>
+    <row>
+      <cell>Mahrashtra (OUT)-IN</cell>
+      <cell>Mahrashtra (OUT)</cell>
+    </row>
+    <row>
+      <cell>Maharashtra-IN</cell>
+      <cell>MAHRSHTRA</cell>
+    </row>
+    <row>
+      <cell>Madhya Pradesh-IN</cell>
+      <cell>MADHYA PRD</cell>
+    </row>
+    <row>
+      <cell>Lakshadweep Islands-IN</cell>
+      <cell>LAKSWHDEP</cell>
+    </row>
+    <row>
+      <cell>Kerala-IN</cell>
+      <cell>KERALA</cell>
+    </row>
+    <row>
+      <cell>Karnataka-IN</cell>
+      <cell>KARNATAKA</cell>
+    </row>
+    <row>
+      <cell>Jharkhand-IN</cell>
+      <cell>JHARKHAND</cell>
+    </row>
+    <row>
+      <cell>Jammu and Kashmir-IN</cell>
+      <cell>JAMUKASHR</cell>
+    </row>
+    <row>
+      <cell>Himachal Pradesh-IN</cell>
+      <cell>HP</cell>
+    </row>
+    <row>
+      <cell>Haryana-IN</cell>
+      <cell>HARYANA</cell>
+    </row>
+    <row>
+      <cell>Gujarat-IN</cell>
+      <cell>Gujarat</cell>
+    </row>
+    <row>
+      <cell>Goa-IN</cell>
+      <cell>GOA</cell>
+    </row>
+    <row>
+      <cell>Delhi (OUT)-IN</cell>
+      <cell>Delhi (OUT)</cell>
+    </row>
+    <row>
+      <cell>Daman and Diu-IN</cell>
+      <cell>DAMANDIU</cell>
+    </row>
+    <row>
+      <cell>Dadra and Nagar Hav.-IN</cell>
+      <cell>DADRANAGA</cell>
+    </row>
+    <row>
+      <cell>Chattisgarh-IN</cell>
+      <cell>CHATISGRH</cell>
+    </row>
+    <row>
+      <cell>Chandigarh-IN</cell>
+      <cell>CHNDIGARH</cell>
+    </row>
+    <row>
+      <cell>Bihar-IN</cell>
+      <cell>BIHAR</cell>
+    </row>
+    <row>
+      <cell>Bavadhan Khurd</cell>
+      <cell>BKP</cell>
+    </row>
+    <row>
+      <cell>Assam-IN</cell>
+      <cell>ASSAM</cell>
+    </row>
+    <row>
+      <cell>Arunachal Pradesh-IN</cell>
+      <cell>ARUNACHAL</cell>
+    </row>
+    <row>
+      <cell>Andhra Pradesh-IN</cell>
+      <cell>ANDHRA PRD</cell>
+    </row>
+    <row>
+      <cell>Andaman and Nico.In.-IN</cell>
+      <cell>ANDAMANS</cell>
+    </row>
+    <row>
+      <cell>Outlying Islands-HK</cell>
+      <cell>Outlying Islands</cell>
+    </row>
+    <row>
+      <cell>New Territories-HK</cell>
+      <cell>New Territories</cell>
+    </row>
+    <row>
+      <cell>Kowloon-HK</cell>
+      <cell>Kowloon</cell>
+    </row>
+    <row>
+      <cell>Hong Kong Island-HK</cell>
+      <cell>Hong Kong Island</cell>
+    </row>
+    <row>
+      <cell>Athens-GR</cell>
+      <cell>Athens</cell>
+    </row>
+    <row>
+      <cell>Zakinthos-GR</cell>
+      <cell>Zakinthos</cell>
+    </row>
+    <row>
+      <cell>Xanthi-GR</cell>
+      <cell>Xanthi</cell>
+    </row>
+    <row>
+      <cell>Voiotia-GR</cell>
+      <cell>Voiotia</cell>
+    </row>
+    <row>
+      <cell>Trikala-GR</cell>
+      <cell>Trikala</cell>
+    </row>
+    <row>
+      <cell>Thessaloniki-GR</cell>
+      <cell>Thessaloniki</cell>
+    </row>
+    <row>
+      <cell>Thesprotia-GR</cell>
+      <cell>Thesprotia</cell>
+    </row>
+    <row>
+      <cell>Samos-GR</cell>
+      <cell>Samos</cell>
+    </row>
+    <row>
+      <cell>Serrai-GR</cell>
+      <cell>Serrai</cell>
+    </row>
+    <row>
+      <cell>Rodhopi-GR</cell>
+      <cell>Rodhopi</cell>
+    </row>
+    <row>
+      <cell>Rethimni-GR</cell>
+      <cell>Rethimni</cell>
+    </row>
+    <row>
+      <cell>Preveza-GR</cell>
+      <cell>Preveza</cell>
+    </row>
+    <row>
+      <cell>Piraievs-GR</cell>
+      <cell>Piraievs</cell>
+    </row>
+    <row>
+      <cell>Pella-GR</cell>
+      <cell>Pella</cell>
+    </row>
+    <row>
+      <cell>Hovedstaden-DK</cell>
+      <cell>Hovedstaden</cell>
+    </row>
+    <row>
+      <cell>Midtjylland-DK</cell>
+      <cell>Midtjylland</cell>
+    </row>
+    <row>
+      <cell>Sjælland-DK</cell>
+      <cell>Sjælland</cell>
+    </row>
+    <row>
+      <cell>Syddanmark-DK</cell>
+      <cell>Syddanmark</cell>
+    </row>
+    <row>
+      <cell>Dolnośląskie-PL</cell>
+      <cell>Dolnośląskie</cell>
+    </row>
+    <row>
+      <cell>Kujawsko-Pomorskie-PL</cell>
+      <cell>Kujawsko-Pomorskie</cell>
+    </row>
+    <row>
+      <cell>Łódzkie-PL</cell>
+      <cell>Łódzkie</cell>
+    </row>
+    <row>
+      <cell>Lubelskie-PL</cell>
+      <cell>Lubelskie</cell>
+    </row>
+    <row>
+      <cell>Lubuskie-PL</cell>
+      <cell>Lubuskie</cell>
+    </row>
+    <row>
+      <cell>Małopolskie-PL</cell>
+      <cell>Małopolskie</cell>
+    </row>
+    <row>
+      <cell>Mazowieckie-PL</cell>
+      <cell>Mazowiecki</cell>
+    </row>
+    <row>
+      <cell>Opolskie-PL</cell>
+      <cell>Opolskie</cell>
+    </row>
+    <row>
+      <cell>Podkarpackie-PL</cell>
+      <cell>Podkapacki</cell>
+    </row>
+    <row>
+      <cell>Podlaskie-PL</cell>
+      <cell>Podlaskie</cell>
+    </row>
+    <row>
+      <cell>Pomorskie-PL</cell>
+      <cell>Pomorskie</cell>
+    </row>
+    <row>
+      <cell>Śląskie-PL</cell>
+      <cell>Śląskie</cell>
+    </row>
+    <row>
+      <cell>Świętokrzyskie-PL</cell>
+      <cell>Świętokrzyskie</cell>
+    </row>
+    <row>
+      <cell>Warmińsko-Mazurskie-PL</cell>
+      <cell>Warmińsko-Mazurskie</cell>
+    </row>
+    <row>
+      <cell>Wielkopolskie-PL</cell>
+      <cell>Wielkopolskie</cell>
+    </row>
+    <row>
+      <cell>Zachodniopomorskie-PL</cell>
+      <cell>Zachodniopomorskie</cell>
+    </row>
+    <row>
+      <cell>Gorj-RO</cell>
+      <cell>Gorj</cell>
+    </row>
+    <row>
+      <cell>Harghita-RO</cell>
+      <cell>Harghita</cell>
+    </row>
+    <row>
+      <cell>Giurgiu-RO</cell>
+      <cell>Giurgiu</cell>
+    </row>
+    <row>
+      <cell>Dolj-RO</cell>
+      <cell>Dolj</cell>
+    </row>
+    <row>
+      <cell>Galati-RO</cell>
+      <cell>Galati</cell>
+    </row>
+    <row>
+      <cell>Dimbovita-RO</cell>
+      <cell>Dimbovita</cell>
+    </row>
+    <row>
+      <cell>Covasna-RO</cell>
+      <cell>Covasna</cell>
+    </row>
+    <row>
+      <cell>Cluj-RO</cell>
+      <cell>Cluj</cell>
+    </row>
+    <row>
+      <cell>Constanta-RO</cell>
+      <cell>Constanta</cell>
+    </row>
+    <row>
+      <cell>Caras-Severin-RO</cell>
+      <cell>Caras-Severin</cell>
+    </row>
+    <row>
+      <cell>Buzau-RO</cell>
+      <cell>Buzau</cell>
+    </row>
+    <row>
+      <cell>Calarasi-RO</cell>
+      <cell>Calarasi</cell>
+    </row>
+    <row>
+      <cell>Bucuresti-RO</cell>
+      <cell>Bucuresti</cell>
+    </row>
+    <row>
+      <cell>Brasov-RO</cell>
+      <cell>Brasov</cell>
+    </row>
+    <row>
+      <cell>Braila-RO</cell>
+      <cell>Braila</cell>
+    </row>
+    <row>
+      <cell>Botosani-RO</cell>
+      <cell>Botosani</cell>
+    </row>
+    <row>
+      <cell>Bihor-RO</cell>
+      <cell>Bihor</cell>
+    </row>
+    <row>
+      <cell>Bistrita-Nasaud-RO</cell>
+      <cell>Bistrita-Nasaud</cell>
+    </row>
+    <row>
+      <cell>Arges-RO</cell>
+      <cell>Arges</cell>
+    </row>
+    <row>
+      <cell>Bacau-RO</cell>
+      <cell>Bacau</cell>
+    </row>
+    <row>
+      <cell>Alba-RO</cell>
+      <cell>Alba</cell>
+    </row>
+    <row>
+      <cell>Arad-RO</cell>
+      <cell>Arad</cell>
+    </row>
+    <row>
+      <cell>Reg. Aut. da Madeira-PT</cell>
+      <cell>Reg. Aut. da Madeira</cell>
+    </row>
+    <row>
+      <cell>NINGXIA-CN</cell>
+      <cell>NINGXIA</cell>
+    </row>
+    <row>
+      <cell>NEIMENGGU-CN</cell>
+      <cell>NEIMENGGU</cell>
+    </row>
+    <row>
+      <cell>NEI MONGUL (Out)-CN</cell>
+      <cell>Nei Mongol (Out)</cell>
+    </row>
+    <row>
+      <cell>LIAONING-CN</cell>
+      <cell>LIAONING</cell>
+    </row>
+    <row>
+      <cell>JILIN-CN</cell>
+      <cell>JILIN</cell>
+    </row>
+    <row>
+      <cell>JIANGXI-CN</cell>
+      <cell>JIANGXI</cell>
+    </row>
+    <row>
+      <cell>JIANGSU-CN</cell>
+      <cell>JIANGSU</cell>
+    </row>
+    <row>
+      <cell>Inner Mongolia-CN</cell>
+      <cell>In. Mongol</cell>
+    </row>
+    <row>
+      <cell>HUNAN-CN</cell>
+      <cell>HUNAN</cell>
+    </row>
+    <row>
+      <cell>HUBEI-CN</cell>
+      <cell>HUBEI</cell>
+    </row>
+    <row>
+      <cell>HONG KONG-CN</cell>
+      <cell>HONG KONG</cell>
+    </row>
+    <row>
+      <cell>HEPING-CN</cell>
+      <cell>HEPING</cell>
+    </row>
+    <row>
+      <cell>HENAN-CN</cell>
+      <cell>HENAN</cell>
+    </row>
+    <row>
+      <cell>HEILONGJIANG-CN</cell>
+      <cell>HEILONGJI</cell>
+    </row>
+    <row>
+      <cell>HEBEI-CN</cell>
+      <cell>HEBEI</cell>
+    </row>
+    <row>
+      <cell>HAINAN-CN</cell>
+      <cell>HAINAN</cell>
+    </row>
+    <row>
+      <cell>GUIZHOU-CN</cell>
+      <cell>GUIZHOU</cell>
+    </row>
+    <row>
+      <cell>GUANGXI-CN</cell>
+      <cell>GUANGXI</cell>
+    </row>
+    <row>
+      <cell>GUANGDON-CN</cell>
+      <cell>GUANGDONG</cell>
+    </row>
+    <row>
+      <cell>GANSU-CN</cell>
+      <cell>GANSU</cell>
+    </row>
+    <row>
+      <cell>FUJIAN-CN</cell>
+      <cell>FUJIAN</cell>
+    </row>
+    <row>
+      <cell>CHONGQING-CN</cell>
+      <cell>CHONGQING</cell>
+    </row>
+    <row>
+      <cell>BEIJING-CN</cell>
+      <cell>BEIJING</cell>
+    </row>
+    <row>
+      <cell>ANHUI-CN</cell>
+      <cell>ANHUI</cell>
+    </row>
+    <row>
+      <cell>XII - Punta Arenas-CL</cell>
+      <cell>XII</cell>
+    </row>
+    <row>
+      <cell>XI - Coyhaique-CL</cell>
+      <cell>XI</cell>
+    </row>
+    <row>
+      <cell>X - Puerto Montt-CL</cell>
+      <cell>X</cell>
+    </row>
+    <row>
+      <cell>VIII - Concepción-CL</cell>
+      <cell>VIII</cell>
+    </row>
+    <row>
+      <cell>VII - Talca-CL</cell>
+      <cell>VII</cell>
+    </row>
+    <row>
+      <cell>VI - Rancagua-CL</cell>
+      <cell>VI</cell>
+    </row>
+    <row>
+      <cell>V - Valparaiso-CL</cell>
+      <cell>V</cell>
+    </row>
+    <row>
+      <cell>RM - Santiago-CL</cell>
+      <cell>RM</cell>
+    </row>
+    <row>
+      <cell>IX - Temuco-CL</cell>
+      <cell>IX</cell>
+    </row>
+    <row>
+      <cell>IV - La Serena-CL</cell>
+      <cell>IV</cell>
+    </row>
+    <row>
+      <cell>III - Copiapo-CL</cell>
+      <cell>III</cell>
+    </row>
+    <row>
+      <cell>II - Antofagasta-CL</cell>
+      <cell>II</cell>
+    </row>
+    <row>
+      <cell>I - Iquique-CL</cell>
+      <cell>I</cell>
+    </row>
+    <row>
+      <cell>Little Cayman-KY</cell>
+      <cell>Little Cayman</cell>
+    </row>
+    <row>
+      <cell>Grand Cayman-KY</cell>
+      <cell>Grand Cayman</cell>
+    </row>
+    <row>
+      <cell>Cayman Brac-KY</cell>
+      <cell>Cayman Brac</cell>
+    </row>
+    <row>
+      <cell>British West Indies-KY</cell>
+      <cell>British West Indies</cell>
+    </row>
+    <row>
+      <cell>Yukon Territory-CA</cell>
+      <cell>YukTerity</cell>
+    </row>
+    <row>
+      <cell>Saskatchewan-CA</cell>
+      <cell>Sasktchwan</cell>
+    </row>
+    <row>
+      <cell>Quebec-CA</cell>
+      <cell>Quebec</cell>
+    </row>
+    <row>
+      <cell>Prince Edward Island-CA</cell>
+      <cell>PE Island</cell>
+    </row>
+    <row>
+      <cell>Ontario-CA</cell>
+      <cell>Ontario</cell>
+    </row>
+    <row>
+      <cell>Nunavut-CA</cell>
+      <cell>Nunavut</cell>
+    </row>
+    <row>
+      <cell>Nova Scotia-CA</cell>
+      <cell>NovaScota</cell>
+    </row>
+    <row>
+      <cell>Northwest Territory-CA</cell>
+      <cell>NW Teritor</cell>
+    </row>
+    <row>
+      <cell>Newfoundland-CA</cell>
+      <cell>NFoundLand</cell>
+    </row>
+    <row>
+      <cell>New Brunswick-CA</cell>
+      <cell>NBrunswick</cell>
+    </row>
+    <row>
+      <cell>Manitoba-CA</cell>
+      <cell>Manitoba</cell>
+    </row>
+    <row>
+      <cell>British Columbia-CA</cell>
+      <cell>BritColumb</cell>
+    </row>
+    <row>
+      <cell>Varna-BG</cell>
+      <cell>Varna</cell>
+    </row>
+    <row>
+      <cell>Alberta-CA</cell>
+      <cell>Alberta</cell>
+    </row>
+    <row>
+      <cell>Ruse-BG</cell>
+      <cell>Ruse</cell>
+    </row>
+    <row>
+      <cell>Sofiya-BG</cell>
+      <cell>Sofiya</cell>
+    </row>
+    <row>
+      <cell>Plovdiv-BG</cell>
+      <cell>Plovdiv</cell>
+    </row>
+    <row>
+      <cell>Montana-BG</cell>
+      <cell>Montana</cell>
+    </row>
+    <row>
+      <cell>Lovech-BG</cell>
+      <cell>Lovech</cell>
+    </row>
+    <row>
+      <cell>Khaskovo-BG</cell>
+      <cell>Khaskovo</cell>
+    </row>
+    <row>
+      <cell>Grad Sofiya-BG</cell>
+      <cell>Grad Sofiya</cell>
+    </row>
+    <row>
+      <cell>Burgas-BG</cell>
+      <cell>Burgas</cell>
+    </row>
+    <row>
+      <cell>Tocatins-BR</cell>
+      <cell>TO</cell>
+    </row>
+    <row>
+      <cell>Sergipe-BR</cell>
+      <cell>SE</cell>
+    </row>
+    <row>
+      <cell>Sao Paulo-BR</cell>
+      <cell>SP</cell>
+    </row>
+    <row>
+      <cell>Santa Catarina-BR</cell>
+      <cell>SC</cell>
+    </row>
+    <row>
+      <cell>Roraima-BR</cell>
+      <cell>RR</cell>
+    </row>
+    <row>
+      <cell>Rondônia-BR</cell>
+      <cell>RO</cell>
+    </row>
+    <row>
+      <cell>Rio Grande do Sul-BR</cell>
+      <cell>RS</cell>
+    </row>
+    <row>
+      <cell>Rio Grande do Norte-BR</cell>
+      <cell>RN</cell>
+    </row>
+    <row>
+      <cell>Rio de Janeiro-BR</cell>
+      <cell>RJ</cell>
+    </row>
+    <row>
+      <cell>Piauí-BR</cell>
+      <cell>PI</cell>
+    </row>
+    <row>
+      <cell>Pernambuco-BR</cell>
+      <cell>PE</cell>
+    </row>
+    <row>
+      <cell>Paraná-BR</cell>
+      <cell>PR</cell>
+    </row>
+    <row>
+      <cell>Paraíba-BR</cell>
+      <cell>PB</cell>
+    </row>
+    <row>
+      <cell>Minas Gerais-BR</cell>
+      <cell>MG</cell>
+    </row>
+    <row>
+      <cell>Mato Grosso do Sul-BR</cell>
+      <cell>MS</cell>
+    </row>
+    <row>
+      <cell>Mato Grosso-BR</cell>
+      <cell>MT</cell>
+    </row>
+    <row>
+      <cell>Goiás-BR</cell>
+      <cell>GO</cell>
+    </row>
+    <row>
+      <cell>Espírito Santo-BR</cell>
+      <cell>ES</cell>
+    </row>
+    <row>
+      <cell>Distrito Federal-BR</cell>
+      <cell>DF</cell>
+    </row>
+    <row>
+      <cell>Ceará-BR</cell>
+      <cell>CE</cell>
+    </row>
+    <row>
+      <cell>Bahia-BR</cell>
+      <cell>BA</cell>
+    </row>
+    <row>
+      <cell>Amazon-BR</cell>
+      <cell>AM</cell>
+    </row>
+    <row>
+      <cell>Amapá-BR</cell>
+      <cell>AP</cell>
+    </row>
+    <row>
+      <cell>Alagoas-BR</cell>
+      <cell>AL</cell>
+    </row>
+    <row>
+      <cell>Acre-BR</cell>
+      <cell>AC</cell>
+    </row>
+    <row>
+      <cell>West-Vlaanderen-BE</cell>
+      <cell>West-Vldrn</cell>
+    </row>
+    <row>
+      <cell>Oost-Vlaanderen-BE</cell>
+      <cell>Oost-Vldrn</cell>
+    </row>
+    <row>
+      <cell>Namur-BE</cell>
+      <cell>Namur</cell>
+    </row>
+    <row>
+      <cell>Luxembourg-BE</cell>
+      <cell>Luxembourg</cell>
+    </row>
+    <row>
+      <cell>Limburg-BE</cell>
+      <cell>Limburg</cell>
+    </row>
+    <row>
+      <cell>Liege-BE</cell>
+      <cell>Liege</cell>
+    </row>
+    <row>
+      <cell>Hainaut-BE</cell>
+      <cell>Hainaut</cell>
+    </row>
+    <row>
+      <cell>Flandre - Orientale-BE</cell>
+      <cell>Fldre-Ornt</cell>
+    </row>
+    <row>
+      <cell>Flandre - Occidental-BE</cell>
+      <cell>Fldre-Ocid</cell>
+    </row>
+    <row>
+      <cell>Brabant-BE</cell>
+      <cell>Brabant</cell>
+    </row>
+    <row>
+      <cell>Anvers-BE</cell>
+      <cell>Anvers</cell>
+    </row>
+    <row>
+      <cell>Antwerp-BE</cell>
+      <cell>Antwerp</cell>
+    </row>
+    <row>
+      <cell>Wien-AT</cell>
+      <cell>Wien</cell>
+    </row>
+    <row>
+      <cell>Barbados-BB</cell>
+      <cell>Barbados</cell>
+    </row>
+    <row>
+      <cell>Vorarlberg-AT</cell>
+      <cell>Vorarlberg</cell>
+    </row>
+    <row>
+      <cell>Vienna-AT</cell>
+      <cell>Vienna</cell>
+    </row>
+    <row>
+      <cell>Upper Austria-AT</cell>
+      <cell>Upper Austria</cell>
+    </row>
+    <row>
+      <cell>Tyrol-AT</cell>
+      <cell>Tyrol</cell>
+    </row>
+    <row>
+      <cell>Styria-AT</cell>
+      <cell>Styria</cell>
+    </row>
+    <row>
+      <cell>Steiermark-AT</cell>
+      <cell>Steiermark</cell>
+    </row>
+    <row>
+      <cell>Salzburg-AT</cell>
+      <cell>Salzburg</cell>
+    </row>
+    <row>
+      <cell>Lower Austria-AT</cell>
+      <cell>Lower Austria</cell>
+    </row>
+    <row>
+      <cell>Carinthia-AT</cell>
+      <cell>Carinthia</cell>
+    </row>
+    <row>
+      <cell>Burgenland-AT</cell>
+      <cell>Burgenland</cell>
+    </row>
+    <row>
+      <cell>Western Australia-AU</cell>
+      <cell>WA</cell>
+    </row>
+    <row>
+      <cell>Victoria-AU</cell>
+      <cell>VIC</cell>
+    </row>
+    <row>
+      <cell>Tasmania-AU</cell>
+      <cell>TAS</cell>
+    </row>
+    <row>
+      <cell>South Australia-AU</cell>
+      <cell>SA</cell>
+    </row>
+    <row>
+      <cell>Queensland-AU</cell>
+      <cell>QLD</cell>
+    </row>
+    <row>
+      <cell>Northern Territory-AU</cell>
+      <cell>NT</cell>
+    </row>
+    <row>
+      <cell>New South Wales-AU</cell>
+      <cell>NSW</cell>
+    </row>
+    <row>
+      <cell>Aust Capital Terr-AU</cell>
+      <cell>ACT</cell>
+    </row>
+    <row>
+      <cell>Misiones-AR</cell>
+      <cell>Misiones</cell>
+    </row>
+    <row>
+      <cell>Mendoza-AR</cell>
+      <cell>Mendoza</cell>
+    </row>
+    <row>
+      <cell>La Rioja-AR</cell>
+      <cell>La Rioja</cell>
+    </row>
+    <row>
+      <cell>La Pampa-AR</cell>
+      <cell>La Pampa</cell>
+    </row>
+    <row>
+      <cell>Jujuy-AR</cell>
+      <cell>Jujuy</cell>
+    </row>
+    <row>
+      <cell>Formosa-AR</cell>
+      <cell>Formosa</cell>
+    </row>
+    <row>
+      <cell>Capital District-AR</cell>
+      <cell>Capital District</cell>
+    </row>
+    <row>
+      <cell>Entre Rios-AR</cell>
+      <cell>Entre Rios</cell>
+    </row>
+    <row>
+      <cell>Córdoba-AR</cell>
+      <cell>Cordoba</cell>
+    </row>
+    <row>
+      <cell>Chubut-AR</cell>
+      <cell>Chubut</cell>
+    </row>
+    <row>
+      <cell>Chaco-AR</cell>
+      <cell>Chaco</cell>
+    </row>
+    <row>
+      <cell>Catamarca-AR</cell>
+      <cell>Catamarca</cell>
+    </row>
+    <row>
+      <cell>Buenos Aires-AR</cell>
+      <cell>Buenos Aires</cell>
+    </row>
+    <row>
+      <cell>Luxemburg-BE</cell>
+      <cell>Luxemburg</cell>
+    </row>
+    <row>
+      <cell>Brindisi-IT</cell>
+      <cell>Brindisi</cell>
+    </row>
+    <row>
+      <cell>Imathia-GR</cell>
+      <cell>Imathia</cell>
+    </row>
+    <row>
+      <cell>Grevena-GR</cell>
+      <cell>Grevena</cell>
+    </row>
+    <row>
+      <cell>Fokis-GR</cell>
+      <cell>Fokis</cell>
+    </row>
+    <row>
+      <cell>Fthiotis-GR</cell>
+      <cell>Fthiotis</cell>
+    </row>
+    <row>
+      <cell>Florina-GR</cell>
+      <cell>Florina</cell>
+    </row>
+    <row>
+      <cell>Evros-GR</cell>
+      <cell>Evros</cell>
+    </row>
+    <row>
+      <cell>Evvoia-GR</cell>
+      <cell>Evvoia</cell>
+    </row>
+    <row>
+      <cell>Evritania-GR</cell>
+      <cell>Evritania</cell>
+    </row>
+    <row>
+      <cell>Dhrama-GR</cell>
+      <cell>Dhrama</cell>
+    </row>
+    <row>
+      <cell>Dhodhekanisos-GR</cell>
+      <cell>Dhodhekanisos</cell>
+    </row>
+    <row>
+      <cell>Arta-GR</cell>
+      <cell>Arta</cell>
+    </row>
+    <row>
+      <cell>Attiki-GR</cell>
+      <cell>Attiki</cell>
+    </row>
+    <row>
+      <cell>Arkadhia-GR</cell>
+      <cell>Arkadhia</cell>
+    </row>
+    <row>
+      <cell>Argolis-GR</cell>
+      <cell>Argolis</cell>
+    </row>
+    <row>
+      <cell>Akhaia-GR</cell>
+      <cell>Akhaia</cell>
+    </row>
+    <row>
+      <cell>Aitolia kai Akarnan.-GR</cell>
+      <cell>Aitolia kai Akarnan.</cell>
+    </row>
+    <row>
+      <cell>Thüringen-DE</cell>
+      <cell>Thüringen</cell>
+    </row>
+    <row>
+      <cell>Schleswig-Holstein-DE</cell>
+      <cell>SchswgHol</cell>
+    </row>
+    <row>
+      <cell>Sachsen-Anhalt-DE</cell>
+      <cell>SachsnAhlt</cell>
+    </row>
+    <row>
+      <cell>Sachsen-DE</cell>
+      <cell>Sachsen</cell>
+    </row>
+    <row>
+      <cell>Saarland-DE</cell>
+      <cell>Saarland</cell>
+    </row>
+    <row>
+      <cell>Rheinland-Pfalz-DE</cell>
+      <cell>RhnladPflz</cell>
+    </row>
+    <row>
+      <cell>Nordrhein-Westfalen-DE</cell>
+      <cell>NrdheinWst</cell>
+    </row>
+    <row>
+      <cell>Niedersachsen-DE</cell>
+      <cell>Niedrschsn</cell>
+    </row>
+    <row>
+      <cell>Mecklenburg-Vorpomme-DE</cell>
+      <cell>MeckbrgVor</cell>
+    </row>
+    <row>
+      <cell>Hessen-DE</cell>
+      <cell>Hessen</cell>
+    </row>
+    <row>
+      <cell>Hamburg-DE</cell>
+      <cell>Hamburg</cell>
+    </row>
+    <row>
+      <cell>Bremen-DE</cell>
+      <cell>Bremen</cell>
+    </row>
+    <row>
+      <cell>Brandenburg-DE</cell>
+      <cell>Brandnburg</cell>
+    </row>
+    <row>
+      <cell>Berlin-DE</cell>
+      <cell>Berlin</cell>
+    </row>
+    <row>
+      <cell>Bayern-DE</cell>
+      <cell>Bayern</cell>
+    </row>
+    <row>
+      <cell>Baden-Wurttemberg-DE</cell>
+      <cell>Baden-Wurt</cell>
+    </row>
+    <row>
+      <cell>Yvelines-FR</cell>
+      <cell>Yvelines</cell>
+    </row>
+    <row>
+      <cell>Yonne-FR</cell>
+      <cell>Yonne</cell>
+    </row>
+    <row>
+      <cell>Wallis-et-Futuna-FR</cell>
+      <cell>Wallis-et-Futuna</cell>
+    </row>
+    <row>
+      <cell>Vosges-FR</cell>
+      <cell>Vosges</cell>
+    </row>
+    <row>
+      <cell>Vienne (Haute)-FR</cell>
+      <cell>Vienne (Haute)</cell>
+    </row>
+    <row>
+      <cell>Vienne-FR</cell>
+      <cell>Vienne</cell>
+    </row>
+    <row>
+      <cell>Vendée-FR</cell>
+      <cell>Vendée</cell>
+    </row>
+    <row>
+      <cell>Var-FR</cell>
+      <cell>Var</cell>
+    </row>
+    <row>
+      <cell>Vaucluse-FR</cell>
+      <cell>Vaucluse</cell>
+    </row>
+    <row>
+      <cell>Val-d'Oise-FR</cell>
+      <cell>Val-d'Oise</cell>
+    </row>
+    <row>
+      <cell>Val-de-Marne-FR</cell>
+      <cell>Val-de-Marne</cell>
+    </row>
+    <row>
+      <cell>Territ.-de-Belfort-FR</cell>
+      <cell>Territ.-de-Belfort</cell>
+    </row>
+    <row>
+      <cell>Tarn-FR</cell>
+      <cell>Tarn</cell>
+    </row>
+    <row>
+      <cell>Tarn-et-Garonne-FR</cell>
+      <cell>Tarn-et-Garonne</cell>
+    </row>
+    <row>
+      <cell>Somme-FR</cell>
+      <cell>Somme</cell>
+    </row>
+    <row>
+      <cell>Sèvres (Deux)-FR</cell>
+      <cell>Sèvres (Deux)</cell>
+    </row>
+    <row>
+      <cell>Seine-Saint-Denis-FR</cell>
+      <cell>Seine-Saint-Denis</cell>
+    </row>
+    <row>
+      <cell>Seine-Maritime-FR</cell>
+      <cell>Seine-Maritime</cell>
+    </row>
+    <row>
+      <cell>Seine-et-Marne-FR</cell>
+      <cell>Seine-et-Marne</cell>
+    </row>
+    <row>
+      <cell>Savoie (Haute)-FR</cell>
+      <cell>Savoie (Haute)</cell>
+    </row>
+    <row>
+      <cell>Savoie-FR</cell>
+      <cell>Savoie</cell>
+    </row>
+    <row>
+      <cell>Sarthe-FR</cell>
+      <cell>Sarthe</cell>
+    </row>
+    <row>
+      <cell>Saône-et-Loire-FR</cell>
+      <cell>Saône-et-Loire</cell>
+    </row>
+    <row>
+      <cell>Saône (Haute)-FR</cell>
+      <cell>Saône (Haute)</cell>
+    </row>
+    <row>
+      <cell>Saint-Pierre-et-Miq.-FR</cell>
+      <cell>Saint-Pierre-et-Miq.</cell>
+    </row>
+    <row>
+      <cell>Rhône-FR</cell>
+      <cell>Rhône</cell>
+    </row>
+    <row>
+      <cell>Réunion-FR</cell>
+      <cell>Réunion</cell>
+    </row>
+    <row>
+      <cell>Pyrénées-Orientales-FR</cell>
+      <cell>Pyrénées-Orientales</cell>
+    </row>
+    <row>
+      <cell>Pyrénées-Atlantiques-FR</cell>
+      <cell>Pyrénées-Atlantiques</cell>
+    </row>
+    <row>
+      <cell>Pyrénées (Hautes)-FR</cell>
+      <cell>Pyrénées (Hautes)</cell>
+    </row>
+    <row>
+      <cell>Puy-de-Dôme-FR</cell>
+      <cell>Puy-de-Dôme</cell>
+    </row>
+    <row>
+      <cell>Pas-de-Calais-FR</cell>
+      <cell>Pas-de-Calais</cell>
+    </row>
+    <row>
+      <cell>Orne-FR</cell>
+      <cell>Orne</cell>
+    </row>
+    <row>
+      <cell>Paris-FR</cell>
+      <cell>Paris</cell>
+    </row>
+    <row>
+      <cell>Nord-FR</cell>
+      <cell>Nord</cell>
+    </row>
+    <row>
+      <cell>Oise-FR</cell>
+      <cell>Oise</cell>
+    </row>
+    <row>
+      <cell>Nièvre-FR</cell>
+      <cell>Nièvre</cell>
+    </row>
+    <row>
+      <cell>Moselle-FR</cell>
+      <cell>Moselle</cell>
+    </row>
+    <row>
+      <cell>Morbihan-FR</cell>
+      <cell>Morbihan</cell>
+    </row>
+    <row>
+      <cell>Meuse-FR</cell>
+      <cell>Meuse</cell>
+    </row>
+    <row>
+      <cell>Meurthe-et-Moselle-FR</cell>
+      <cell>Meurthe-et-Moselle</cell>
+    </row>
+    <row>
+      <cell>Mayenne-FR</cell>
+      <cell>Mayenne</cell>
+    </row>
+    <row>
+      <cell>Martinique-FR</cell>
+      <cell>Martinique</cell>
+    </row>
+    <row>
+      <cell>Marne (Haute)-FR</cell>
+      <cell>Marne (Haute)</cell>
+    </row>
+    <row>
+      <cell>Marne-FR</cell>
+      <cell>Marne</cell>
+    </row>
+    <row>
+      <cell>Manche-FR</cell>
+      <cell>Manche</cell>
+    </row>
+    <row>
+      <cell>Maine-et-Loire-FR</cell>
+      <cell>Maine-et-Loire</cell>
+    </row>
+    <row>
+      <cell>Lozère-FR</cell>
+      <cell>Lozère</cell>
+    </row>
+    <row>
+      <cell>Lot-FR</cell>
+      <cell>Lot</cell>
+    </row>
+    <row>
+      <cell>Lot-et-Garonne-FR</cell>
+      <cell>Lot-et-Garonne</cell>
+    </row>
+    <row>
+      <cell>Loir-et-Cher-FR</cell>
+      <cell>Loir-et-Cher</cell>
+    </row>
+    <row>
+      <cell>Loiret-FR</cell>
+      <cell>Loiret</cell>
+    </row>
+    <row>
+      <cell>Loire-Atlantique-FR</cell>
+      <cell>Loire-Atlantique</cell>
+    </row>
+    <row>
+      <cell>Loire (Haute)-FR</cell>
+      <cell>Loire (Haute)</cell>
+    </row>
+    <row>
+      <cell>Loire-FR</cell>
+      <cell>Loire</cell>
+    </row>
+    <row>
+      <cell>Jura-FR</cell>
+      <cell>Jura</cell>
+    </row>
+    <row>
+      <cell>Landes-FR</cell>
+      <cell>Landes</cell>
+    </row>
+    <row>
+      <cell>Isère-FR</cell>
+      <cell>Isère</cell>
+    </row>
+    <row>
+      <cell>Indre-et-Loire-FR</cell>
+      <cell>Indre-et-Loire</cell>
+    </row>
+    <row>
+      <cell>Indre-FR</cell>
+      <cell>Indre</cell>
+    </row>
+    <row>
+      <cell>Ille-et-Vilaine-FR</cell>
+      <cell>Ille-et-Vilaine</cell>
+    </row>
+    <row>
+      <cell>Hors-France-FR</cell>
+      <cell>Hors-France</cell>
+    </row>
+    <row>
+      <cell>Hérault-FR</cell>
+      <cell>Hérault</cell>
+    </row>
+    <row>
+      <cell>Hauts-de-Seine-FR</cell>
+      <cell>Hauts-de-Seine</cell>
+    </row>
+    <row>
+      <cell>Haut-Rhin-FR</cell>
+      <cell>Haut-Rhin</cell>
+    </row>
+    <row>
+      <cell>Guyane-FR</cell>
+      <cell>Guyane</cell>
+    </row>
+    <row>
+      <cell>Guadeloupe-FR</cell>
+      <cell>Guadeloupe</cell>
+    </row>
+    <row>
+      <cell>Gers-FR</cell>
+      <cell>Gers</cell>
+    </row>
+    <row>
+      <cell>Gironde-FR</cell>
+      <cell>Gironde</cell>
+    </row>
+    <row>
+      <cell>Gard-FR</cell>
+      <cell>Gard</cell>
+    </row>
+    <row>
+      <cell>Garonne (Haute)-FR</cell>
+      <cell>Garonne (Haute)</cell>
+    </row>
+    <row>
+      <cell>Finistère-FR</cell>
+      <cell>Finistère</cell>
+    </row>
+    <row>
+      <cell>Eure-FR</cell>
+      <cell>Eure</cell>
+    </row>
+    <row>
+      <cell>Eure-et-Loir-FR</cell>
+      <cell>Eure-et-Loir</cell>
+    </row>
+    <row>
+      <cell>Essonne-FR</cell>
+      <cell>Essonne</cell>
+    </row>
+    <row>
+      <cell>Drôme-FR</cell>
+      <cell>Drôme</cell>
+    </row>
+    <row>
+      <cell>Doubs-FR</cell>
+      <cell>Doubs</cell>
+    </row>
+    <row>
+      <cell>Dordogne-FR</cell>
+      <cell>Dordogne</cell>
+    </row>
+    <row>
+      <cell>D.O.M.-T.O.M.-FR</cell>
+      <cell>D.O.M.-T.O.M.</cell>
+    </row>
+    <row>
+      <cell>Creuse-FR</cell>
+      <cell>Creuse</cell>
+    </row>
+    <row>
+      <cell>Côtes-d'Armor-FR</cell>
+      <cell>Côtes-d'Armor</cell>
+    </row>
+    <row>
+      <cell>Côte-d'Or-FR</cell>
+      <cell>Côte-d'Or</cell>
+    </row>
+    <row>
+      <cell>Corse-du-Sud-FR</cell>
+      <cell>Corse-du-Sud</cell>
+    </row>
+    <row>
+      <cell>Corse-du-Nord-FR</cell>
+      <cell>Corse-du-Nord</cell>
+    </row>
+    <row>
+      <cell>Corse-FR</cell>
+      <cell>Corse</cell>
+    </row>
+    <row>
+      <cell>Cher-FR</cell>
+      <cell>Cher</cell>
+    </row>
+    <row>
+      <cell>Corrèze-FR</cell>
+      <cell>Corrèze</cell>
+    </row>
+    <row>
+      <cell>Charente-Maritime-FR</cell>
+      <cell>Charente-Maritime</cell>
+    </row>
+    <row>
+      <cell>Charente-FR</cell>
+      <cell>Charente</cell>
+    </row>
+    <row>
+      <cell>Cantal-FR</cell>
+      <cell>Cantal</cell>
+    </row>
+    <row>
+      <cell>Calvados-FR</cell>
+      <cell>Calvados</cell>
+    </row>
+    <row>
+      <cell>Bouches-du-Rhône-FR</cell>
+      <cell>Bouches-du-Rhône</cell>
+    </row>
+    <row>
+      <cell>Bas-Rhin-FR</cell>
+      <cell>Bas-Rhin</cell>
+    </row>
+    <row>
+      <cell>Aveyron-FR</cell>
+      <cell>Aveyron</cell>
+    </row>
+    <row>
+      <cell>Aube-FR</cell>
+      <cell>Aube</cell>
+    </row>
+    <row>
+      <cell>Aude-FR</cell>
+      <cell>Aude</cell>
+    </row>
+    <row>
+      <cell>Ariège-FR</cell>
+      <cell>Ariège</cell>
+    </row>
+    <row>
+      <cell>Ardennes-FR</cell>
+      <cell>Ardennes</cell>
+    </row>
+    <row>
+      <cell>Ardèche-FR</cell>
+      <cell>Ardèche</cell>
+    </row>
+    <row>
+      <cell>Alpes-Maritimes-FR</cell>
+      <cell>Alpes-Maritimes</cell>
+    </row>
+    <row>
+      <cell>Alpes (Hte-Provence)-FR</cell>
+      <cell>Alpes (Hte-Provence)</cell>
+    </row>
+    <row>
+      <cell>Alpes (Hautes)-FR</cell>
+      <cell>Alpes (Hautes)</cell>
+    </row>
+    <row>
+      <cell>Allier-FR</cell>
+      <cell>Allier</cell>
+    </row>
+    <row>
+      <cell>Ain-FR</cell>
+      <cell>Ain</cell>
+    </row>
+    <row>
+      <cell>Aisne-FR</cell>
+      <cell>Aisne</cell>
+    </row>
+    <row>
+      <cell>Varsinais-Suomi-FI</cell>
+      <cell>Varsinais-Suomi</cell>
+    </row>
+    <row>
+      <cell>Vaasa-FI</cell>
+      <cell>Vaasa</cell>
+    </row>
+    <row>
+      <cell>Uusimaa-FI</cell>
+      <cell>Uusimaa</cell>
+    </row>
+    <row>
+      <cell>Turku Ja Pori-FI</cell>
+      <cell>Turku Ja Pori</cell>
+    </row>
+    <row>
+      <cell>Satakunta-FI</cell>
+      <cell>Satakunta</cell>
+    </row>
+    <row>
+      <cell>Pohjois-Savo-FI</cell>
+      <cell>Pohjois-Savo</cell>
+    </row>
+    <row>
+      <cell>Pohjois-Pohjanmaa-FI</cell>
+      <cell>Pohjois-Pohjanmaa</cell>
+    </row>
+    <row>
+      <cell>Pohjois-Karjala-FI</cell>
+      <cell>Pohjois-Karjala</cell>
+    </row>
+    <row>
+      <cell>Pohjanmaa-FI</cell>
+      <cell>Pohjanmaa</cell>
+    </row>
+    <row>
+      <cell>Pirkanmaa-FI</cell>
+      <cell>Pirkanmaa</cell>
+    </row>
+    <row>
+      <cell>Päijät-Häme-FI</cell>
+      <cell>Päijät-Häme</cell>
+    </row>
+    <row>
+      <cell>Oulu-FI</cell>
+      <cell>OulunLääni</cell>
+    </row>
+    <row>
+      <cell>Mikkeli-FI</cell>
+      <cell>Mikkeli</cell>
+    </row>
+    <row>
+      <cell>Lappi-FI</cell>
+      <cell>LapinLääni</cell>
+    </row>
+    <row>
+      <cell>Länsi-Suomi-FI</cell>
+      <cell>LänSuomLän</cell>
+    </row>
+    <row>
+      <cell>Kymi-FI</cell>
+      <cell>Kymi</cell>
+    </row>
+    <row>
+      <cell>Kymenlaakso-FI</cell>
+      <cell>Kymenlaakso</cell>
+    </row>
+    <row>
+      <cell>Kuopio-FI</cell>
+      <cell>Kuopio</cell>
+    </row>
+    <row>
+      <cell>Keski-Suomi-FI</cell>
+      <cell>Keski-Suomi</cell>
+    </row>
+    <row>
+      <cell>Keski-Pohjanmaa-FI</cell>
+      <cell>Keski-Pohjanmaa</cell>
+    </row>
+    <row>
+      <cell>Kanta-Häme-FI</cell>
+      <cell>Kanta-Häme</cell>
+    </row>
+    <row>
+      <cell>Kainuu-FI</cell>
+      <cell>Kainuu</cell>
+    </row>
+    <row>
+      <cell>Itä-Uusimaa-FI</cell>
+      <cell>Itä-Uusimaa</cell>
+    </row>
+    <row>
+      <cell>Itä-Suomi-FI</cell>
+      <cell>ItäSuomLän</cell>
+    </row>
+    <row>
+      <cell>HELSINKI-FI</cell>
+      <cell>HELSINKI</cell>
+    </row>
+    <row>
+      <cell>Hame-FI</cell>
+      <cell>Hame</cell>
+    </row>
+    <row>
+      <cell>Etelä-Suomi-FI</cell>
+      <cell>EtleSuomLä</cell>
+    </row>
+    <row>
+      <cell>Etelä-Savo-FI</cell>
+      <cell>Etelä-Savo</cell>
+    </row>
+    <row>
+      <cell>Etelä-Pohjanmaa-FI</cell>
+      <cell>Etelä-Pohjanmaa</cell>
+    </row>
+    <row>
+      <cell>Etelä-Karjala-FI</cell>
+      <cell>Etelä-Karjala</cell>
+    </row>
+    <row>
+      <cell>Ahvenanmaa-FI</cell>
+      <cell>Ahvenanmaa</cell>
+    </row>
+    <row>
+      <cell>Storstrom amt-DK</cell>
+      <cell>Storstrom amt</cell>
+    </row>
+    <row>
+      <cell>Vejle amt-DK</cell>
+      <cell>Vejle amt</cell>
+    </row>
+    <row>
+      <cell>Vestsjælland amt-DK</cell>
+      <cell>Vestsjælland amt</cell>
+    </row>
+    <row>
+      <cell>Viborg amt-DK</cell>
+      <cell>Viborg amt</cell>
+    </row>
+    <row>
+      <cell>Biala Podlaska-PL</cell>
+      <cell>Biala Podlaska</cell>
+    </row>
+    <row>
+      <cell>Bialystok-PL</cell>
+      <cell>Bialystok</cell>
+    </row>
+    <row>
+      <cell>Bielsko Biala-PL</cell>
+      <cell>Bielsko Biala</cell>
+    </row>
+    <row>
+      <cell>Bydgoszcz-PL</cell>
+      <cell>Bydgoszcz</cell>
+    </row>
+    <row>
+      <cell>Chelm-PL</cell>
+      <cell>Chelm</cell>
+    </row>
+    <row>
+      <cell>Ciechanow-PL</cell>
+      <cell>Ciechanow</cell>
+    </row>
+    <row>
+      <cell>Czestochowa-PL</cell>
+      <cell>Czestochowa</cell>
+    </row>
+    <row>
+      <cell>Elblag-PL</cell>
+      <cell>Elblag</cell>
+    </row>
+    <row>
+      <cell>Gdansk-PL</cell>
+      <cell>Gdansk</cell>
+    </row>
+    <row>
+      <cell>Gorzow-PL</cell>
+      <cell>Gorzow</cell>
+    </row>
+    <row>
+      <cell>Jelenia Gora-PL</cell>
+      <cell>Jelenia Gora</cell>
+    </row>
+    <row>
+      <cell>Kalisz-PL</cell>
+      <cell>Kalisz</cell>
+    </row>
+    <row>
+      <cell>Katowice-PL</cell>
+      <cell>Katowice</cell>
+    </row>
+    <row>
+      <cell>Kielce-PL</cell>
+      <cell>Kielce</cell>
+    </row>
+    <row>
+      <cell>Konin-PL</cell>
+      <cell>Konin</cell>
+    </row>
+    <row>
+      <cell>Koszalin-PL</cell>
+      <cell>Koszalin</cell>
+    </row>
+    <row>
+      <cell>Krakow-PL</cell>
+      <cell>Krakow</cell>
+    </row>
+    <row>
+      <cell>Krosno-PL</cell>
+      <cell>Krosno</cell>
+    </row>
+    <row>
+      <cell>Legnica-PL</cell>
+      <cell>Legnica</cell>
+    </row>
+    <row>
+      <cell>Leszno-PL</cell>
+      <cell>Leszno</cell>
+    </row>
+    <row>
+      <cell>Lodz-PL</cell>
+      <cell>Lodz</cell>
+    </row>
+    <row>
+      <cell>Lomza-PL</cell>
+      <cell>Lomza</cell>
+    </row>
+    <row>
+      <cell>Lublin-PL</cell>
+      <cell>Lublin</cell>
+    </row>
+    <row>
+      <cell>Nowy Sacz-PL</cell>
+      <cell>Nowy Sacz</cell>
+    </row>
+    <row>
+      <cell>Olsztyn-PL</cell>
+      <cell>Olsztyn</cell>
+    </row>
+    <row>
+      <cell>Opole-PL</cell>
+      <cell>Opole</cell>
+    </row>
+    <row>
+      <cell>Ostroleka-PL</cell>
+      <cell>Ostroleka</cell>
+    </row>
+    <row>
+      <cell>Pila-PL</cell>
+      <cell>Pila</cell>
+    </row>
+    <row>
+      <cell>Piotrkow-PL</cell>
+      <cell>Piotrkow</cell>
+    </row>
+    <row>
+      <cell>Plock-PL</cell>
+      <cell>Plock</cell>
+    </row>
+    <row>
+      <cell>Poznan-PL</cell>
+      <cell>Poznan</cell>
+    </row>
+    <row>
+      <cell>Przemysl-PL</cell>
+      <cell>Przemysl</cell>
+    </row>
+    <row>
+      <cell>Radom-PL</cell>
+      <cell>Radom</cell>
+    </row>
+    <row>
+      <cell>Rzeszow-PL</cell>
+      <cell>Rzeszow</cell>
+    </row>
+    <row>
+      <cell>Siedlce-PL</cell>
+      <cell>Siedlce</cell>
+    </row>
+    <row>
+      <cell>Sieradz-PL</cell>
+      <cell>Sieradz</cell>
+    </row>
+    <row>
+      <cell>Skierniewice-PL</cell>
+      <cell>Skierniewice</cell>
+    </row>
+    <row>
+      <cell>Slupsk-PL</cell>
+      <cell>Slupsk</cell>
+    </row>
+    <row>
+      <cell>Suwalki-PL</cell>
+      <cell>Suwalki</cell>
+    </row>
+    <row>
+      <cell>Szczecin-PL</cell>
+      <cell>Szczecin</cell>
+    </row>
+    <row>
+      <cell>Tarnobrzeg-PL</cell>
+      <cell>Tarnobrzeg</cell>
+    </row>
+    <row>
+      <cell>Tarnow-PL</cell>
+      <cell>Tarnow</cell>
+    </row>
+    <row>
+      <cell>Torun-PL</cell>
+      <cell>Torun</cell>
+    </row>
+    <row>
+      <cell>Walbrzych-PL</cell>
+      <cell>Walbrzych</cell>
+    </row>
+    <row>
+      <cell>Warszawa-PL</cell>
+      <cell>Warszawa</cell>
+    </row>
+    <row>
+      <cell>Wloclawek-PL</cell>
+      <cell>Wloclawek</cell>
+    </row>
+    <row>
+      <cell>Wroclaw-PL</cell>
+      <cell>Wroclaw</cell>
+    </row>
+    <row>
+      <cell>Zamosc-PL</cell>
+      <cell>Zamosc</cell>
+    </row>
+    <row>
+      <cell>Zielona Gora-PL</cell>
+      <cell>Zielona Gora</cell>
+    </row>
+    <row>
+      <cell>Zalaegerszeg-HU</cell>
+      <cell>Zalaegerszeg</cell>
+    </row>
+    <row>
+      <cell>Zala-HU</cell>
+      <cell>Zala</cell>
+    </row>
+    <row>
+      <cell>Zagreb-HR</cell>
+      <cell>Zagreb</cell>
+    </row>
+    <row>
+      <cell>Zadar-Knin-HR</cell>
+      <cell>Zadar-Knin</cell>
+    </row>
+    <row>
+      <cell>Vukovar-Srijem-HR</cell>
+      <cell>Vukovar-Srijem</cell>
+    </row>
+    <row>
+      <cell>Virovitica-Podravina-HR</cell>
+      <cell>Virovitica-Podravina</cell>
+    </row>
+    <row>
+      <cell>Veszprem-HU</cell>
+      <cell>Veszprem</cell>
+    </row>
+    <row>
+      <cell>Vas-HU</cell>
+      <cell>Vas</cell>
+    </row>
+    <row>
+      <cell>Varazdin-HR</cell>
+      <cell>Varazdin</cell>
+    </row>
+    <row>
+      <cell>Tolna-HU</cell>
+      <cell>Tolna</cell>
+    </row>
+    <row>
+      <cell>Tatabanya-HU</cell>
+      <cell>Tatabanya</cell>
+    </row>
+    <row>
+      <cell>Szombathely-HU</cell>
+      <cell>Szombathely</cell>
+    </row>
+    <row>
+      <cell>Szolnok-HU</cell>
+      <cell>Szolnok</cell>
+    </row>
+    <row>
+      <cell>Szekesfehervar-HU</cell>
+      <cell>Szekesfehervar</cell>
+    </row>
+    <row>
+      <cell>Szeged-HU</cell>
+      <cell>Szeged</cell>
+    </row>
+    <row>
+      <cell>Szabolcs-Szat.-Bereg-HU</cell>
+      <cell>Szabolcs-Szat.-Bereg</cell>
+    </row>
+    <row>
+      <cell>Stadt Zagreb-HR</cell>
+      <cell>Stadt Zagreb</cell>
+    </row>
+    <row>
+      <cell>Split-Dalmatia-HR</cell>
+      <cell>Split-Dalmatia</cell>
+    </row>
+    <row>
+      <cell>Sopron-HU</cell>
+      <cell>Sopron</cell>
+    </row>
+    <row>
+      <cell>Somogy-HU</cell>
+      <cell>Somogy</cell>
+    </row>
+    <row>
+      <cell>Slavonski-HR</cell>
+      <cell>Slavonski</cell>
+    </row>
+    <row>
+      <cell>Sisak-Moslavina-HR</cell>
+      <cell>Sisak-Moslavina</cell>
+    </row>
+    <row>
+      <cell>Sibenik-HR</cell>
+      <cell>Sibenik</cell>
+    </row>
+    <row>
+      <cell>Primorje-Gorski Kot.-HR</cell>
+      <cell>Primorje-Gorski Kot.</cell>
+    </row>
+    <row>
+      <cell>Pozega-Slavonija-HR</cell>
+      <cell>Pozega-Slavonija</cell>
+    </row>
+    <row>
+      <cell>Pest-HU</cell>
+      <cell>Pest</cell>
+    </row>
+    <row>
+      <cell>Pecs-HU</cell>
+      <cell>Pecs</cell>
+    </row>
+    <row>
+      <cell>Osijek-Baranja-HR</cell>
+      <cell>Osijek-Baranja</cell>
+    </row>
+    <row>
+      <cell>Nyiregyhaza-HU</cell>
+      <cell>Nyiregyhaza</cell>
+    </row>
+    <row>
+      <cell>Nograd-HU</cell>
+      <cell>Nograd</cell>
+    </row>
+    <row>
+      <cell>Nagykanizsa-HU</cell>
+      <cell>Nagykanizsa</cell>
+    </row>
+    <row>
+      <cell>Miskolc-HU</cell>
+      <cell>Miskolc</cell>
+    </row>
+    <row>
+      <cell>Medimurje-HR</cell>
+      <cell>Medimurje</cell>
+    </row>
+    <row>
+      <cell>Lika-Senj-HR</cell>
+      <cell>Lika-Senj</cell>
+    </row>
+    <row>
+      <cell>Koprivnica-Krizevci-HR</cell>
+      <cell>Koprivnica-Krizevci</cell>
+    </row>
+    <row>
+      <cell>Komarom-Esztergom-HU</cell>
+      <cell>Komarom-Esztergom</cell>
+    </row>
+    <row>
+      <cell>Kecskemet-HU</cell>
+      <cell>Kecskemet</cell>
+    </row>
+    <row>
+      <cell>Karlovac-HR</cell>
+      <cell>Karlovac</cell>
+    </row>
+    <row>
+      <cell>Kaposvar-HU</cell>
+      <cell>Kaposvar</cell>
+    </row>
+    <row>
+      <cell>Istra-HR</cell>
+      <cell>Istra</cell>
+    </row>
+    <row>
+      <cell>Jasz-Nagykun-Szolnok-HU</cell>
+      <cell>Jasz-Nagykun-Szolnok</cell>
+    </row>
+    <row>
+      <cell>Hodmezovasarhely-HU</cell>
+      <cell>Hodmezovasarhely</cell>
+    </row>
+    <row>
+      <cell>Heves-HU</cell>
+      <cell>Heves</cell>
+    </row>
+    <row>
+      <cell>Hajdu-Bihar-HU</cell>
+      <cell>Hajdu-Bihar</cell>
+    </row>
+    <row>
+      <cell>Gyor-Moson-Sopron-HU</cell>
+      <cell>Gyor-Moson-Sopron</cell>
+    </row>
+    <row>
+      <cell>Gyor-HU</cell>
+      <cell>Gyor</cell>
+    </row>
+    <row>
+      <cell>Fejer-HU</cell>
+      <cell>Fejer</cell>
+    </row>
+    <row>
+      <cell>Eger-HU</cell>
+      <cell>Eger</cell>
+    </row>
+    <row>
+      <cell>Dunaujvaros-HU</cell>
+      <cell>Dunaujvaros</cell>
+    </row>
+    <row>
+      <cell>Dubrovnik-Neretva-HR</cell>
+      <cell>Dubrovnik-Neretva</cell>
+    </row>
+    <row>
+      <cell>Debrecen-HU</cell>
+      <cell>Debrecen</cell>
+    </row>
+    <row>
+      <cell>Csongrad-HU</cell>
+      <cell>Csongrad</cell>
+    </row>
+    <row>
+      <cell>Budapest-HU</cell>
+      <cell>Budapest</cell>
+    </row>
+    <row>
+      <cell>Brod-Posavina-HR</cell>
+      <cell>Brod-Posavina</cell>
+    </row>
+    <row>
+      <cell>Borsod-Abauj-Zemplen-HU</cell>
+      <cell>Borsod-Abauj-Zemplen</cell>
+    </row>
+    <row>
+      <cell>Bjelovar-Bilogora-HR</cell>
+      <cell>Bjelovar-Bilogora</cell>
+    </row>
+    <row>
+      <cell>Bekescsaba-HU</cell>
+      <cell>Bekescsaba</cell>
+    </row>
+    <row>
+      <cell>Bekes-HU</cell>
+      <cell>Bekes</cell>
+    </row>
+    <row>
+      <cell>Baranya-HU</cell>
+      <cell>Baranya</cell>
+    </row>
+    <row>
+      <cell>Bacs-Kiskun-HU</cell>
+      <cell>Bacs-Kiskun</cell>
+    </row>
+    <row>
+      <cell>Zapadocesky-CZ</cell>
+      <cell>Zapadocesky</cell>
+    </row>
+    <row>
+      <cell>Vychodocesky-CZ</cell>
+      <cell>Vychodocesky</cell>
+    </row>
+    <row>
+      <cell>Vichada-CO</cell>
+      <cell>Vichada</cell>
+    </row>
+    <row>
+      <cell>Vaupes-CO</cell>
+      <cell>Vaupes</cell>
+    </row>
+    <row>
+      <cell>Valle-CO</cell>
+      <cell>Valle</cell>
+    </row>
+    <row>
+      <cell>Tolima-CO</cell>
+      <cell>Tolima</cell>
+    </row>
+    <row>
+      <cell>Sucre-CO</cell>
+      <cell>Sucre</cell>
+    </row>
+    <row>
+      <cell>Stredocesky-CZ</cell>
+      <cell>Stredocesky</cell>
+    </row>
+    <row>
+      <cell>Severomoravsky-CZ</cell>
+      <cell>Severomoravsky</cell>
+    </row>
+    <row>
+      <cell>Severocesky-CZ</cell>
+      <cell>Severocesky</cell>
+    </row>
+    <row>
+      <cell>Santander-CO</cell>
+      <cell>Santander</cell>
+    </row>
+    <row>
+      <cell>San Andres-CO</cell>
+      <cell>San Andres</cell>
+    </row>
+    <row>
+      <cell>Risaralda-CO</cell>
+      <cell>Risaralda</cell>
+    </row>
+    <row>
+      <cell>Quindio-CO</cell>
+      <cell>Quindio</cell>
+    </row>
+    <row>
+      <cell>Putumayo-CO</cell>
+      <cell>Putumayo</cell>
+    </row>
+    <row>
+      <cell>Praha-CZ</cell>
+      <cell>Praha</cell>
+    </row>
+    <row>
+      <cell>Praha 9-CZ</cell>
+      <cell>Praha 9</cell>
+    </row>
+    <row>
+      <cell>Norte Santander-CO</cell>
+      <cell>NSantander</cell>
+    </row>
+    <row>
+      <cell>NARIÑO-CO</cell>
+      <cell>Narino</cell>
+    </row>
+    <row>
+      <cell>Meta-CO</cell>
+      <cell>Meta</cell>
+    </row>
+    <row>
+      <cell>Magdalena-CO</cell>
+      <cell>Magdalena</cell>
+    </row>
+    <row>
+      <cell>La Guajira-CO</cell>
+      <cell>La Guajira</cell>
+    </row>
+    <row>
+      <cell>Jihomoravsky-CZ</cell>
+      <cell>Jihomoravsky</cell>
+    </row>
+    <row>
+      <cell>Jihocesky-CZ</cell>
+      <cell>Jihocesky</cell>
+    </row>
+    <row>
+      <cell>Huila-CO</cell>
+      <cell>Huila</cell>
+    </row>
+    <row>
+      <cell>Guaviare-CO</cell>
+      <cell>Guaviare</cell>
+    </row>
+    <row>
+      <cell>Guainia-CO</cell>
+      <cell>Guainia</cell>
+    </row>
+    <row>
+      <cell>Cundinamarca-CO</cell>
+      <cell>Cundinamar</cell>
+    </row>
+    <row>
+      <cell>Cordoba-CO</cell>
+      <cell>Cordoba</cell>
+    </row>
+    <row>
+      <cell>Choco-CO</cell>
+      <cell>Choco</cell>
+    </row>
+    <row>
+      <cell>Cesar-CO</cell>
+      <cell>Cesar</cell>
+    </row>
+    <row>
+      <cell>Cauca-CO</cell>
+      <cell>Cauca</cell>
+    </row>
+    <row>
+      <cell>Casanare-CO</cell>
+      <cell>Casanare</cell>
+    </row>
+    <row>
+      <cell>Caqueta-CO</cell>
+      <cell>Caqueta</cell>
+    </row>
+    <row>
+      <cell>Caldas-CO</cell>
+      <cell>Caldas</cell>
+    </row>
+    <row>
+      <cell>Boyaca-CO</cell>
+      <cell>Boyaca</cell>
+    </row>
+    <row>
+      <cell>Bolivar-CO</cell>
+      <cell>Bolivar</cell>
+    </row>
+    <row>
+      <cell>Bogota DC-CO</cell>
+      <cell>Bogota DC</cell>
+    </row>
+    <row>
+      <cell>Bogota-CO</cell>
+      <cell>Bogota</cell>
+    </row>
+    <row>
+      <cell>Atlantico-CO</cell>
+      <cell>Atlantico</cell>
+    </row>
+    <row>
+      <cell>Arauca-CO</cell>
+      <cell>Arauca</cell>
+    </row>
+    <row>
+      <cell>Antioquia-CO</cell>
+      <cell>Antioquia</cell>
+    </row>
+    <row>
+      <cell>Amazonas-CO</cell>
+      <cell>Amazonas</cell>
+    </row>
+    <row>
+      <cell>ZHEJIANG-CN</cell>
+      <cell>ZHEJIANG</cell>
+    </row>
+    <row>
+      <cell>YUNNAN-CN</cell>
+      <cell>YUNNAN</cell>
+    </row>
+    <row>
+      <cell>XIZANG-CN</cell>
+      <cell>XIZANG</cell>
+    </row>
+    <row>
+      <cell>XINJIANG-CN</cell>
+      <cell>XINJIANG</cell>
+    </row>
+    <row>
+      <cell>TIANJIN-CN</cell>
+      <cell>TIANJIN</cell>
+    </row>
+    <row>
+      <cell>TAIWAN-CN</cell>
+      <cell>TAIWAN</cell>
+    </row>
+    <row>
+      <cell>SICHUAN-CN</cell>
+      <cell>SICHUAN</cell>
+    </row>
+    <row>
+      <cell>SHANXI-CN</cell>
+      <cell>SHANXI</cell>
+    </row>
+    <row>
+      <cell>SHANGHAI-CN</cell>
+      <cell>SHANGHAI</cell>
+    </row>
+    <row>
+      <cell>SHANDONG-CN</cell>
+      <cell>SHANDONG</cell>
+    </row>
+    <row>
+      <cell>QINGHAI-CN</cell>
+      <cell>QINGHAI</cell>
+    </row>
+    <row>
+      <cell>RG-LV</cell>
+      <cell>Riga</cell>
+    </row>
+    <row>
+      <cell>Dao-Lafoes-PT</cell>
+      <cell>Dão-Lafoes</cell>
+    </row>
+  </rows>
+</dvm>

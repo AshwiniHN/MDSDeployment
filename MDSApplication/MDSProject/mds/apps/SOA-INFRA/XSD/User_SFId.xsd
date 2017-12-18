@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema xmlns:ns1="http://www.example.org" xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" targetNamespace="http://SalesforceIntegration/user_SFIds" elementFormDefault="qualified">
+   <element name="ids">
+      <complexType>
+         <sequence>
+            <element name="SFUserId" type="string"/>
+            <element name="SBLUserId" type="string"/>
+            <element name="SFManagerId" type="string"/>
+            <element name="SFPartnerId" type="string"/>
+            <element name="SFContactId" type="string"/>
+            <element name="SFFederationId" type="string"/>
+            <element name="SBLPositionId" type="string"/>
+            <element name="UserType" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+</schema>

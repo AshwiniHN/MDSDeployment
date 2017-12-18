@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://www.oracle.com"
+            targetNamespace="http://www.oracle.com"
+            elementFormDefault="qualified">
+  <xsd:element name="Flows" type="Flow">
+ 
+    
+  </xsd:element>
+   <xsd:complexType name="Flow">
+   <xsd:sequence>
+   <xsd:element name="NoOfFlows" type="xsd:int"/>
+   <xsd:element name="FlowCounter" type="xsd:int"/>
+   </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

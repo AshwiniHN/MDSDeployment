@@ -1,0 +1,15 @@
+<dvm xmlns="http://xmlns.oracle.com/dvm" name="PriceBookID">
+  <columns>
+    <column name="Salesforce"/>
+    <column name="Environment"/>
+  </columns>
+  <rows>
+    <row>
+      <cell>01so0000003Yz8cAAC</cell>
+      <cell>Default</cell>
+    </row>
+  </rows>
+</dvm>
+
+
+

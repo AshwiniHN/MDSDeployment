@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions name="UserWSEndPointSiebel" targetNamespace="http://xmlns.oracle.com/UserWSEndPointSiebel" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:ns2="http://siebel.com/CustomUI" xmlns:ns1="http://www.siebel.com/xml/ISG%20SF%20Employee%20IO" xmlns:ns4="http://SalesforceIntegration/UserWSIds" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns3="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:client="http://xmlns.oracle.com/UserWSEndPointSiebel" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <plnk:partnerLinkType name="UserWSEndPointSiebel">
+      <plnk:role name="UserWSEndPointSiebelProvider">
+         <plnk:portType name="client:UserWSEndPointSiebel"/>
+      </plnk:role>
+   </plnk:partnerLinkType>
+   <import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <import namespace="http://siebel.com/CustomUI" location="oramds:/apps/WSDL/Employee_Service.wsdl"/>
+   <types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://xmlns.oracle.com/UserWSEndPointSiebel" schemaLocation="oramds:/apps/SOA-INFRA/XSD/UserWSEndPointSiebel.xsd"/>
+      </schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+         <xsd:import namespace="http://SalesforceIntegration/UserWSIds" schemaLocation="oramds:/apps/SOA-INFRA/XSD/UserWSIds.xsd"/>
+      </xsd:schema>
+   </types>
+   <message name="UserWSEndPointSiebelRequestMessage">
+      <part name="Operation" type="xsd:string"/>
+      <part name="OPOrganizationId" type="xsd:string"/>
+      <part name="OPListOfUser" element="ns1:ListOfIsgSfEmployeeIo"/>
+      <part name="SiebelID" type="xsd:string"/>
+      <part name="CallerId" type="xsd:string"/>
+   </message>
+   <message name="UserWSEndPointSiebelResponseMessage">
+      <part name="Status" type="xsd:string"/>
+      <part name="StatusDescription" type="xsd:string"/>
+      <part name="OPListOfUserQuery" element="ns1:ListOfIsgSfEmployeeIo"/>
+      <part name="SiebelId" type="xsd:string"/>
+      <part name="SiebelAddressId" type="xsd:string"/>
+   </message>
+   <portType name="UserWSEndPointSiebel">
+      <operation name="process">
+         <input message="client:UserWSEndPointSiebelRequestMessage"/>
+         <output message="client:UserWSEndPointSiebelResponseMessage"/>
+      </operation>
+   </portType>
+</definitions>

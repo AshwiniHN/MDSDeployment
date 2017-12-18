@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="ProductNoSKUSelected" xmlns="http://xmlns.oracle.com/dvm">
+<description/>
+<columns>
+<column name="SIEBEL"/>
+<column name="SALESFORCE"/>
+</columns>
+<rows>
+<row>
+<cell>Retail</cell>
+<cell>No SKU Selected Retail</cell>
+</row>
+<row>
+<cell>Online</cell>
+<cell>No SKU Selected Online</cell>
+</row>
+<row>
+<cell>Freemium</cell>
+<cell>No SKU Selected Freemium</cell>
+</row>
+<row>
+<cell>ATD</cell>
+<cell>No SKU Selected ATD</cell>
+</row>
+<row>
+<cell>TIE</cell>
+<cell>No SKU Selected TIE</cell>
+</row>
+<row>
+<cell>Network IPS</cell>
+<cell>No SKU Selected Network IPS</cell>
+</row>
+<row>
+<cell>Consumer Mobile</cell>
+<cell>No SKU Selected Consumer Mobile</cell>
+</row>
+<row>
+<cell>Web Protection</cell>
+<cell>No SKU Selected Web Protection</cell>
+</row>
+<row>
+<cell>Server Protection</cell>
+<cell>No SKU Selected Server Protection</cell>
+</row>
+<row>
+<cell>Data Protection</cell>
+<cell>No SKU Selected Data Protection</cell>
+</row>
+<row>
+<cell>Client Protection</cell>
+<cell>No SKU Selected Client Protection</cell>
+</row>
+<row>
+<cell>Endpoint Advance Threat</cell>
+<cell>No SKU Selected Endpoint Advance Threat</cell>
+</row>
+<row>
+<cell>SIEM &amp; Compliance</cell>
+<cell>No SKU Selected SIEM &amp; Compliance</cell>
+</row>
+<row>
+<cell>Premium Support Services</cell>
+<cell>No SKU Selected Premium Support Services</cell>
+</row>
+
+<row>
+<cell>CASB</cell>
+<cell>No SKU Selected CASB</cell>
+</row>
+</rows>
+</dvm>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions name="AccountWSEndPointSiebel" targetNamespace="http://xmlns.oracle.com/AccountWSEndPointSiebel" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:ns2="http://siebel.com/CustomUI" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:ns3="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:client="http://xmlns.oracle.com/AccountWSEndPointSiebel" xmlns:xsdLocal2="http://www.siebel.com/xml/ISGSFAccountIO/Id" xmlns:xsdLocal3="http://www.siebel.com/xml/ISGSFAccountIO/Query" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdLocal1="http://www.siebel.com/xml/ISGSFAccountIO/Data">
+<plnk:partnerLinkType name="AccountWSEndPointSiebel">
+<plnk:role name="AccountWSEndPointSiebelProvider">
+<plnk:portType name="client:AccountWSEndPointSiebel"/>
+</plnk:role>
+</plnk:partnerLinkType>
+<import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+<import namespace="http://siebel.com/CustomUI" location="oramds:/apps/WSDL/ISG_SF_Account_Service.wsdl"/>
+<types>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+<import namespace="http://xmlns.oracle.com/AccountWSEndPointSiebel" schemaLocation="oramds:/apps/SOA-INFRA/XSD/AccountWSEndPointSiebel.xsd"/>
+</schema>
+</types>
+<message name="AccountWSEndPointSiebelRequestMessage">
+<part name="Headerrequest" element="client:AccountWSEndPointSiebelProcessRequest"/>
+<part name="OPListOfAccount" element="xsdLocal1:ListOfIsgsfaccountio"/>
+<part name="OPListOfAccountQuery" element="xsdLocal3:ListOfIsgsfaccountio"/>
+</message>
+<message name="AccountWSEndPointSiebelResponseMessage">
+<part name="Headerresponse" element="client:AccountWSEndPointSiebelProcessResponse"/>
+<part name="OPListOfAccountOutput" element="xsdLocal2:ListOfIsgsfaccountio"/>
+<part name="OPListOfAccountQueryOutput" element="xsdLocal1:ListOfIsgsfaccountio"/>
+</message>
+<portType name="AccountWSEndPointSiebel">
+<operation name="process">
+<input message="client:AccountWSEndPointSiebelRequestMessage"/>
+<output message="client:AccountWSEndPointSiebelResponseMessage"/>
+</operation>
+</portType>
+</definitions>

@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="TimeZoneCodeDVMSFToSBL" xmlns="http://xmlns.oracle.com/dvm">
+  <description/>
+  <columns>
+    <column name="Siebel"/>
+    <column name="SalesForce"/>
+  </columns>
+  <rows>
+    <row>
+      <cell>(GMT) Casablanca, Monrovia</cell>
+      <cell>Africa/Casablanca</cell>
+    </row>
+    <row>
+      <cell>(GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</cell>
+      <cell>Europe/Dublin</cell>
+    </row>
+    <row>
+      <cell>(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</cell>
+      <cell>Europe/Amsterdam</cell>
+    </row>
+    <row>
+      <cell>(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</cell>
+      <cell>Europe/Prague</cell>
+    </row>
+    <row>
+      <cell>(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</cell>
+      <cell>Europe/Paris</cell>
+    </row>
+    <row>
+      <cell>(GMT+01:00) West Central Africa</cell>
+      <cell>Africa/Algiers</cell>
+    </row>
+    <row>
+      <cell>(GMT+02:00) Athens, Beirut, Istanbul, Minsk</cell>
+      <cell>Europe/Athens</cell>
+    </row>
+    <row>
+      <cell>(GMT+02:00) Bucharest</cell>
+      <cell>Europe/Bucharest</cell>
+    </row>
+    <row>
+      <cell>(GMT+02:00) Cairo</cell>
+      <cell>Africa/Cairo</cell>
+    </row>
+    <row>
+      <cell>(GMT+02:00) Harare, Pretoria</cell>
+      <cell>Africa/Johannesburg</cell>
+    </row>
+    <row>
+      <cell>(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</cell>
+      <cell>Europe/Helsinki</cell>
+    </row>
+    <row>
+      <cell>(GMT+02:00) Jerusalem</cell>
+      <cell>Asia/Jerusalem</cell>
+    </row>
+    <row>
+      <cell>(GMT+03:00) Baghdad</cell>
+      <cell>Asia/Baghdad</cell>
+    </row>
+    <row>
+      <cell>(GMT+03:00) Kuwait, Riyadh</cell>
+      <cell>Asia/Kuwait</cell>
+    </row>
+    <row>
+      <cell>(GMT+03:00) Moscow, St. Petersburg, Volgograd</cell>
+      <cell>Europe/Moscow</cell>
+    </row>
+    <row>
+      <cell>(GMT+03:00) Nairobi</cell>
+      <cell>Africa/Nairobi</cell>
+    </row>
+    <row>
+      <cell>(GMT+03:30) Tehran</cell>
+      <cell>Asia/Tehran</cell>
+    </row>
+    <row>
+      <cell>(GMT+04:00) Abu Dhabi, Muscat</cell>
+      <cell>Asia/Dubai</cell>
+    </row>
+    <row>
+      <cell>(GMT+04:00) Baku, Tbilisi, Yerevan</cell>
+      <cell>Asia/Tbilisi</cell>
+    </row>
+    <row>
+      <cell>(GMT+04:30) Kabul</cell>
+      <cell>Asia/Kabul</cell>
+    </row>
+    <row>
+      <cell>(GMT+05:00) Ekaterinburg</cell>
+      <cell>Asia/Yekaterinburg</cell>
+    </row>
+    <row>
+      <cell>(GMT+05:00) Islamabad, Karachi, Tashkent</cell>
+      <cell>Asia/Karachi</cell>
+    </row>
+    <row>
+      <cell>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</cell>
+      <cell>Asia/Kolkata</cell>
+    </row>
+    <row>
+      <cell>(GMT+05:45) Kathmandu</cell>
+      <cell>Asia/Kathmandu</cell>
+    </row>
+    <row>
+      <cell>(GMT+06:00) Astana, Dhaka</cell>
+      <cell>Asia/Dhaka</cell>
+    </row>
+    <row>
+      <cell>(GMT+06:00) Sri Jayawardenepura</cell>
+      <cell>Asia/Colombo</cell>
+    </row>
+    <row>
+      <cell>(GMT+06:30) Rangoon</cell>
+      <cell>Asia/Rangoon</cell>
+    </row>
+    <row>
+      <cell>(GMT+07:00) Bangkok, Thailand</cell>
+      <cell>Asia/Bangkok</cell>
+    </row>
+    <row>
+      <cell>(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</cell>
+      <cell>Asia/Hong_Kong</cell>
+    </row>
+    <row>
+      <cell>(GMT+08:00) Irkutsk, Ulaan Bataar</cell>
+      <cell>Asia/Taipei</cell>
+    </row>
+    <row>
+      <cell>(GMT+08:00) Kuala Lumpur, Singapore</cell>
+      <cell>Asia/Singapore</cell>
+    </row>
+    <row>
+      <cell>(GMT+08:00) Perth</cell>
+      <cell>Australia/Perth</cell>
+    </row>
+    <row>
+      <cell>(GMT+09:00) Osaka, Sapporo, Tokyo</cell>
+      <cell>Asia/Tokyo</cell>
+    </row>
+    <row>
+      <cell>(GMT+09:00) Seoul</cell>
+      <cell>Asia/Seoul</cell>
+    </row>
+    <row>
+      <cell>(GMT+09:30) Adelaide</cell>
+      <cell>Australia/Adelaide</cell>
+    </row>
+    <row>
+      <cell>(GMT+09:30) Darwin</cell>
+      <cell>Australia/Darwin</cell>
+    </row>
+    <row>
+      <cell>(GMT+10:00) Brisbane</cell>
+      <cell>Australia/Brisbane</cell>
+    </row>
+    <row>
+      <cell>(GMT+10:00) Canberra, Melbourne, Sydney</cell>
+      <cell>Australia/Sydney</cell>
+    </row>
+    <row>
+      <cell>(GMT+10:00) Hobart</cell>
+      <cell>Australia/Lord_Howe</cell>
+    </row>
+    <row>
+      <cell>(GMT+11:00) Magadan, Solomon Is., New Caledonia</cell>
+      <cell>Pacific/Guadalcanal</cell>
+    </row>
+    <row>
+      <cell>(GMT+12:00) Auckland, Wellington</cell>
+      <cell>Pacific/Auckland</cell>
+    </row>
+    <row>
+      <cell>(GMT+12:00) Fiji, Kamchatka, Marshall Is.</cell>
+      <cell>Pacific/Fiji</cell>
+    </row>
+    <row>
+      <cell>(GMT+13:00) Nuku'alofa</cell>
+      <cell>Pacific/Tongatapu</cell>
+    </row>
+    <row>
+      <cell>(GMT-01:00) Azores</cell>
+      <cell>Atlantic/Azores</cell>
+    </row>
+    <row>
+      <cell>(GMT-01:00) Cape Verde Is.</cell>
+      <cell>Atlantic/Cape_Verde</cell>
+    </row>
+    <row>
+      <cell>(GMT-02:00) Mid-Atlantic</cell>
+      <cell>Atlantic/South_Georgia</cell>
+    </row>
+    <row>
+      <cell>(GMT-03:00) Brasilia</cell>
+      <cell>America/Sao_Paulo</cell>
+    </row>
+    <row>
+      <cell>(GMT-03:00) Buenos Aires, Georgetown</cell>
+      <cell>America/Argentina/Buenos_Aires</cell>
+    </row>
+    <row>
+      <cell>(GMT-03:00) Greenland</cell>
+      <cell>America/Halifax</cell>
+    </row>
+    <row>
+      <cell>(GMT-03:30) Newfoundland</cell>
+      <cell>America/St_Johns</cell>
+    </row>
+    <row>
+      <cell>(GMT-04:00) Atlantic Time (Canada)</cell>
+      <cell>Atlantic/Bermuda</cell>
+    </row>
+    <row>
+      <cell>(GMT-04:00) Caracas, La Paz</cell>
+      <cell>America/Caracas</cell>
+    </row>
+    <row>
+      <cell>(GMT-04:00) Santiago</cell>
+      <cell>America/Santiago</cell>
+    </row>
+    <row>
+      <cell>(GMT-05:00) Bogota, Lima, Quito</cell>
+      <cell>America/Bogota</cell>
+    </row>
+    <row>
+      <cell>(GMT-05:00) Eastern Time (US &amp; Canada)</cell>
+      <cell>America/New_York</cell>
+    </row>
+    <row>
+      <cell>(GMT-05:00) Indiana (East)</cell>
+      <cell>America/Indiana/Indianapolis</cell>
+    </row>
+    <row>
+      <cell>(GMT-06:00) Central America</cell>
+      <cell>America/El_Salvador</cell>
+    </row>
+    <row>
+      <cell>(GMT-06:00) Central Time (US &amp; Canada)</cell>
+      <cell>America/Chicago</cell>
+    </row>
+    <row>
+      <cell>(GMT-06:00) Mexico City</cell>
+      <cell>America/Mexico_City</cell>
+    </row>
+    <row>
+      <cell>(GMT-07:00) Arizona</cell>
+      <cell>America/Denver</cell>
+    </row>
+    <row>
+      <cell>(GMT-07:00) Chihuahua, La Paz, Mazatlan</cell>
+      <cell>America/Mazatlan</cell>
+    </row>
+    <row>
+      <cell>(GMT-08:00) Baja California Norte; Tijuana</cell>
+      <cell>America/Tijuana</cell>
+    </row>
+    <row>
+      <cell>(GMT-09:00) Alaska</cell>
+      <cell>America/Anchorage</cell>
+    </row>
+    <row>
+      <cell>(GMT-10:00) Hawaii</cell>
+      <cell>Pacific/Honolulu</cell>
+    </row>
+    <row>
+      <cell>(GMT-11:00) Midway Island, Samoa</cell>
+      <cell>Pacific/Pago_Pago</cell>
+    </row>
+  </rows>
+</dvm>

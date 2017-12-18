@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="UpsertUserSeiebelProvABCSImpl" targetNamespace="http://SalesforceProject/UpsertUserSeiebelProvABCSImpl" xmlns:ns2="http://schemas.oracle.com/bpel/extension" xmlns:ns1="urn:enterprise.soap.sforce.com" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:ns3="http://SalesforceIntegration/user_SFIds" xmlns:client="http://SalesforceProject/UpsertUserSeiebelProvABCSImpl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <plnk:partnerLinkType name="UpsertUserSeiebelProvABCSImpl">
+      <plnk:role name="UpsertUserSeiebelProvABCSImplProvider" portType="client:UpsertUserSeiebelProvABCSImpl"/>
+      <plnk:role name="UpsertUserSeiebelProvABCSImplRequester" portType="client:UpsertUserSeiebelProvABCSImplCallback"/>
+   </plnk:partnerLinkType>
+   <wsdl:import namespace="urn:enterprise.soap.sforce.com" location="oramds:/apps/WSDL/generateEnterprise.wsdl"/>
+   <wsdl:import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+   <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema">
+         <import namespace="http://SalesforceProject/UpsertUserSeiebelProvABCSImpl" schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpsertUserSeiebelProvABCSImpl.xsd"/>
+      </schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+         <xsd:import namespace="http://SalesforceIntegration/user_SFIds" schemaLocation="oramds:/apps/SOA-INFRA/XSD/User_SFId.xsd"/>
+      </xsd:schema>
+   </wsdl:types>
+   <wsdl:message name="UpsertUserSeiebelProvABCSImplRequestMessage">
+      <wsdl:part name="eventId" type="xsd:string"/>
+      <wsdl:part name="SFPayload" element="ns1:create"/>
+      <wsdl:part name="ParentProcess" type="xsd:string"/>
+   </wsdl:message>
+   <wsdl:message name="UpsertUserSeiebelProvABCSImplResponseMessage">
+      <wsdl:part name="payload" element="client:processResponse"/>
+   </wsdl:message>
+   <wsdl:portType name="UpsertUserSeiebelProvABCSImpl">
+      <wsdl:operation name="process">
+         <wsdl:input message="client:UpsertUserSeiebelProvABCSImplRequestMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:portType name="UpsertUserSeiebelProvABCSImplCallback">
+      <wsdl:operation name="processResponse">
+         <wsdl:input message="client:UpsertUserSeiebelProvABCSImplResponseMessage"/>
+      </wsdl:operation>
+   </wsdl:portType>
+</wsdl:definitions>

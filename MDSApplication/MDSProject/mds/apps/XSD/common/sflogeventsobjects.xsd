@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://insecg-salesforce/sflogeventsobjects" xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/getSFLogEvents" xmlns:xsdLocal="http://insecg-salesforce/sflogeventsobjects" elementFormDefault="qualified">
+<element name="SFLogObjectEvents">
+<complexType>
+<sequence>
+<xsd:element name="optyInsertEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="optyUpdateEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="optyDeleteEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="optyLineInsertEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="optyLineUpdateEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="optyLineDeleteEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="accountInsertEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="accountUpdateEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="accountDeleteEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="contactInsertEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="contactUpdateEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="contactDeleteEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="userInsertEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="userDeleteEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="productPriceBook" type="xsdLocal:QueryString"/>
+<xsd:element name="unknownobject" type="xsdLocal:QueryString"/>
+<xsd:element name="accountContactAssocInsertEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="OpportunityPartnerUpsert" type="xsdLocal:QueryString"/>
+<xsd:element name="OpportunityPartnerDelete" type="xsdLocal:QueryString"/>
+<xsd:element name="OpportunityContactUpsert" type="xsdLocal:QueryString"/>
+<xsd:element name="OpportunityContactDelete" type="xsdLocal:QueryString"/>
+<xsd:element name="optySyncOnEvents" type="xsdLocal:QueryString"/>
+<xsd:element name="userUpdateEvents" type="xsdLocal:QueryString"/>
+</sequence>
+</complexType>
+</element>
+<xsd:complexType name="QueryString">
+<xsd:sequence>
+<xsd:element name="SFLOGID" type="xsd:string"/>
+<xsd:element name="SFEVENTID" type="xsd:string"/>
+<xsd:element name="OBJECTID" type="xsd:string"/>
+<xsd:element name="OBJECTTYPE" type="xsd:string"/>
+<xsd:element name="OPERATION" type="xsd:string"/>
+<xsd:element name="PRIORITY" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

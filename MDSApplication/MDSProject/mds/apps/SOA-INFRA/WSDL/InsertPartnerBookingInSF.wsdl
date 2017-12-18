@@ -1,0 +1,61 @@
+<wsdl:definitions
+     name="InsertPartnerBookingInSF"
+     targetNamespace="http://xmlns.oracle.com/OBUSF_PartnerBooking/PartnerBookingOBISFProcessor/InsertPartnerBookingInSF"
+     xmlns:ns2="http://schemas.oracle.com/bpel/extension"
+     xmlns:ns1="http://www.oracle.com"
+     xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+     xmlns:client="http://xmlns.oracle.com/OBUSF_PartnerBooking/PartnerBookingOBISFProcessor/InsertPartnerBookingInSF"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    >
+    <!--wsdl:documentation>
+        <abstractWSDL>https://sfintegration-qa.corpzone.internalzone.com:443/soa-infra/services/default/PartnerBookingOBISFProcessor!15.0/InsertPartnerBookingInSF.wsdl</abstractWSDL>
+    </wsdl:documentation-->
+    <plnk:partnerLinkType name="InsertPartnerBookingInSF">
+        <plnk:role name="InsertPartnerBookingInSFProvider">
+            <plnk:portType name="client:InsertPartnerBookingInSF"/>
+        </plnk:role>
+    </plnk:partnerLinkType>
+    <wsdl:import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.oracle.com" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+             xmlns:client="http://xmlns.oracle.com/OBUSF_PartnerBooking/PartnerBookingOBISFProcessor/InsertPartnerBookingInSF"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns2="http://schemas.oracle.com/bpel/extension">
+            <import namespace="http://xmlns.oracle.com/OBUSF_PartnerBooking/PartnerBookingOBISFProcessor/InsertPartnerBookingInSF"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/InsertPartnerBookingInSF.xsd"/>
+        </schema>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.oracle.com"
+             xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/OBUSF_PartnerBooking/PartnerBookingOBISFProcessor/InsertPartnerBookingInSF"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns2="http://schemas.oracle.com/bpel/extension">
+            <xsd:import namespace="http://www.oracle.com" schemaLocation="oramds:/apps/SOA-INFRA/XSD/Process.xsd"/>
+        </xsd:schema>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://schemas.oracle.com/bpel/extension"
+             xmlns:ns1="http://www.oracle.com" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+             xmlns:client="http://xmlns.oracle.com/OBUSF_PartnerBooking/PartnerBookingOBISFProcessor/InsertPartnerBookingInSF"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+            <xsd:import namespace="oramds:/apps/SOA-INFRA/XSD/FailedRecords.xsd"/>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="InsertPartnerBookingInSFRequestMessage">
+        <wsdl:part name="payload" element="client:process"/>
+    </wsdl:message>
+    <wsdl:portType name="InsertPartnerBookingInSF">
+        <wsdl:operation name="process">
+            <wsdl:input message="client:InsertPartnerBookingInSFRequestMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="InsertPartnerBookingInSFBinding" type="client:InsertPartnerBookingInSF">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>    
+        <wsdl:operation name="process">
+            <soap:operation style="document" soapAction="process"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="insertpartnerbookinginsf_client">
+        <wsdl:port name="InsertPartnerBookingInSF_pt" binding="client:InsertPartnerBookingInSFBinding">
+            <!--soap:address location="https://sfintegration-qa.corpzone.internalzone.com:443/soa-infra/services/default/PartnerBookingOBISFProcessor/insertpartnerbookinginsf_client"/-->
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

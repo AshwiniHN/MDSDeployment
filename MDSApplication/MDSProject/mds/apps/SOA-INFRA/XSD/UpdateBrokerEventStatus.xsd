@@ -1,0 +1,26 @@
+<schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://xmlns.oracle.com/UpdateBrokerEventStatus"
+        xmlns:ns1="http://www.siebel.com/xml/UpdateProcessedEventsInEAIBroker"
+	xmlns="http://www.w3.org/2001/XMLSchema">
+        <import namespace="http://www.siebel.com/xml/UpdateProcessedEventsInEAIBroker" schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpdateProcessedEventsInEAIBroker.xsd"/>
+        
+	<element name="UpdateBrokerEventStatusProcessRequest">                
+		<complexType>
+			<sequence>
+				<element name="BrokerEvents" type="ns1:UpdateProcessedEventsInEAIBroker"/>
+                                <element name="CallerId" type="string"/>    
+                                <element name="ClientFMWInstanceId" type="string"/>    
+			</sequence>
+		</complexType>
+	</element>
+	<element name="UpdateBrokerEventStatusProcessResponse">
+		<complexType>
+			<sequence>				
+                                <element name="Status" type="string"/>
+                                <element name="ErrMsg" type="string"/>                              
+			</sequence>
+		</complexType>
+	</element>
+        
+</schema>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/top/pollBrokerDBQuote/Modified_Quotes" xmlns:tns="http://xmlns.oracle.com/pcbpel/adapter/db/top/pollBrokerDBQuote/Modified_Quotes" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="Quotes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Modified_Quotes" type="Modified_Quotes"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Modified_Quotes" type="Modified_Quotes"/>
+  <xs:complexType name="Modified_Quotes">
+    <xs:sequence>
+      <xs:element name="Quote_Header" type="Quote_Header"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Quote_Header">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Quote_ID"/>
+      <xs:element type="xs:string" name="Acc_id"/>
+      <xs:element type="xs:string" name="Highest_Approval_Type"/>
+      <xs:element type="xs:string" name="NAI_Approval_Last_Name"/>
+      <xs:element type="xs:string" name="Desc"/>
+      <xs:element type="xs:dateTime" name="start_date"/>
+      <xs:element type="xs:dateTime" name="end_date"/>
+      <xs:element type="xs:string" name="opty_Id"/>
+      <xs:element type="xs:string" name="Program_Benefit_Request"/>
+      <xs:element type="xs:string" name="Program_Benefit_Status"/>
+      <xs:element type="xs:string" name="MFE_Program_Level"/>
+      <xs:element type="xs:string" name="Name"/>
+      <xs:element type="xs:string" name="Quote_Number"/>
+      <xs:element type="xs:string" name="Quote_Type"/>
+      <xs:element type="xs:string" name="Status"/>
+      <xs:element type="xs:string" name="Currency_Code"/>
+      <xs:element type="xs:byte" name="MFE_Budgetary_Quote_Flag"/>
+      <xs:element type="xs:float" name="EU_Total_HW_Disc_Pct"/>
+      <xs:element type="xs:float" name="EU_Total_SW_Disc_Pct"/>
+      <xs:element type="xs:float" name="EU_Grand_Total_Disc_Pct"/>
+      <xs:element type="xs:float" name="Total_Hardware_Disc"/>
+      <xs:element type="xs:float" name="Total_Software_Disc"/>
+      <xs:element type="xs:float" name="Grand_Total_Disc"/>
+      <xs:element type="xs:string" name="Promotion_Code"/>
+      <xs:element type="xs:float" name="EU_MSRP_Grand_Total"/>
+      <xs:element type="xs:string" name="Created_By_Name"/>
+      <xs:element type="xs:dateTime" name="Last_Updated_Date"/>
+      <xs:element type="xs:dateTime" name="Created"/>
+      <xs:element name="LineItems" type="LineItems"/>
+      <xs:element name="Quote_Partners" type="Quote_Partners"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LineItems">
+    <xs:sequence>
+      <xs:element name="LineItem" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:string" name="Row_Id" minOccurs="0"/>
+            <xs:element type="xs:string" name="Quote_Id"/>
+            <xs:element type="xs:float" name="Quantity"/>
+            <xs:element type="xs:float" name="NAI_Hardware_Quantity"/>
+            <xs:element type="xs:float" name="Actual_Quantity"/>
+            <xs:element type="xs:string" name="Program_Benefit_Request"/>
+            <xs:element type="xs:string" name="Prod"/>
+            <xs:element type="xs:string" name="Prod_Desc"/>
+            <xs:element type="xs:string" name="Product_Type"/>
+            <xs:element type="xs:string" name="Material_Category"/>
+            <xs:element type="xs:string" name="Bundled_Product_Flag"/>
+            <xs:element type="xs:float" name="List_Price_Associate"/>
+            <xs:element type="xs:float" name="End_User_Price"/>
+            <xs:element type="xs:float" name="Ttl_End_User_Pric"/>
+            <xs:element type="xs:float" name="Std_Dist_Cost_Elite"/>
+            <xs:element type="xs:float" name="Std_Dist_Cost_Premier"/>
+            <xs:element type="xs:float" name="Std_Dist_Cost_Assoc"/>
+            <xs:element type="xs:float" name="Ttl_Final_Dist_Cost_Elite"/>
+            <xs:element type="xs:float" name="Ttl_Final_Dist_Cost_Premier"/>
+            <xs:element type="xs:float" name="Ttl_Final_Dist_Cost_Assoc"/>
+            <xs:element type="xs:float" name="UnitPrice"/>
+            <xs:element type="xs:string" name="SiebelRevenueID"/>
+            <xs:element type="xs:string" name="SFRevenueID"/>
+            <xs:element type="xs:string" name="NAI_Program_Type"/>
+            <xs:element type="xs:string" name="NAI_PRM_Grant_Number"/>
+            <xs:element type="xs:dateTime" name="Requested_Delivery_Date"/>
+            <xs:element type="xs:dateTime" name="end_date"/>
+            <xs:element type="xs:int" name="NAI_Item_Terms_Length"/>
+            <xs:element type="xs:dateTime" name="End_Of_Support_Date"/>
+            <xs:element type="xs:string" name="Latest_Serial_Number"/>
+            <xs:element type="xs:string" name="Original_Serial_Number"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Quote_Partners">
+    <xs:sequence>
+      <xs:element name="Quote_Partner" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:string" name="Partner_Id"/>
+            <xs:element type="xs:string" name="Program_Benefit_Request"/>
+            <xs:element type="xs:string" name="PBR_Approved_Flag"/>
+            <xs:element type="xs:string" name="Distributor_Locked_Flag"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://xmlns.oracle.com/opty/OptyWSEndPointSiebelProcess/OptyWSEndpointSiebelProcess" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="Headerrequest">
+      <complexType>
+         <sequence>
+            <element name="input" type="xsd:string"/>
+            <element name="Operation" type="xsd:string"/>
+            <element name="OPOrganizationId" type="xsd:string"/>
+            <element name="SiebelID" type="xsd:string"/>
+            <element name="CallerId" type="xsd:string"/>
+            <element name="OwnerId" type="xsd:string"/>
+            <element name="UpdOPTYFrmQuote" type="xsd:string"/>
+         </sequence>
+      </complexType>
+   </element>
+   <element name="Headerresponse">
+      <complexType>
+         <sequence>
+            <element name="result" type="xsd:string"/>
+            <element name="Status" type="xsd:string"/>
+            <element name="StatusDescription" type="xsd:string"/>
+            <element name="SiebelId" type="xsd:string"/>
+         </sequence>
+      </complexType>
+   </element>
+</schema>

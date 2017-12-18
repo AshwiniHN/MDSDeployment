@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema xmlns:xsdLocal="http://www.siebel.com/xml/OptyEventsToProcessFromBroker" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.siebel.com/xml/OptyEventsToProcessFromBroker" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<element name="EventsToProcess" type="xsdLocal:EventsToProcess"/>
+<complexType name="EventsToProcess">
+<sequence>
+<element name="ListOfEvent" type="xsdLocal:ListOfEvent"/>
+</sequence>
+</complexType>
+<complexType name="ListOfEvent">
+<sequence>
+<element name="Event" type="xsdLocal:Event" maxOccurs="unbounded"/>
+</sequence>
+</complexType>
+<complexType name="Event">
+<sequence>
+<element name="EventId" type="int"/>
+<element name="Object_type" type="int"/>
+<element name="Operation" type="int"/>
+<element name="Document" type="xsdLocal:Document"/>
+</sequence>
+</complexType>
+<complexType name="Document">
+<sequence>
+<element name="DocumentMessage" type="xsdLocal:TransactionDocument"/>
+</sequence>
+</complexType>
+<complexType name="TransactionDocument">
+<sequence>
+<any namespace="##other" processContents="lax"/>
+</sequence>
+</complexType>
+</schema>

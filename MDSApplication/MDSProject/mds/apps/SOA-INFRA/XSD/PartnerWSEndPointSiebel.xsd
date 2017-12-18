@@ -1,0 +1,22 @@
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/PartnerWSEndPointSiebel" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="PartnerWSEndPointSiebelProcessRequest">
+      <complexType>
+         <sequence>
+            <element name="Operation" type="string"/>
+            <element name="CallerId" type="string"/>
+            <element name="OPOrganizationId" type="string"/>
+            <element name="SiebelID" type="string"/>
+            <element name="AccountId" type="string"/>
+            <element name="OwnerId" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+   <element name="PartnerWSEndPointSiebelProcessResponse">
+      <complexType>
+         <sequence>
+            <element name="Status" type="string"/>
+            <element name="StatusDescription" type="string"/>
+         </sequence>
+      </complexType>
+   </element>
+</schema>

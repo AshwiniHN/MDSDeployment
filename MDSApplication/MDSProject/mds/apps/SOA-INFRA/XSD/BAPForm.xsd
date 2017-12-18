@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xsd:schema xmlns:xsdLocal1="http://IsecG-SFDCIntegration/BAPForm" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://IsecG-SFDCIntegration/BAPForm">
+   <xsd:element name="BAPForm" type="xsdLocal1:BAPForm"/>
+   <xsd:complexType name="BAPForm">
+      <xsd:sequence>
+         <xsd:element name="ListBAPFormData" type="xsdLocal1:ListOfBAPFormData"/>
+      </xsd:sequence>
+      <xsd:attribute type="string" name="EventId"/>
+      <xsd:attribute type="string" name="MessageId"/>
+      <xsd:attribute type="string" name="MessageType"/>
+      <xsd:attribute type="string" name="IntObjectName"/>
+      <xsd:attribute type="string" name="IntObjectFormat"/>
+      <xsd:attribute type="string" name="ObjectType"/>
+      <xsd:attribute type="string" name="Operation"/>
+   </xsd:complexType>
+   <xsd:complexType name="ListOfBAPFormData">
+      <xsd:sequence>
+         <xsd:element name="CompanyName" type="string"/>
+         <xsd:element name="Country" type="string"/>
+         <xsd:element name="Address1" type="string"/>
+         <xsd:element name="Address2" type="string"/>
+         <xsd:element name="Address3" type="string"/>
+         <xsd:element name="City" type="string"/>
+         <xsd:element name="State" type="string"/>
+         <xsd:element name="PostalCode" type="string"/>
+         <xsd:element name="MainPhoneNumber" type="string"/>
+         <xsd:element name="MainFaxNumber" type="string"/>
+         <xsd:element name="WebsiteURL" type="string"/>
+         <xsd:element name="YearFounded" type="string"/>
+         <xsd:element name="AnnualTopLineRevenue" type="string"/>
+         <xsd:element name="NumOfEmployees" type="string"/>
+         <xsd:element name="TradeRegulatedCountries" type="xsdLocal1:TradeRegulatedCountriesType" minOccurs="1" maxOccurs="unbounded"/>
+         <xsd:element name="SellProductToGovtEntity" type="string"/>
+         <xsd:element name="MSPSpecialization" type="string"/>
+         <xsd:element name="FirstName" type="string"/>
+         <xsd:element name="LastName" type="string"/>
+         <xsd:element name="JobTitle" type="string"/>
+         <xsd:element name="PartnerRole" type="string"/>
+         <xsd:element name="EmailAddress" type="string"/>
+         <xsd:element name="WorkPhone" type="string"/>
+         <xsd:element name="WorkPhoneExtension" type="string"/>
+         <xsd:element name="MobilePhone" type="string"/>
+         <xsd:element name="PreferredLang" type="string"/>
+         <xsd:element name="PriContactMethod" type="string"/>
+         <xsd:element name="VenodorName" type="string"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:complexType name="TradeRegulatedCountriesType">
+      <xsd:sequence>
+         <xsd:element name="TradeRegulatedCountries" type="string" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:schema>

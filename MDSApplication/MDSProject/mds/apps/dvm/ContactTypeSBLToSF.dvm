@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="ContactTypeSBLToSF" xmlns="http://xmlns.oracle.com/dvm">
+<description/>
+<columns>
+<column name="SBLFlag"/>
+<column name="SFValue"/>
+<column name="ContactType"/>
+</columns>
+<rows>
+<row>
+<cell>Y</cell>
+<cell>012q00000008q3hAAA</cell>
+<cell>Partner</cell>
+</row>
+<row>
+<cell>N</cell>
+<cell>012q00000008q3cAAA</cell>
+<cell>END CUSTOMER</cell>
+</row>
+</rows>
+</dvm>

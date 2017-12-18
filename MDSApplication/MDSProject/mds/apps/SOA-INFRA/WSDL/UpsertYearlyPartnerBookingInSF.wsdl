@@ -1,0 +1,41 @@
+<?xml version= '1.0' encoding= 'UTF-8' ?>
+<wsdl:definitions
+     name="UpsertYearlyPartnerBookingInSF"
+     targetNamespace="http://xmlns.oracle.com/OBUSF_PartnerBooking/YearlyPartnerBookingOBISFProcessor/UpsertYearlyPartnerBookingInSF"
+     xmlns:ns2="http://schemas.oracle.com/bpel/extension"
+     xmlns:ns1="http://www.oracle.com"
+     xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+     xmlns:client="http://xmlns.oracle.com/OBUSF_PartnerBooking/YearlyPartnerBookingOBISFProcessor/UpsertYearlyPartnerBookingInSF"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    >
+    <plnk:partnerLinkType name="UpsertYearlyPartnerBookingInSF">
+        <plnk:role name="UpsertYearlyPartnerBookingInSFProvider">
+            <plnk:portType name="client:UpsertYearlyPartnerBookingInSF"/>
+        </plnk:role>
+    </plnk:partnerLinkType>
+    <wsdl:import namespace="http://schemas.oracle.com/bpel/extension" location="oramds:/apps/WSDL/RuntimeFault.wsdl"/>
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.oracle.com" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+             xmlns:client="http://xmlns.oracle.com/OBUSF_PartnerBooking/YearlyPartnerBookingOBISFProcessor/UpsertYearlyPartnerBookingInSF"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+            <import namespace="http://xmlns.oracle.com/OBUSF_PartnerBooking/YearlyPartnerBookingOBISFProcessor/UpsertYearlyPartnerBookingInSF"
+                 schemaLocation="oramds:/apps/SOA-INFRA/XSD/UpsertYearlyPartnerBookingInSF.xsd"/>
+        </schema>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.oracle.com"
+             xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/OBUSF_PartnerBooking/YearlyPartnerBookingOBISFProcessor/UpsertYearlyPartnerBookingInSF"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+            <xsd:import namespace="http://www.oracle.com" schemaLocation="oramds:/apps/SOA-INFRA/XSD/Flows.xsd"/>
+        </xsd:schema>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:import namespace="http://www.oracle.com" schemaLocation="oramds:/apps/SOA-INFRA/XSD/FailedRecords.xsd"/>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="UpsertYearlyPartnerBookingInSFRequestMessage">
+        <wsdl:part name="payload" element="client:process"/>
+    </wsdl:message>
+    <wsdl:portType name="UpsertYearlyPartnerBookingInSF">
+        <wsdl:operation name="process">
+            <wsdl:input message="client:UpsertYearlyPartnerBookingInSFRequestMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+</wsdl:definitions>

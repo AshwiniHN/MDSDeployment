@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema xmlns:ns1="http://www.example.org"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        attributeFormDefault="unqualified"
+        targetNamespace="http://SalesforceIntegration/PartnerAccountIds"
+        elementFormDefault="qualified">
+  <element name="ids">
+    <complexType>
+      <sequence>
+        <element name="EventId" type="string"/>
+        <element name="SBLAccountId" type="string"/>
+          <element name="SFAccountId" type="string"/>
+        <element name="SBLParentAcntId" type="string"/>
+        <element name="SFParentAcntId" type="string"/>
+        <element name="SBLOwnerId" type="string"/>
+        <element name="SFOwnerId" type="string"/>
+        <element name="SBLAddressId" type="string"/>
+        <element name="SFAddressId" type="string"/>
+        <element name="XREFSFAccountId" type="string"/>
+      </sequence>
+    </complexType>
+  </element>
+</schema>

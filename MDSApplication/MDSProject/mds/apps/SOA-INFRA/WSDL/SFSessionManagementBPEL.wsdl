@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions xmlns:ns1="http://SF_URL/url" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/SalesforceDemo/SFSessionManagementService/SFSessionManagementBPEL" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="SFSessionManagementBPEL" targetNamespace="http://xmlns.oracle.com/SalesforceDemo/SFSessionManagementService/SFSessionManagementBPEL">
+   <plnk:partnerLinkType name="SFSessionManagementBPEL">
+      <plnk:role name="SFSessionManagementBPELProvider">
+         <plnk:portType name="client:SFSessionManagementBPEL"></plnk:portType>
+      </plnk:role>
+   </plnk:partnerLinkType>
+   <wsdl:types>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://SF_URL/url" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/SalesforceDemo/SFSessionManagementService/SFSessionManagementBPEL" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+         <import namespace="http://xmlns.oracle.com/SalesforceDemo/SFSessionManagementService/SFSessionManagementBPEL" schemaLocation="oramds:/apps/SOA-INFRA/XSD/SFSessionManagementBPEL.xsd"></import>
+      </schema>
+      <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://SF_URL/url" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/SalesforceDemo/SFSessionManagementService/SFSessionManagementBPEL" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+         <xsd:import namespace="http://SF_URL/url" schemaLocation="oramds:/apps/SOA-INFRA/XSD/SFCredentials.xsd"></xsd:import>
+      </xsd:schema>
+   </wsdl:types>
+   <wsdl:message name="SFSessionManagementBPELRequestMessage">
+      <wsdl:part name="payload" element="client:process"></wsdl:part>
+   </wsdl:message>
+   <wsdl:portType name="SFSessionManagementBPEL">
+      <wsdl:operation name="process">
+         <wsdl:input message="client:SFSessionManagementBPELRequestMessage"></wsdl:input>
+      </wsdl:operation>
+   </wsdl:portType>
+</wsdl:definitions>

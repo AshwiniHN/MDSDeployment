@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dvm name="PreferredLangCodeEndCustomerContact_SBL_To_SF.dvm" xmlns="http://xmlns.oracle.com/dvm">
+<description/>
+<columns>
+<column name="Siebel"/>
+<column name="Salesforce"/>
+</columns>
+<rows>
+<row>
+<cell>FRA</cell>
+<cell>French</cell>
+</row>
+<row>
+<cell>DEU</cell>
+<cell>German</cell>
+</row>
+<row>
+<cell>ITA</cell>
+<cell>Italian</cell>
+</row>
+<row>
+<cell>JPN</cell>
+<cell>Japanese</cell>
+</row>
+<row>
+<cell>KOR</cell>
+<cell>Korean</cell>
+</row>
+<row>
+<cell>L</cell>
+<cell>Polish</cell>
+</row>
+<row>
+<cell>PTB</cell>
+<cell>Portuguese - Brazilian</cell>
+</row>
+<row>
+<cell>PTG</cell>
+<cell>Portuguese</cell>
+</row>
+<row>
+<cell>RUS</cell>
+<cell>Russian</cell>
+</row>
+<row>
+<cell>ESP</cell>
+<cell>Spanish</cell>
+</row>
+<row>
+<cell>ESN</cell>
+<cell>Spanish - EMEA</cell>
+</row>
+<row>
+<cell>SVE</cell>
+<cell>Swedish</cell>
+</row>
+<row>
+<cell>T</cell>
+<cell>Turkish</cell>
+</row>
+<row>
+<cell>ENU</cell>
+<cell>English - UK</cell>
+</row>
+<row>
+<cell>ENG</cell>
+<cell>English</cell>
+</row>
+<row>
+<cell>ENUS</cell>
+<cell>English - American</cell>
+</row>
+<row>
+<cell>1</cell>
+<cell>Chinese</cell>
+</row>
+<row>
+<cell>1X</cell>
+<cell>Chinese (Simplified)</cell>
+</row>
+<row>
+<cell>M</cell>
+<cell>Chinese (Traditional)</cell>
+</row>
+<row>
+<cell>NLD</cell>
+<cell>Dutch</cell>
+</row>
+</rows>
+</dvm>
