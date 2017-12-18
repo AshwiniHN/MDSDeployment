@@ -5,7 +5,7 @@
   <artifactId>MDSApplication</artifactId>
   <version>1.0-SNAPSHOT</version>
   <description>Super POM for MDSApp</description>
-  <packaging>jar</packaging>
+  <!--<packaging>jar</packaging>-->
   <build>
     <plugins>
       <!--<plugin>
@@ -30,7 +30,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>-->
+      </plugin>
       <plugin>
         <groupId>com.oracle.soa.plugin</groupId>
         <artifactId>oracle-soa-plugin</artifactId>
@@ -39,8 +39,8 @@
           <compositeName>MDSApplication</compositeName>
           <composite>${scac.input}</composite>
           <sarLocation>C:\Users\ahaverin\.jenkins\workspace\MDSDeployment\MDSApplication\MDSProject\deploy\mds.jar</sarLocation>
-          <!--<sarLocation>${basedir}/deploy/mdsBundle.zip</sarLocation>
-          <serverUrl>${serverUrl}</serverUrl>-->
+          //<sarLocation>${basedir}/deploy/mdsBundle.zip</sarLocation>
+          //<serverUrl>${serverUrl}</serverUrl>
           <serverUrl>http://dnvdevappfmw19.corpzone.internalzone.com:8001</serverUrl>
           <user>weblogic</user>
           <password>Welcome1</password>
@@ -50,7 +50,31 @@
           <input>${input}</input>
         </configuration>
         <extensions>true</extensions>
-      </plugin>
+      </plugin>-->
+      <plugin> 
+    <groupId>com.oracle.weblogic</groupId> 
+        <artifactId>weblogic-maven-plugin</artifactId> 
+        <version>10.3.4</version> 
+        <configuration> 
+            <adminurl>http://dnvdevappfmw19.corpzone.internalzone.com:7001</adminurl>
+            <user>weblogic</user> 
+            <password>Welcome1</password> 
+            <upload>true</upload> 
+            <action>deploy</action> 
+            <remote>false</remote> 
+            <verbose>true</verbose> 
+            <source>C:\Users\ahaverin\.jenkins\workspace\MDSDeployment\MDSApplication\MDSProject\deploy\mds.jar</source> 
+            <name>mds</name> 
+        </configuration> 
+        <executions> 
+            <execution> 
+                <phase>install</phase> 
+                <goals> 
+                    <goal>deploy</goal> 
+                </goals> 
+            </execution> 
+        </executions> 
+    </plugin> 
     </plugins>
   </build>
 </project>
