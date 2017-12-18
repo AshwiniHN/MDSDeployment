@@ -5,10 +5,10 @@
   <artifactId>MDSApplication</artifactId>
   <version>1.0-SNAPSHOT</version>
   <description>Super POM for MDSApp</description>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
   <build>
     <plugins>
-      <plugin>
+      <!--<plugin>
         <groupId>com.oracle.adf.plugin</groupId>
         <artifactId>ojdeploy</artifactId>
         <version>12.1.3-0-0</version>
@@ -30,7 +30,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
       <plugin>
         <groupId>com.oracle.soa.plugin</groupId>
         <artifactId>oracle-soa-plugin</artifactId>
@@ -38,10 +38,12 @@
         <configuration>
           <compositeName>MDSApplication</compositeName>
           <composite>${scac.input}</composite>
-          <sarLocation>${basedir}/deploy/mdsBundle.zip</sarLocation>
-          <serverUrl>${serverUrl}</serverUrl>
-          <user>${user}</user>
-          <password>${password}</password>
+          <sarLocation>C:\Users\ahaverin\.jenkins\workspace\MDSDeployment\MDSApplication\MDSProject\deploy\mds.jar</sarLocation>
+          <!--<sarLocation>${basedir}/deploy/mdsBundle.zip</sarLocation>
+          <serverUrl>${serverUrl}</serverUrl>-->
+          <serverUrl>http://dnvdevappfmw19.corpzone.internalzone.com:8001</serverUrl>
+          <user>weblogic</user>
+          <password>Welcome1</password>
           <compositeRevision>${composite.revision}</compositeRevision>
           <revision>${composite.revision}</revision>
           <scacInputDir>${scac.input.dir}</scacInputDir>
