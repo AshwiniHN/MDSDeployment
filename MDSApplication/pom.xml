@@ -17,6 +17,10 @@
           <workspace>${basedir}/MDSApplication.jws</workspace>
           <profile>mdsBundle</profile>
           <usemaven>true</usemaven>
+          <ojserver>true</ojserver>
+          <address>localhost:2010</address>
+          <nocompile>true</nocompile>
+          <nodatasources>true</nodatasources>
         </configuration>
         <executions>
           <execution>
